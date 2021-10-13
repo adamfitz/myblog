@@ -1,15 +1,15 @@
 baseurl = "/"
-title = "My blog"
+title = "networknoob"
 theme = "ghostwriter"
 
 [Params]
     mainSections = ["post"]
     intro = true
-    headline = "My headline"
-    description = "My description"
-    github = "https://github.com/XXX"
+    headline = "Networknoob"
+    description = "a journey to networking expertise…one noob step at a time"
+    github = "https://github.com/adamfitz"
     twitter = "https://twitter.com/XXX"
-    email = "XXX@example.com"
+    email = "adam@networknoob.net"
     opengraph = true
     shareTwitter = true
     dateFormat = "Mon, Jan 2, 2006"

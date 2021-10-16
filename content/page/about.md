@@ -1,6 +1,6 @@
 +++
 title = "About"
-date = {{ .Date | time.Format ":date_full" }}
+date = {{ .Date }}
 author = "Fitzi"
 description = "Things about me."
 +++

@@ -11,7 +11,7 @@ theme = "ghostwriter"
     twitter = "https://twitter.com/XXX"
     email = "adam@networknoob.net"
     opengraph = true
-    shareTwitter = true
+    shareTwitter = false
     dateFormat = "Mon, Jan 2, 2006"
 
 [Permalinks]

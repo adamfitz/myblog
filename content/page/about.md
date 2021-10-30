@@ -1,8 +1,9 @@
 +++
 title = "About"
-date = {{ Date }}
+date = 2021-10-30T16:09:50Z
 author = "Fitzi"
 description = "Things about me."
+draft = false
 +++
 
 ## About

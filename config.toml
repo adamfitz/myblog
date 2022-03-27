@@ -3,7 +3,7 @@ title = "Networknoob"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Adam Fitzgerald"
-disqusShortname = "XXX"
+disqusShortname = "Fitzi"
 googleAnalytics = "XXX"
 pygmentsUseClasses = true
 pygmentsCodefences = true
@@ -37,16 +37,12 @@ tag = "tags"
 mainSections = [ "post" ]
 intro = true
 headline = "Networknoob"
-description = "a journey to networking expertise…one noob step at a time"
+description = "a journey to networking expertise…one noobie step at a time"
 github = "https://github.com/adamfitz"
-gitlab = "https://gitlab.com/XXX"
-linkedin = "https://linkedin.com/in/XXX/"
-twitter = "https://twitter.com/XXX"
-stackoverflow = "https://stackoverflow.com/users/XXX/YYY"
-facebook = "https://www.facebook.com/username"
-email = "XXX@example.com"
+linkedin = "https://www.linkedin.com/in/adam-fitzgerald-89247445/"
+email = "adam@networknoob.net"
 opengraph = true
-rss = true
+rss = false
 shareTwitter = false
 shareGitlab = false
 shareFacebook = false
@@ -76,7 +72,7 @@ weight = 1
 
 [[menu.main]]
 name = "Projects"
-url = "/project/"
+url = "/projects/"
 weight = 2
 
 [[menu.main]]

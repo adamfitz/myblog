@@ -1,7 +1,7 @@
 baseurl = "http://172.16.17.202/"
 title = "Networknoob"
 theme = "ghostwriter"
-languageCode = "en-us"
+languageCode = "en-au"
 copyright = "Adam Fitzgerald"
 disqusShortname = "Fitzi"
 googleAnalytics = "XXX"
@@ -42,45 +42,35 @@ github = "https://github.com/adamfitz"
 linkedin = "https://www.linkedin.com/in/adam-fitzgerald-89247445/"
 email = "adam@networknoob.net"
 opengraph = true
-rss = false
+rss = true
 shareTwitter = false
 shareGitlab = false
 shareFacebook = false
 shareLinkedIn = false
 shareStackoverflow = false
 dateFormat = "Mon, Jan 2, 2006"
-exponeaJsUrl = ""
-exponeaTarget = ""
-exponeaToken = ""
-exponeaTrackVisits = false
 readingTime = true
 readingTimeText = "Estimated reading time:"
-fathomUrl = ""
-fathomSiteId = ""
-
-  [params.plausibleAnalytics]
-  domain = ""
-  serverURL = ""
 
 [permalinks]
 post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-name = "Blog"
-url = "/"
+name = "blogs"
+url = "/post"
 weight = 1
 
 [[menu.main]]
-name = "Projects"
+name = "projects"
 url = "/projects/"
 weight = 2
 
 [[menu.main]]
-name = "Contact"
+name = "contact"
 url = "/page/contact/"
 weight = 3
 
 [[menu.main]]
-name = "About"
+name = "about"
 url = "/page/about/"
 weight = 4

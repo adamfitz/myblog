@@ -9,7 +9,6 @@ categories = [
     "blog",
     "test",
 ]
-menu = "main"
 +++
 
 ## Test Blog

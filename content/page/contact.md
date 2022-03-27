@@ -1,10 +1,8 @@
 +++
-title = "Contact"
-date = 2015-04-03T02:13:50Z
-author = "My Name"
-description = "How to contact me."
+title = "networknoob"
+description = "a journey to networking expertise…one noobie step at a time"
+date = "2011-11-11"
+author = "fitzi"
 +++
 
-## Contact
-
-Aenean ipsum justo, semper eu nisl ut, pretium tincidunt sem. Praesent et diam sit amet lacus lobortis dictum a id lacus. Quisque hendrerit sit amet turpis eu varius. Ut id lorem ac felis ultrices tincidunt. Pellentesque consequat arcu ac fringilla imperdiet. Phasellus pellentesque, sapien non pulvinar blandit, sapien ante aliquet felis, vel porttitor sapien ante in lacus. Fusce non urna aliquet, malesuada nibh vel, luctus urna. Phasellus ut lacus molestie, varius purus quis, malesuada lorem.
+Reach out via linkedin.com or email, links at the top of the page.

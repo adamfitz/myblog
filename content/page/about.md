@@ -8,4 +8,4 @@ draft = false
 
 I am a network engineer experienced with routing, switching, load balancing, automation and AWS cloud networking.
 
-I have a passion for automation, exploring techonolgies and pushing myself to continuiously learn and grow both personally and professionally.
+I have a passion for automation, exploring technologies and pushing myself to continuously learn and grow both personally and professionally.

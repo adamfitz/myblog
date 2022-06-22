@@ -3,7 +3,7 @@ title = "Projects"
 date = 2022-03-27T00:00:00Z
 author = "Fitzi"
 description = "Test post for projects directory."
-draft = false
+draft = true
 +++
 
 ## Projects

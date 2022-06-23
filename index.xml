@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networknoob</title>
-    <link>http://blog.networknoob.net/</link>
+    <link>//blog.networknoob.net/</link>
     <description>Recent content on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.networknoob.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="//blog.networknoob.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chage, usermod, passwd</title>
-      <link>http://blog.networknoob.net/2021/04/27/chage-usermod-passwd/</link>
+      <link>//blog.networknoob.net/2021/04/27/chage-usermod-passwd/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/04/27/chage-usermod-passwd/</guid>
+      <guid>//blog.networknoob.net/2021/04/27/chage-usermod-passwd/</guid>
       <description>Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
 chage Only has the capability to modify a user accounts password expiry information.
 [root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account.</description>
@@ -21,30 +21,30 @@ chage Only has the capability to modify a user accounts password expiry informat
     
     <item>
       <title>w and who</title>
-      <link>http://blog.networknoob.net/2021/04/07/w-and-who/</link>
+      <link>//blog.networknoob.net/2021/04/07/w-and-who/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/04/07/w-and-who/</guid>
+      <guid>//blog.networknoob.net/2021/04/07/w-and-who/</guid>
       <description>who The who command displays the users (who) are currently logged into the system, the time the user logged in and the source (remote) IP or tty line the user is connected via.
 [user1@server1 ~]$ who root pts/0 2021-04-06 06:05 (192.168.122.1) user1 pts/1 2021-04-06 06:13 (192.168.122.1) root tty2 2021-04-06 06:12 (tty2) w The w command displays the currently logged in users and what they are doing. For example the w command shows the tty name, login time, idle time, and the command line of the current process.</description>
     </item>
     
     <item>
       <title>last, lastb and lastlog</title>
-      <link>http://blog.networknoob.net/2021/04/06/last-lastb-and-lastlog/</link>
+      <link>//blog.networknoob.net/2021/04/06/last-lastb-and-lastlog/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/04/06/last-lastb-and-lastlog/</guid>
+      <guid>//blog.networknoob.net/2021/04/06/last-lastb-and-lastlog/</guid>
       <description>These three tools outlined below are available in linux to audit user logins, server reboots and failed login attempts.
 last The last command displays a list of users and when they last logged into the system. This includes the psuedo user reboot, which will log an entry each time the system is rebooted. Filtering to a specific user (reboot) as shown below will list all the system reboots since the log file was created.</description>
     </item>
     
     <item>
       <title>setuid, setgid and sticky bit</title>
-      <link>http://blog.networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</link>
+      <link>//blog.networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</guid>
+      <guid>//blog.networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</guid>
       <description>setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
 If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).
 The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.</description>
@@ -52,20 +52,20 @@ The below example shows a lowercase s in the user column meaning that the setuid
     
     <item>
       <title>Part 2: linux Default ACLs</title>
-      <link>http://blog.networknoob.net/2021/03/23/part-2-linux-default-acls/</link>
+      <link>//blog.networknoob.net/2021/03/23/part-2-linux-default-acls/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/23/part-2-linux-default-acls/</guid>
+      <guid>//blog.networknoob.net/2021/03/23/part-2-linux-default-acls/</guid>
       <description>Default ACLs can only be applied to directories and their subsequent subdirs and files. Permissions apply recursively to all subdirectories and files within them, however default ACL permissions only apply to files and subdirectories created AFTER the default ACL is applied. Existing files and subdirectories do not automatically inherit permissions from the default ACL.
 The below example shows the modification of directory permissions with a default ACL for members of the test group named, colab_group:</description>
     </item>
     
     <item>
       <title>Part1: linux Access ACLs</title>
-      <link>http://blog.networknoob.net/2021/03/22/part1-linux-access-acls/</link>
+      <link>//blog.networknoob.net/2021/03/22/part1-linux-access-acls/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/22/part1-linux-access-acls/</guid>
+      <guid>//blog.networknoob.net/2021/03/22/part1-linux-access-acls/</guid>
       <description>ACLs are extended permissions for users or groups in addition to the normal ugo/rwx file permissions. These can be assigned to files (access ACLs) and directories (default ACLs).
 ACLs changes can be applied with the setfacl command or viewed with the getfacl command.
 There are a number of arguments that can be used with the setfacl command, a few useful ones can be seen in the table below:
@@ -74,10 +74,10 @@ Example: modifying an access ACL:</description>
     
     <item>
       <title>umask and symbolic notation</title>
-      <link>http://blog.networknoob.net/2021/03/17/umask-and-symbolic-notation/</link>
+      <link>//blog.networknoob.net/2021/03/17/umask-and-symbolic-notation/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/17/umask-and-symbolic-notation/</guid>
+      <guid>//blog.networknoob.net/2021/03/17/umask-and-symbolic-notation/</guid>
       <description>While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
 Taking a look at the umask(1p) page under the operands section it is mentioned:
 In a symbolic_mode value, the permissions op characters &amp;lsquo;+&amp;rsquo; and &amp;lsquo;-&amp;rsquo; shall be interpreted relative to the current file mode creation mask; &amp;lsquo;+&amp;rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &amp;lsquo;-&amp;rsquo; shall cause the bits for the indicated permissions to be set in the mask.</description>
@@ -85,79 +85,79 @@ In a symbolic_mode value, the permissions op characters &amp;lsquo;+&amp;rsquo; 
     
     <item>
       <title>the purpose of umask</title>
-      <link>http://blog.networknoob.net/2021/03/15/the-purpose-of-umask/</link>
+      <link>//blog.networknoob.net/2021/03/15/the-purpose-of-umask/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/15/the-purpose-of-umask/</guid>
+      <guid>//blog.networknoob.net/2021/03/15/the-purpose-of-umask/</guid>
       <description>When defining default permission for files (0666) and directories (0777) linux has a default set of permissions for each as noted. However if you as a user create a file or directory you will notice that the permissions are not in fact 0666 for a file or 0777 for a directory this is seen below:
 # test file with permissions 0664 $ touch test_file $ ls -l test_file -rw-rw-r--. 1 user1 user1 0 Mar 15 06:19 test_file # test dir with permissions 0775 $ mkdir test_dir $ ls -l | grep test_dir drwxrwxr-x.</description>
     </item>
     
     <item>
       <title>Quotes: Human spirit</title>
-      <link>http://blog.networknoob.net/2021/03/11/quotes-human-spirit/</link>
+      <link>//blog.networknoob.net/2021/03/11/quotes-human-spirit/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/03/11/quotes-human-spirit/</guid>
+      <guid>//blog.networknoob.net/2021/03/11/quotes-human-spirit/</guid>
       <description>The quickest way to kill the human spirit is to ask someone to do mediocre work.
 Ayn Rand</description>
     </item>
     
     <item>
       <title>the art of code Dylan Beattie</title>
-      <link>http://blog.networknoob.net/2021/02/12/the-art-of-code-dylan-beattie/</link>
+      <link>//blog.networknoob.net/2021/02/12/the-art-of-code-dylan-beattie/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/02/12/the-art-of-code-dylan-beattie/</guid>
+      <guid>//blog.networknoob.net/2021/02/12/the-art-of-code-dylan-beattie/</guid>
       <description>From the NDC conference February 2020. This is not only a very interesting topic but a really amazing talk and well worth a watch!</description>
     </item>
     
     <item>
       <title>sharing clipboard between kvm host and guest</title>
-      <link>http://blog.networknoob.net/2021/02/11/sharing-clipboard-between-kvm-host-and-guest/</link>
+      <link>//blog.networknoob.net/2021/02/11/sharing-clipboard-between-kvm-host-and-guest/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/02/11/sharing-clipboard-between-kvm-host-and-guest/</guid>
+      <guid>//blog.networknoob.net/2021/02/11/sharing-clipboard-between-kvm-host-and-guest/</guid>
       <description>This took some searching as the actual fix was a little difficult to find as most solutions didn’t include adding the channel to the guest. Thanks to reddit user 0x4c47 for this fix.
 Open your virt-manager and open the machine. If it’s running, shut it down. Open the hardware details of the virtual machine. Choose “Add Hardware” and choose channel. Then select “com.redhat.spice.0” (or similar) as name and “Spice agent (spicevmc)” as device type.</description>
     </item>
     
     <item>
       <title>Display name and size of sub directories by using du and sort</title>
-      <link>http://blog.networknoob.net/2021/01/24/display-name-and-size-of-sub-directories-by-using-du-and-sort/</link>
+      <link>//blog.networknoob.net/2021/01/24/display-name-and-size-of-sub-directories-by-using-du-and-sort/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2021/01/24/display-name-and-size-of-sub-directories-by-using-du-and-sort/</guid>
+      <guid>//blog.networknoob.net/2021/01/24/display-name-and-size-of-sub-directories-by-using-du-and-sort/</guid>
       <description>I used the below command to go through the contents of my google drive (free plan) to find out what I can remove to remain under the 15gb limit, which also include gmail size. I would have found this on the internet somewhere like stack exchange, but I dont have the original link.
 du -hs * | sort -h </description>
     </item>
     
     <item>
       <title>Quotes: Serivce to others</title>
-      <link>http://blog.networknoob.net/2020/08/07/quotes-service-to-others/</link>
+      <link>//blog.networknoob.net/2020/08/07/quotes-service-to-others/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/08/07/quotes-service-to-others/</guid>
+      <guid>//blog.networknoob.net/2020/08/07/quotes-service-to-others/</guid>
       <description>“Service to others is the rent you pay for your room here on Earth.”
 Muhammad Ali</description>
     </item>
     
     <item>
       <title>single PR single commit</title>
-      <link>http://blog.networknoob.net/2020/07/10/git-commit-amend-no-edit/</link>
+      <link>//blog.networknoob.net/2020/07/10/git-commit-amend-no-edit/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/07/10/git-commit-amend-no-edit/</guid>
+      <guid>//blog.networknoob.net/2020/07/10/git-commit-amend-no-edit/</guid>
       <description>When you are using git in a forking workflow, your local commits and pushes will end up on your fork of the repository you are contributing to.
 In general a PR should contain single commit (at least the projects that I have worked on) so before you send your PR you will generally want all your commits (changes) in one single commit. In this case there are two options, one is to “squash” all your commits into a single commit or the alternative is to continuously amend each commit to your first one.</description>
     </item>
     
     <item>
       <title>writing ISO to USB in linux</title>
-      <link>http://blog.networknoob.net/2020/07/04/writing-iso-to-usb-linux/</link>
+      <link>//blog.networknoob.net/2020/07/04/writing-iso-to-usb-linux/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/07/04/writing-iso-to-usb-linux/</guid>
+      <guid>//blog.networknoob.net/2020/07/04/writing-iso-to-usb-linux/</guid>
       <description>Finally writing this down here because I always forget this command and have to either look it up again or go back through my command history.
 The correct syntax for using the dd application to write an ISO image to a removable drive is as follows:
 sudo dd if=$isoImageName of=/dev/sda The incorrect syntax is to specify the partition, because the operation is writing an ISO image which consists of a single track:</description>
@@ -165,10 +165,10 @@ sudo dd if=$isoImageName of=/dev/sda The incorrect syntax is to specify the par
     
     <item>
       <title>ssh options for ancient IOS version</title>
-      <link>http://blog.networknoob.net/2020/07/03/ssh-options-for-ancient-ios-version/</link>
+      <link>//blog.networknoob.net/2020/07/03/ssh-options-for-ancient-ios-version/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/07/03/ssh-options-for-ancient-ios-version/</guid>
+      <guid>//blog.networknoob.net/2020/07/03/ssh-options-for-ancient-ios-version/</guid>
       <description>Connecting to devices running ancient Cisco IOS versions can be a pain as newer ssh clients are not by default supporting weak ciphers and older key exchange algorithms in these old devices only support insecure ciphers.
 I had an alias in my profile for this long ago but after upgrading my OS I ran into the issue again, in this case it was the following version of IOS:
 Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.</description>
@@ -176,10 +176,10 @@ Cisco IOS Software, C3750 Software (C3750-IPSERVICESK9-M), Version 12.</descript
     
     <item>
       <title>grub and dual booting linux/window</title>
-      <link>http://blog.networknoob.net/2020/07/02/grub-dual-boot/</link>
+      <link>//blog.networknoob.net/2020/07/02/grub-dual-boot/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/07/02/grub-dual-boot/</guid>
+      <guid>//blog.networknoob.net/2020/07/02/grub-dual-boot/</guid>
       <description>If you are dual booting linux and windows somewhere along the way you might find that the grub boot loader gets overwritten and you can only boot one operating system.
 This is usually an easy fix, set your bios to boot from you linux hdd and once linux has loaded open a terminal and type the following:
 sudo update-grub This will cause grub to regenerate its config file which should find you windows (or other OS installs), add them all to the boot loader menu and reinstate grub to the MBR.</description>
@@ -187,60 +187,60 @@ sudo update-grub This will cause grub to regenerate its config file which should
     
     <item>
       <title>linux mint 20 font scale</title>
-      <link>http://blog.networknoob.net/2020/06/29/linux-mint-20-font-scale/</link>
+      <link>//blog.networknoob.net/2020/06/29/linux-mint-20-font-scale/</link>
       <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/06/29/linux-mint-20-font-scale/</guid>
+      <guid>//blog.networknoob.net/2020/06/29/linux-mint-20-font-scale/</guid>
       <description>To find/set the DPI value do the following:
 Menu → Preferences → Appearance → Fonts TAB → Details</description>
     </item>
     
     <item>
       <title>Quotes: A note on internetwork naming, addressing and routing</title>
-      <link>http://blog.networknoob.net/2020/06/26/quotes-a-note-on-internetwork-naming-addressing-and-routing/</link>
+      <link>//blog.networknoob.net/2020/06/26/quotes-a-note-on-internetwork-naming-addressing-and-routing/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/06/26/quotes-a-note-on-internetwork-naming-addressing-and-routing/</guid>
+      <guid>//blog.networknoob.net/2020/06/26/quotes-a-note-on-internetwork-naming-addressing-and-routing/</guid>
       <description>The name of a resource indicates what we seek, the address indicates where it is and a route tells us how to get there.
 John F Shock</description>
     </item>
     
     <item>
       <title>Quotes: Making Mistakes</title>
-      <link>http://blog.networknoob.net/2020/02/26/quotes-making-mistakes/</link>
+      <link>//blog.networknoob.net/2020/02/26/quotes-making-mistakes/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2020/02/26/quotes-making-mistakes/</guid>
+      <guid>//blog.networknoob.net/2020/02/26/quotes-making-mistakes/</guid>
       <description>&amp;ldquo;The most valuable thing you can make is a mistake – you can&amp;rsquo;t learn anything from being perfect.&amp;rdquo; – Adam Osborne
 Programming Wisdom (@CodeWisdom) - February 21, 2020</description>
     </item>
     
     <item>
       <title>Cassic WoW Commands</title>
-      <link>http://blog.networknoob.net/2019/12/24/class-wow-camera/</link>
+      <link>//blog.networknoob.net/2019/12/24/class-wow-camera/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/12/24/class-wow-camera/</guid>
+      <guid>//blog.networknoob.net/2019/12/24/class-wow-camera/</guid>
       <description>Setting the camera distance further than the slider allows:
 /console cameraDistanceMaxZoomFactor 4 </description>
     </item>
     
     <item>
       <title>Advice from Herman munster</title>
-      <link>http://blog.networknoob.net/2019/10/26/advice-from-herman-munster/</link>
+      <link>//blog.networknoob.net/2019/10/26/advice-from-herman-munster/</link>
       <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/10/26/advice-from-herman-munster/</guid>
+      <guid>//blog.networknoob.net/2019/10/26/advice-from-herman-munster/</guid>
       <description>I never post things I see on linked in but I think this is something we all need to remember these days. Especially in today’s corporate, too big too fail holier than thou world.
 Advice from herman munster</description>
     </item>
     
     <item>
       <title>yum commands</title>
-      <link>http://blog.networknoob.net/2019/10/04/yum-commands/</link>
+      <link>//blog.networknoob.net/2019/10/04/yum-commands/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/10/04/yum-commands/</guid>
+      <guid>//blog.networknoob.net/2019/10/04/yum-commands/</guid>
       <description>Equivalent of apt-get update
 yum check-update List configured (enabled) repositories
 yum repolist Fixing duplicate packages
@@ -253,28 +253,28 @@ package-cleanup --problems </description>
     
     <item>
       <title>Earth rotation visualised by fixing the Milky Way</title>
-      <link>http://blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</link>
+      <link>//blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</link>
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</guid>
+      <guid>//blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</guid>
       <description>This just looks very cool. Originally found this here but looks like this account has since been suspended.</description>
     </item>
     
     <item>
       <title>Earth rotation visualised by fixing the Milky Way</title>
-      <link>http://blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</link>
+      <link>//blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</link>
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</guid>
+      <guid>//blog.networknoob.net/2019/08/24/earth-rotation-visualised-by-fixing-the-milky-way/</guid>
       <description>This just looks very cool. Originally found this here but looks like this account has since been suspended.</description>
     </item>
     
     <item>
       <title>ansible datatypes</title>
-      <link>http://blog.networknoob.net/2019/05/28/ansible-datatypes/</link>
+      <link>//blog.networknoob.net/2019/05/28/ansible-datatypes/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2019/05/28/ansible-datatypes/</guid>
+      <guid>//blog.networknoob.net/2019/05/28/ansible-datatypes/</guid>
       <description>Sometimes when troubleshooting an ansible playbook you might want to know the underlying python data type of a variable. For this you can use the type_debug filter, official docs below:
 managing data types
 {{ some_variable | type_debug }} </description>
@@ -282,10 +282,10 @@ managing data types
     
     <item>
       <title>keeping a fork in sync</title>
-      <link>http://blog.networknoob.net/2018/05/15/git-keeping-a-fork-in-sync/</link>
+      <link>//blog.networknoob.net/2018/05/15/git-keeping-a-fork-in-sync/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2018/05/15/git-keeping-a-fork-in-sync/</guid>
+      <guid>//blog.networknoob.net/2018/05/15/git-keeping-a-fork-in-sync/</guid>
       <description>Commands to keep a fork in sync with the upstream repo.
 To keep it up to date with the original source repo (the one you forked it from):
 git remote add $yourLocalNameForTheUpstream $URLForTheUpstreamRepo To check you set the remote repo as the upstream for your fork:
@@ -296,20 +296,20 @@ git pull $yourLocalNameForTheUpstream $localBranchName If you accidentally speci
     
     <item>
       <title>Quotes: We the willing</title>
-      <link>http://blog.networknoob.net/2018/04/22/quotes-we-the-willing/</link>
+      <link>//blog.networknoob.net/2018/04/22/quotes-we-the-willing/</link>
       <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2018/04/22/quotes-we-the-willing/</guid>
+      <guid>//blog.networknoob.net/2018/04/22/quotes-we-the-willing/</guid>
       <description>I found this recently, and after some googling it is apparently this is an edited version of a quote made by Konstantin Jireček (make of that what you will), in this instance applied to the daily grind of IT workers.
 “We, the unwilling, led by the unable, have been doing the unbelievable for so long, with so little, that now we attempt to do the impossible with nothing”.</description>
     </item>
     
     <item>
       <title>Quotes: Non uniformity</title>
-      <link>http://blog.networknoob.net/2017/07/03/quotes-non-uniformity/</link>
+      <link>//blog.networknoob.net/2017/07/03/quotes-non-uniformity/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2017/07/03/quotes-non-uniformity/</guid>
+      <guid>//blog.networknoob.net/2017/07/03/quotes-non-uniformity/</guid>
       <description>I saw this tweet a while back which pretty well sums up most IT operations in the industry in general and why it needs to change.
 A thing SRE has taught me more than previous roles: non-uniformity (of code, infra, process) is expensive.
 Sinjo (@ChrisSinjo) April 12, 2017</description>
@@ -317,10 +317,10 @@ Sinjo (@ChrisSinjo) April 12, 2017</description>
     
     <item>
       <title>ping</title>
-      <link>http://blog.networknoob.net/2017/05/28/ping/</link>
+      <link>//blog.networknoob.net/2017/05/28/ping/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2017/05/28/ping/</guid>
+      <guid>//blog.networknoob.net/2017/05/28/ping/</guid>
       <description>I saw a tweet from Jeremy stretch at packetlife the other day about showing the ping statistics in linux without stopping the ping command which I had never seen used before (I obviously should have RTFM :P). After which @jmhuwe and @synteki chimed in with the windows and OSX equivalents as per the below, thanks!
 Linux – CTRL + \
 Windows – CTRL + Break
@@ -329,50 +329,50 @@ OSX – Control + t</description>
     
     <item>
       <title>Linux mint mate, adding task bar to secondary monitor</title>
-      <link>http://blog.networknoob.net/2017/01/19/linux-mint-cinnamon-adding-task-bar-to-secondary-monitor/</link>
+      <link>//blog.networknoob.net/2017/01/19/linux-mint-cinnamon-adding-task-bar-to-secondary-monitor/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2017/01/19/linux-mint-cinnamon-adding-task-bar-to-secondary-monitor/</guid>
+      <guid>//blog.networknoob.net/2017/01/19/linux-mint-cinnamon-adding-task-bar-to-secondary-monitor/</guid>
       <description>I was scratching my head trying to extend the task bar to my secondary monitor. I needed to create another panel (right click → new panel), drag it to the required monitor and then position it as I wanted (right click → properties → orientation).
 Getting the open windows to show up in the task bar needed to be enabled also (on both the main and new task bar panels). To enable this: right click → Add to panel → Search for “window list” and click add.</description>
     </item>
     
     <item>
       <title>Quotes: Inovation and Enterprise IT</title>
-      <link>http://blog.networknoob.net/2016/11/20/quotes_innovation_and_enterprise_it/</link>
+      <link>//blog.networknoob.net/2016/11/20/quotes_innovation_and_enterprise_it/</link>
       <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/2016/11/20/quotes_innovation_and_enterprise_it/</guid>
+      <guid>//blog.networknoob.net/2016/11/20/quotes_innovation_and_enterprise_it/</guid>
       <description>“You would expect any decent organisation to innovate in their core business and try to get better in what they do in their core business. Whereas in a typical enterprise space, IT is just a support function like plumbing or janitors.”
 Ivan Pepelnjak - Software Gone Wild – Episode 66: Becoming a Programmer</description>
     </item>
     
     <item>
       <title>Site-to-Site IPSEC VPN configuration</title>
-      <link>http://blog.networknoob.net/projects/site-to-site-vpn-vs-mpls/</link>
+      <link>//blog.networknoob.net/projects/site-to-site-vpn-vs-mpls/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/projects/site-to-site-vpn-vs-mpls/</guid>
+      <guid>//blog.networknoob.net/projects/site-to-site-vpn-vs-mpls/</guid>
       <description>This is a repost of a site to site VPN config with low end Cisco ISR routers, I wrote a few years ago as a proof of concept for replacing a small MPLS network for a managed service provider I was working for. At the time I had not setup ipsec VPNs before so I documented the steps I went through here...
 The purpose of this post is to document the configuration commands and give an outline to the process of configuring site to site VPN connection as I had a little trouble getting a clear picture of what each command did and why it was being used.</description>
     </item>
     
     <item>
       <title>networknoob</title>
-      <link>http://blog.networknoob.net/page/about/</link>
+      <link>//blog.networknoob.net/page/about/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/page/about/</guid>
+      <guid>//blog.networknoob.net/page/about/</guid>
       <description>I am a network engineer experienced with routing, switching, load balancing, automation and AWS cloud networking.
 I have a passion for automation, exploring technologies and pushing myself to continuously learn and grow both personally and professionally.</description>
     </item>
     
     <item>
       <title>networknoob</title>
-      <link>http://blog.networknoob.net/page/contact/</link>
+      <link>//blog.networknoob.net/page/contact/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/page/contact/</guid>
+      <guid>//blog.networknoob.net/page/contact/</guid>
       <description>Reach out via linkedin.com or email, links at the top of the page.</description>
     </item>
     

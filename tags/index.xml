@@ -2,288 +2,288 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Networknoob</title>
-    <link>http://blog.networknoob.net/tags/</link>
+    <link>//blog.networknoob.net/tags/</link>
     <description>Recent content in Tags on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="//blog.networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chage</title>
-      <link>http://blog.networknoob.net/tags/chage/</link>
+      <link>//blog.networknoob.net/tags/chage/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/chage/</guid>
+      <guid>//blog.networknoob.net/tags/chage/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linux</title>
-      <link>http://blog.networknoob.net/tags/linux/</link>
+      <link>//blog.networknoob.net/tags/linux/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/linux/</guid>
+      <guid>//blog.networknoob.net/tags/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>passwd</title>
-      <link>http://blog.networknoob.net/tags/passwd/</link>
+      <link>//blog.networknoob.net/tags/passwd/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/passwd/</guid>
+      <guid>//blog.networknoob.net/tags/passwd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>usermod</title>
-      <link>http://blog.networknoob.net/tags/usermod/</link>
+      <link>//blog.networknoob.net/tags/usermod/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/usermod/</guid>
+      <guid>//blog.networknoob.net/tags/usermod/</guid>
       <description></description>
     </item>
     
     <item>
       <title>w</title>
-      <link>http://blog.networknoob.net/tags/w/</link>
+      <link>//blog.networknoob.net/tags/w/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/w/</guid>
+      <guid>//blog.networknoob.net/tags/w/</guid>
       <description></description>
     </item>
     
     <item>
       <title>who</title>
-      <link>http://blog.networknoob.net/tags/who/</link>
+      <link>//blog.networknoob.net/tags/who/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/who/</guid>
+      <guid>//blog.networknoob.net/tags/who/</guid>
       <description></description>
     </item>
     
     <item>
       <title>last</title>
-      <link>http://blog.networknoob.net/tags/last/</link>
+      <link>//blog.networknoob.net/tags/last/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/last/</guid>
+      <guid>//blog.networknoob.net/tags/last/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lastb</title>
-      <link>http://blog.networknoob.net/tags/lastb/</link>
+      <link>//blog.networknoob.net/tags/lastb/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/lastb/</guid>
+      <guid>//blog.networknoob.net/tags/lastb/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lastlog</title>
-      <link>http://blog.networknoob.net/tags/lastlog/</link>
+      <link>//blog.networknoob.net/tags/lastlog/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/lastlog/</guid>
+      <guid>//blog.networknoob.net/tags/lastlog/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setgid</title>
-      <link>http://blog.networknoob.net/tags/setgid/</link>
+      <link>//blog.networknoob.net/tags/setgid/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/setgid/</guid>
+      <guid>//blog.networknoob.net/tags/setgid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>setuid</title>
-      <link>http://blog.networknoob.net/tags/setuid/</link>
+      <link>//blog.networknoob.net/tags/setuid/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/setuid/</guid>
+      <guid>//blog.networknoob.net/tags/setuid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>sticky bit</title>
-      <link>http://blog.networknoob.net/tags/sticky-bit/</link>
+      <link>//blog.networknoob.net/tags/sticky-bit/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/sticky-bit/</guid>
+      <guid>//blog.networknoob.net/tags/sticky-bit/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ACLs</title>
-      <link>http://blog.networknoob.net/tags/acls/</link>
+      <link>//blog.networknoob.net/tags/acls/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/acls/</guid>
+      <guid>//blog.networknoob.net/tags/acls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>umask</title>
-      <link>http://blog.networknoob.net/tags/umask/</link>
+      <link>//blog.networknoob.net/tags/umask/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/umask/</guid>
+      <guid>//blog.networknoob.net/tags/umask/</guid>
       <description></description>
     </item>
     
     <item>
       <title>quotes</title>
-      <link>http://blog.networknoob.net/tags/quotes/</link>
+      <link>//blog.networknoob.net/tags/quotes/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/quotes/</guid>
+      <guid>//blog.networknoob.net/tags/quotes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>code</title>
-      <link>http://blog.networknoob.net/tags/code/</link>
+      <link>//blog.networknoob.net/tags/code/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/code/</guid>
+      <guid>//blog.networknoob.net/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>coding</title>
-      <link>http://blog.networknoob.net/tags/coding/</link>
+      <link>//blog.networknoob.net/tags/coding/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/coding/</guid>
+      <guid>//blog.networknoob.net/tags/coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>kvm</title>
-      <link>http://blog.networknoob.net/tags/kvm/</link>
+      <link>//blog.networknoob.net/tags/kvm/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/kvm/</guid>
+      <guid>//blog.networknoob.net/tags/kvm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>http://blog.networknoob.net/tags/git/</link>
+      <link>//blog.networknoob.net/tags/git/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/git/</guid>
+      <guid>//blog.networknoob.net/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IOS</title>
-      <link>http://blog.networknoob.net/tags/ios/</link>
+      <link>//blog.networknoob.net/tags/ios/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/ios/</guid>
+      <guid>//blog.networknoob.net/tags/ios/</guid>
       <description></description>
     </item>
     
     <item>
       <title>dual boot</title>
-      <link>http://blog.networknoob.net/tags/dual-boot/</link>
+      <link>//blog.networknoob.net/tags/dual-boot/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/dual-boot/</guid>
+      <guid>//blog.networknoob.net/tags/dual-boot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>grub</title>
-      <link>http://blog.networknoob.net/tags/grub/</link>
+      <link>//blog.networknoob.net/tags/grub/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/grub/</guid>
+      <guid>//blog.networknoob.net/tags/grub/</guid>
       <description></description>
     </item>
     
     <item>
       <title>world of warcraft</title>
-      <link>http://blog.networknoob.net/tags/world-of-warcraft/</link>
+      <link>//blog.networknoob.net/tags/world-of-warcraft/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/world-of-warcraft/</guid>
+      <guid>//blog.networknoob.net/tags/world-of-warcraft/</guid>
       <description></description>
     </item>
     
     <item>
       <title>words of wisdom</title>
-      <link>http://blog.networknoob.net/tags/words-of-wisdom/</link>
+      <link>//blog.networknoob.net/tags/words-of-wisdom/</link>
       <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/words-of-wisdom/</guid>
+      <guid>//blog.networknoob.net/tags/words-of-wisdom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>yum</title>
-      <link>http://blog.networknoob.net/tags/yum/</link>
+      <link>//blog.networknoob.net/tags/yum/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/yum/</guid>
+      <guid>//blog.networknoob.net/tags/yum/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cool stuff</title>
-      <link>http://blog.networknoob.net/tags/cool-stuff/</link>
+      <link>//blog.networknoob.net/tags/cool-stuff/</link>
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/cool-stuff/</guid>
+      <guid>//blog.networknoob.net/tags/cool-stuff/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ansible</title>
-      <link>http://blog.networknoob.net/tags/ansible/</link>
+      <link>//blog.networknoob.net/tags/ansible/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/ansible/</guid>
+      <guid>//blog.networknoob.net/tags/ansible/</guid>
       <description></description>
     </item>
     
     <item>
       <title>osx</title>
-      <link>http://blog.networknoob.net/tags/osx/</link>
+      <link>//blog.networknoob.net/tags/osx/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/osx/</guid>
+      <guid>//blog.networknoob.net/tags/osx/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>http://blog.networknoob.net/tags/windows/</link>
+      <link>//blog.networknoob.net/tags/windows/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/windows/</guid>
+      <guid>//blog.networknoob.net/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>cisco</title>
-      <link>http://blog.networknoob.net/tags/cisco/</link>
+      <link>//blog.networknoob.net/tags/cisco/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/cisco/</guid>
+      <guid>//blog.networknoob.net/tags/cisco/</guid>
       <description></description>
     </item>
     
     <item>
       <title>vpn</title>
-      <link>http://blog.networknoob.net/tags/vpn/</link>
+      <link>//blog.networknoob.net/tags/vpn/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>http://blog.networknoob.net/tags/vpn/</guid>
+      <guid>//blog.networknoob.net/tags/vpn/</guid>
       <description></description>
     </item>
     

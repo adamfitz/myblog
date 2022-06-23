@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yum on Networknoob</title>
+    <link>http://blog.networknoob.net/tags/yum/</link>
+    <description>Recent content in yum on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Adam Fitzgerald</copyright>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="http://blog.networknoob.net/tags/yum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>yum commands</title>
+      <link>http://blog.networknoob.net/2019/10/04/yum-commands/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://blog.networknoob.net/2019/10/04/yum-commands/</guid>
+      <description>Equivalent of apt-get update
+yum check-update List configured (enabled) repositories
+yum repolist Fixing duplicate packages
+Install yum utils
+yum install yum-utils check for and list duplicates
+package-cleanup --dupes remove duplicates
+package-cleanup --cleandupes Check for any problems with the yum database
+package-cleanup --problems </description>
+    </item>
+    
+  </channel>
+</rss>

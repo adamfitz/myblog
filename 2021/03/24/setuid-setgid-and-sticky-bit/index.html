@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>setuid, setgid and sticky bit &middot; Adam Fitzgerald</title>
+        <meta name="description" content="setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
+If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (&#43;x).
+The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.101.0" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="setuid, setgid and sticky bit">
+<meta property="og:description" content="setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
+If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (&#43;x).
+The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://blog.networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/">
+        <link rel="stylesheet" href="http://blog.networknoob.netdist/site.css">
+        <link rel="stylesheet" href="http://blog.networknoob.netdist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="http://blog.networknoob.net">Networknoob</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="http://blog.networknoob.netindex.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/adamfitz" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/adam-fitzgerald-89247445/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:adam@networknoob.net">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/post">blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/projects/">projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">about</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">setuid, setgid and sticky bit</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2021-03-24" itemprop="datePublished">Wed, Mar 24, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 5 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="setuid"><strong>setuid</strong></h1>
+<p>The setuid command allows non owner users to run <strong>binary</strong> executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.</p>
+<p>If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).</p>
+<p>The below example shows a lowercase <strong>s</strong> in the user column meaning that the setuid bit is applied to the su binary executable.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l /usr/bin/su
+</span></span><span class="line"><span class="cl">-rwsr-xr-x. <span class="m">1</span> root root <span class="m">50320</span> Jun <span class="m">26</span>  <span class="m">2020</span> /usr/bin/su
+</span></span></code></pre></div><p>the setuid bit can be applied using octal notation with the below chmod command, the leading 4 in the octal notation applies the setuid bit, the subsequent zeros do not modify any other rwx permissions on the file:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l
+</span></span><span class="line"><span class="cl">total <span class="m">0</span>
+</span></span><span class="line"><span class="cl">-rwxrwxr-x. <span class="m">1</span> user2000 sgrp <span class="m">0</span> Mar <span class="m">23</span> 16:40 test_file
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># apply the setuid bit</span>
+</span></span><span class="line"><span class="cl">$ chmod +4000 test_file 
+</span></span><span class="line"><span class="cl">$ ls -l test_file 
+</span></span><span class="line"><span class="cl">-rwsrwxr-x. <span class="m">1</span> user2000 sgrp <span class="m">0</span> Mar <span class="m">23</span> 16:40 test_file
+</span></span></code></pre></div><p>You can also change the read, write, execute permissions on the file at the same time using octal notation for example:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l testfile 
+</span></span><span class="line"><span class="cl">-rw-rw-r--. <span class="m">1</span> user2000 user2000 <span class="m">0</span> Mar <span class="m">24</span> 07:34 testfile
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># applying setuid bit and additional permissions</span>
+</span></span><span class="line"><span class="cl">$ chmod <span class="m">4755</span> testfile 
+</span></span><span class="line"><span class="cl">$ ls -l testfile 
+</span></span><span class="line"><span class="cl">-rwsr-xr-x. <span class="m">1</span> user2000 user2000 <span class="m">0</span> Mar <span class="m">24</span> 07:34 testfile
+</span></span></code></pre></div><p>The setuid “s” bit can also be set using symbolic notation as seen below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l test_file 
+</span></span><span class="line"><span class="cl">-rwxrwxr-x. <span class="m">1</span> user2000 sgrp <span class="m">0</span> Mar <span class="m">23</span> 17:51 test_file
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># apply s bit using rwx notation</span>
+</span></span><span class="line"><span class="cl">$ chmod u+s test_file 
+</span></span><span class="line"><span class="cl">$ ls -l test_file 
+</span></span><span class="line"><span class="cl">-rwsr-xr-x. <span class="m">1</span> user2000 sgrp <span class="m">0</span> Mar <span class="m">23</span> 17:51 test_file
+</span></span></code></pre></div><p>All the explanation and examples I can find for use of the s bit relates back to enabling users to run executable files as root for example, su. However use of the s bit is not exclusively to inherit the privilege of the root user, it is possible for user 1 to be the owner of a binary executable file, set the s bit and allow user2 the ability to execute the file.</p>
+<p>At this point I cannot think of where this would be useful, perhaps when a binary executable file for an application is owned by a service account and another user may require the ability to execute it for troubleshooting purposes maybe. In any event all due care should be taken when implementing this feature as there could well be unintended side effects from a security point of view as you are allowing non owners to effectively impersonate the owner user privileges when executing the binary file.</p>
+<h1 id="setgid"><strong>setgid</strong></h1>
+<p>The setgid bit is similar to the setuid bit however the permission is applied from the owner group and allows non owners to execute a binary executable file with the same privileges as is assigned to the group members.</p>
+<p>If a lowercase <strong>l</strong> appears in the groups execute field (instead of an s) then the execute bit is not set on the file.</p>
+<p>Below example shows permissions assigned to the write command, here the <strong>s</strong> bit can be seen in the group column:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ ls -l /usr/bin/write
+</span></span><span class="line"><span class="cl">-rwxr-sr-x. <span class="m">1</span> root tty <span class="m">21232</span> Jun <span class="m">26</span>  <span class="m">2020</span> /usr/bin/write
+</span></span></code></pre></div><p>The setgid bit can also be applied to directories allowing files and subdirectories to inherit this permission. All files and subdirectories created after the gid is set inherit the group which the directory is a member of. This allows sharing of files and directory contents, without the need to explicitly change file permissions every time a new file or sub directory is created.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># test directory permissions</span>
+</span></span><span class="line"><span class="cl">$ ls -ld /test_guid/
+</span></span><span class="line"><span class="cl">drwxrws---. <span class="m">2</span> root sgrp <span class="m">6</span> Mar <span class="m">22</span> 21:37 /test_guid/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># user1000 creates a file with the following permissions</span>
+</span></span><span class="line"><span class="cl">$ ls -l
+</span></span><span class="line"><span class="cl">total <span class="m">0</span>
+</span></span><span class="line"><span class="cl">-rw-rw-r--. <span class="m">1</span> user1000 sgrp <span class="m">0</span> Mar <span class="m">22</span> 21:45 1_test_setgid
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># user2000 is able to modify the file owned by user1000</span>
+</span></span><span class="line"><span class="cl">$ whoami
+</span></span><span class="line"><span class="cl">user2000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ $ cat /test_guid/1_test_setgid 
+</span></span><span class="line"><span class="cl"><span class="nb">test</span> file modification
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># user2000 is also able to delete the file because the user is a member of the owner group</span>
+</span></span><span class="line"><span class="cl">$ ls -l
+</span></span><span class="line"><span class="cl">total <span class="m">0</span>
+</span></span><span class="line"><span class="cl">-rw-rw-r--. <span class="m">1</span> user1000 sgrp <span class="m">0</span> Mar <span class="m">22</span> 21:49 1_test_gid
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ rm 1_test_gid 
+</span></span><span class="line"><span class="cl">$ ls -l
+</span></span><span class="line"><span class="cl">total <span class="m">0</span>
+</span></span></code></pre></div><p>Note that in the above, users are members of the sgrp which is the owner group of the directory and the guid bit has been set.</p>
+<p>As the owner group for the test file is the sgrp and the group has read and write permissions this means that group members are able to modify and delete files created by other members, even though each individual group member is the owner of the file they both belong to the owner group, giving each member essentially the same privileges.</p>
+<h1 id="sticky-bit"><strong>sticky bit</strong></h1>
+<p>The sticky bit can be set on public or shared writable directories to prevent files being deleted by normal users who are non owners of the file or directory.</p>
+<p>The sticky bit is seen in symbolic notation in the directory listing by the <strong>t</strong> seen in the directory listing column:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># the t in the other column indicates that the sticky bit is set on this directory</span>
+</span></span><span class="line"><span class="cl">$ ls -ld /tmp
+</span></span><span class="line"><span class="cl">drwxrwxrwt. <span class="m">19</span> root root <span class="m">4096</span> Mar <span class="m">23</span> 20:25 /tmp
+</span></span></code></pre></div><p>This can be illustrated by creating a file in /tmp as user1000 (the owner) and because the sticky bit is set at the parent directory level, user2000 is unable to delete the file as seen below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># file created by user1000</span>
+</span></span><span class="line"><span class="cl">$ <span class="nb">pwd</span>
+</span></span><span class="line"><span class="cl">/tmp
+</span></span><span class="line"><span class="cl">$ ls -l sticky_test 
+</span></span><span class="line"><span class="cl">-rw-rw-r--. <span class="m">1</span> user1000 user1000 <span class="m">0</span> Mar <span class="m">23</span> 20:29 sticky_test
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># file cannot be deleted by user2000</span>
+</span></span><span class="line"><span class="cl">$ whoami
+</span></span><span class="line"><span class="cl">user2000
+</span></span><span class="line"><span class="cl">$ rm sticky_test 
+</span></span><span class="line"><span class="cl">rm: remove write-protected regular empty file <span class="s1">&#39;sticky_test&#39;</span>? y
+</span></span><span class="line"><span class="cl">rm: cannot remove <span class="s1">&#39;sticky_test&#39;</span>: Operation not permitted
+</span></span></code></pre></div><p>However once the sticky bit is removed from the parent directory then user2000 <strong>is</strong> able to delete the file. Even though the owner is user1000 the file exists in a shared directory:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># remove the sticky bit from parent dir /tmp</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>root@server1 /<span class="o">]</span><span class="c1"># chmod o-t /tmp</span>
+</span></span><span class="line"><span class="cl"><span class="o">[</span>root@server1 /<span class="o">]</span><span class="c1"># ls -ld /tmp</span>
+</span></span><span class="line"><span class="cl">drwxrwxrwx. <span class="m">19</span> root root <span class="m">4096</span> Mar <span class="m">23</span> 20:30 /tmp
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># confirm user2000 is now able to delete file created by user1000</span>
+</span></span><span class="line"><span class="cl">$ whoami
+</span></span><span class="line"><span class="cl">user2000
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">$ rm /tmp/sticky_test 
+</span></span><span class="line"><span class="cl">$ rm: remove write-protected regular empty file <span class="s1">&#39;/tmp/sticky_test&#39;</span>? y
+</span></span><span class="line"><span class="cl">$ ls -l /tmp/sticky_test 
+</span></span><span class="line"><span class="cl">ls: cannot access <span class="s1">&#39;/tmp/sticky_test&#39;</span>: No such file or directory
+</span></span></code></pre></div>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/setgid/">setgid</a>, 
+                <a href="/tags/setuid/">setuid</a>, 
+                <a href="/tags/sticky-bit/">sticky bit</a>, 
+                <a href="/tags/linux/">linux</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="http://blog.networknoob.net">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="http://blog.networknoob.netjs/jquery-1.11.3.min.js"></script>
+        <script src="http://blog.networknoob.netjs/jquery.fitvids.js"></script>
+        <script src="http://blog.networknoob.netjs/scripts.js"></script>
+        
+    </body>
+</html>
+

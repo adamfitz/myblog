@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>umask and symbolic notation &middot; Adam Fitzgerald</title>
+        <meta name="description" content="While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
+Taking a look at the umask(1p) page under the operands section it is mentioned:
+In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.101.0" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="umask and symbolic notation">
+<meta property="og:description" content="While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
+Taking a look at the umask(1p) page under the operands section it is mentioned:
+In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="http://blog.networknoob.net/2021/03/17/umask-and-symbolic-notation/">
+        <link rel="stylesheet" href="http://blog.networknoob.netdist/site.css">
+        <link rel="stylesheet" href="http://blog.networknoob.netdist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="http://blog.networknoob.net">Networknoob</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="http://blog.networknoob.netindex.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/adamfitz" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/adam-fitzgerald-89247445/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:adam@networknoob.net">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/post">blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/projects/">projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">about</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">umask and symbolic notation</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2021-03-17" itemprop="datePublished">Wed, Mar 17, 2021</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 2 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <p>While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.</p>
+<p>Taking a look at the <a href="https://man7.org/linux/man-pages/man1/umask.1p.html">umask(1p) page</a> under the operands section it is mentioned:</p>
+<blockquote>
+<p>In a symbolic_mode value, the permissions op characters &lsquo;+&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;+&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask.sk.</p>
+</blockquote>
+<p>This seems to indicate addition operator is ‘-‘ and subtraction operator becomes ‘+’ due to the nature of umask (initial permission minus the umask) when using symbolic notation.</p>
+<p>Without knowing or understanding this “quirk” beforehand it becomes a little confusing if you are attempting to change the default umask using symbolic notation.</p>
+<p>For example: Set the umask value to 0035 using symbolic notation. One would think that the following would be the correct way to accomplish this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>,g<span class="o">=</span>wx,o<span class="o">=</span>rx
+</span></span></code></pre></div><p>The thinking behind this being owner has zero permissions, group set to write and execute and other set to read and execute, however checking the value after applying this value shows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span>
+</span></span><span class="line"><span class="cl"><span class="m">0742</span>
+</span></span></code></pre></div><p>Which at first seems to make no sense, the requested value is 0035, ignoring the leading zero this would equate to the following symbolic values above, zero bits in the owner column (—), 3 bits in the group column (-wx) and 5 bits in the other column (r-x).</p>
+<p>However this is not the case, referring to the above link where it is indicated that the umask permissions will be interpreted in relation to the current file mode.</p>
+<p>An easy way to remember this, is when setting the umask value subtract the required decimal number from 7 and then calculate the symbolic notation from the result, for example: to correctly set the value of 0035, you would be looking for the symbolic equivalent of 0742 which is:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>rwx,g<span class="o">=</span>r,o<span class="o">=</span>w
+</span></span><span class="line"><span class="cl">$ <span class="nb">umask</span>
+</span></span><span class="line"><span class="cl"><span class="m">0035</span>
+</span></span></code></pre></div>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/umask/">umask</a>, 
+                <a href="/tags/linux/">linux</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="http://blog.networknoob.net">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2021 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="http://blog.networknoob.netjs/jquery-1.11.3.min.js"></script>
+        <script src="http://blog.networknoob.netjs/jquery.fitvids.js"></script>
+        <script src="http://blog.networknoob.netjs/scripts.js"></script>
+        
+    </body>
+</html>
+

@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on Networknoob</title>
-    <link>//blog.networknoob.net/page/</link>
+    <link>//networknoob.net/page/</link>
     <description>Recent content in Pages on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="//blog.networknoob.net/page/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Nov 2011 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/page/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>networknoob</title>
-      <link>//blog.networknoob.net/page/about/</link>
+      <link>//networknoob.net/page/about/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>//blog.networknoob.net/page/about/</guid>
+      <guid>//networknoob.net/page/about/</guid>
       <description>I am a network engineer experienced with routing, switching, load balancing, automation and AWS cloud networking.
 I have a passion for automation, exploring technologies and pushing myself to continuously learn and grow both personally and professionally.</description>
     </item>
     
     <item>
       <title>networknoob</title>
-      <link>//blog.networknoob.net/page/contact/</link>
+      <link>//networknoob.net/page/contact/</link>
       <pubDate>Fri, 11 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>//blog.networknoob.net/page/contact/</guid>
+      <guid>//networknoob.net/page/contact/</guid>
       <description>Reach out via linkedin.com or email, links at the top of the page.</description>
     </item>
     

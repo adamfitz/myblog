@@ -1,4 +1,4 @@
-baseurl = "//blog.networknoob.net/"
+baseurl = "//networknoob.net/"
 title = "Networknoob"
 theme = "ghostwriter"
 languageCode = "en-au"

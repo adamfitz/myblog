@@ -5,15 +5,10 @@ name: github pages
 
 # Controls when the action will run.
 # Triggers the workflow on push events.
-# Auto deploy at 23:59, or on push if there are changes to the master branch content directory
 on:
-  schedule:
-    - cron: '59 23 * * *'
   push:
     branches:
       - master
-    paths:
-      - 'content/*'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

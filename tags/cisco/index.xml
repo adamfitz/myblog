@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Thu, 29 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP Service Provider</title>
+      <link>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</guid>
+      <description>CCNP 350-501 SPCOR I am starting study for the 350-501 SPCOR exam to recertify my CCNP Enterprise (R&amp;amp;S). As part of this I am going to blog the exam topics and materials I am using as there is no official certificate guide for this exam. Each page focuses on a section from the exam topics/blueprint and the corresponding materials (books, blogs, cisco documentation etc) that I am going to use for study.</description>
+    </item>
+    
     <item>
       <title>Site-to-Site IPSEC VPN configuration</title>
       <link>//networknoob.net/projects/site-to-site-vpn-vs-mpls/</link>

@@ -7,7 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SP</title>
+      <link>//networknoob.net/tags/ccnp-sp/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/tags/ccnp-sp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cisco</title>
+      <link>//networknoob.net/tags/cisco/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>chage</title>
       <link>//networknoob.net/tags/chage/</link>
@@ -266,15 +284,6 @@
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
       <guid>//networknoob.net/tags/windows/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cisco</title>
-      <link>//networknoob.net/tags/cisco/</link>
-      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      
-      <guid>//networknoob.net/tags/cisco/</guid>
       <description></description>
     </item>
     

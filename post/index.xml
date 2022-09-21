@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Sat, 10 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SPCOR - Architecture</title>
+      <link>//networknoob.net/2022/09/21/1.ccnp-spcor-architecture/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/2022/09/21/1.ccnp-spcor-architecture/</guid>
+      <description>1.0 Architecture Topics The Architecture topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below. Its difficult to know how deep to go into these topics, we can an idea from the section percentage at 15% I would not expect expert deep dive knowledge on each topic, but perhaps a good introduction and overview of the technologies and how, where and in which situation they would be expected to be used.</description>
+    </item>
+    
     <item>
       <title>CCNP Service Provider</title>
       <link>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</link>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CCNP SP on Networknoob</title>
-    <link>//networknoob.net/tags/ccnp-sp/</link>
-    <description>Recent content in CCNP SP on Networknoob</description>
+    <title>spcor architecture on Networknoob</title>
+    <link>//networknoob.net/tags/spcor-architecture/</link>
+    <description>Recent content in spcor architecture on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/ccnp-sp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/spcor-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - Architecture</title>
       <link>//networknoob.net/2022/09/21/1.ccnp-spcor-architecture/</link>
@@ -15,15 +15,6 @@
       
       <guid>//networknoob.net/2022/09/21/1.ccnp-spcor-architecture/</guid>
       <description>1.0 Architecture Topics The Architecture topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below. Its difficult to know how deep to go into these topics, we can an idea from the section percentage at 15% I would not expect expert deep dive knowledge on each topic, but perhaps a good introduction and overview of the technologies and how, where and in which situation they would be expected to be used.</description>
-    </item>
-    
-    <item>
-      <title>CCNP Service Provider</title>
-      <link>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</link>
-      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
-      
-      <guid>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</guid>
-      <description>CCNP 350-501 SPCOR I am starting study for the 350-501 SPCOR exam to recertify my CCNP Enterprise (R&amp;amp;S). As part of this I am going to blog the exam topics and materials I am using as there is no official certificate guide for this exam. Each page focuses on a section from the exam topics/blueprint and the corresponding materials (books, blogs, cisco documentation etc) that I am going to use for study.</description>
     </item>
     
   </channel>

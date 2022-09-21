@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</loc>
-    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//networknoob.net/tags/ccnp-sp/</loc>
-    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2022/09/21/1.ccnp-spcor-architecture/</loc>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/cisco/</loc>
-    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/</loc>
-    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/post/</loc>
-    <lastmod>2022-09-10T00:00:00+00:00</lastmod>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/spcor-architecture/</loc>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/</loc>
+    <lastmod>2022-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2022/09/10/0.ccnp-sp-bluprint/</loc>
     <lastmod>2022-09-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/chage/</loc>

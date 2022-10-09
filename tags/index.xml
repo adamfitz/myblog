@@ -7,11 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Wed, 21 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SP</title>
       <link>//networknoob.net/tags/ccnp-sp/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>//networknoob.net/tags/ccnp-sp/</guid>
       <description></description>
@@ -20,9 +20,18 @@
     <item>
       <title>cisco</title>
       <link>//networknoob.net/tags/cisco/</link>
-      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>//networknoob.net/tags/cisco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spcor networking</title>
+      <link>//networknoob.net/tags/spcor-networking/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/tags/spcor-networking/</guid>
       <description></description>
     </item>
     

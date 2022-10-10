@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CCNP SPCOR - MPLS and Segment Routing &middot; Adam Fitzgerald</title>
+        <meta name="description" content="3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
+3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR
+3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE
+Cisco Documentation: Configuring LDP IGP Synchronization: OSPF - IOS-XR
+3.1.b LDP session protection Cisco Documentation: MPLS LDP Session Protection - IOS-XE">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.104.3" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="CCNP SPCOR - MPLS and Segment Routing">
+<meta property="og:description" content="3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
+3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR
+3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE
+Cisco Documentation: Configuring LDP IGP Synchronization: OSPF - IOS-XR
+3.1.b LDP session protection Cisco Documentation: MPLS LDP Session Protection - IOS-XE">
+<meta property="og:type" content="article">
+<meta property="og:url" content="//networknoob.net/2022/10/10/3.ccnp-spcor-mpls_and_segment_routing/">
+        <link rel="stylesheet" href="//networknoob.net/dist/site.css">
+        <link rel="stylesheet" href="//networknoob.net/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="//networknoob.net/">Networknoob</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="//networknoob.net/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/adamfitz" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/adam-fitzgerald-89247445/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:adam@networknoob.net">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/post">blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/projects/">projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">about</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">CCNP SPCOR - MPLS and Segment Routing</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2022-10-10" itemprop="datePublished">Mon, Oct 10, 2022</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="30-mpls-and-segment-routing">3.0 MPLS and Segment Routing</h1>
+<p>The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am
+using/collecting is below.</p>
+<h2 id="31-implement-mpls">3.1 Implement MPLS</h2>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-5/mpls/configuration/guide/b-mpls-cg-asr9000-65x/b-mpls-cg-asr9000-65x_chapter_010.html">Implementing MPLS Label Distribution Protocol - IOS-XR</a></p>
+<h3 id="31a-ldp-sync">3.1.a LDP sync</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios/ios_xe/mpls/configuration/guide/convert/mp_ldp_book_xe/mp_ldp_igp_synch_xe.html">MPLS LDP-IGP Synchronization - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-5/mpls/configuration/guide/b-mpls-cg-asr9000-65x/b-mpls-cg-asr9000-65x_chapter_010.html#ariaid-title64">Configuring LDP IGP Synchronization: OSPF - IOS-XR</a></p>
+<h3 id="31b-ldp-session-protection">3.1.b LDP session protection</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios/ios_xe/mpls/configuration/guide/convert/mp_ldp_book_xe/mp_ldp_sessn_prot_xe.html">MPLS LDP Session Protection - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-5/mpls/configuration/guide/b-mpls-cg-asr9000-65x/b-mpls-cg-asr9000-65x_chapter_010.html#ariaid-title16">Session Protection - IOS-XR</a></p>
+<p>Blog: <a href="https://www.thenetworkdna.com/2020/03/mpls-basics-ldp-label-distribution.html">MPLS basics: LDP (Label Distribution Protocol) on Cisco IOS-XR devices</a></p>
+<h3 id="31c-ldp-neighbors">3.1.c LDP neighbors</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ldp/configuration/xe-17/mp-ldp-xe-17-cat8000-book/mp-ldp.html#GUID-664E5334-569F-42E7-9586-446313C66714__GUID-1309F862-8415-4E27-98BB-110C4AB79313">Introduction to LDP Sessions - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-5/mpls/configuration/guide/b-mpls-cg-asr9000-65x/b-mpls-cg-asr9000-65x_chapter_010.html#concept_zn4_k5l_2gb">Configure Label Distribution Protocol Targeted Neighbor - IOS-XR</a></p>
+<h3 id="31d-unified-mpls">3.1.d Unified MPLS</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9600/software/release/16-12/configuration_guide/mpls/b_1612_mpls_9600_cg/configuring_seamless_mpls.html#id_113143">Configuring Seamless MPLS - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/support/docs/multiprotocol-label-switching-mpls/multiprotocol-label-switching-mpls/119191-config-unified-mpls-00.html">Configure Unified MPLS in Cisco IOS XR</a></p>
+<p>Blog: <a href="https://www.thesimglish.com/2020/05/unified-mpls-configuration-ios-xe-vs.html">Unified MPLS Configuration - IOS-XE vs IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/support/docs/multiprotocol-label-switching-mpls/mpls/118846-config-mpls-00.html">Unified MPLS Functionality, Features, and Configuration Example</a></p>
+<h3 id="31e-mpls-oam">3.1.e MPLS OAM</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-fundamentals-9780133433272">MPLS Fundamentals</a></p>
+<ul>
+<li>Chapter 14, Page 522 - MPLS Operation and Maintenance</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-5/mpls/configuration/guide/b-mpls-cg-asr9000-65x/b-mpls-cg-asr9000-65x_chapter_01000.html">Implementing MPLS OAM - IOS-XR</a></p>
+<h2 id="32-describe-traffic-engineering">3.2 Describe traffic engineering</h2>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-fundamentals-9780133433272">MPLS Fundamentals</a></p>
+<p>Chapter 8, Page 248 to 255 - Overview of the operation of MPLS TE</p>
+<h3 id="32a-isis-and-ospf-extensions">3.2.a ISIS and OSPF extensions</h3>
+<p>Book: <a href="https://www.amazon.com.au/OSPF-Choosing-Large-Scale-Networks/dp/0321168798">OSPF and ISIS Choosing and IGP for Large Scale Networks</a></p>
+<ul>
+<li>Chapter 11, Page 385 - OSPF Extensions for Traffic Engineering</li>
+<li>Chapter 11, Page 388 - IS-IS Extensions fot Traffic Engineering</li>
+</ul>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-fundamentals-9780133433272">MPLS Fundamentals</a></p>
+<ul>
+<li>Chapter 8, Page 256 to 264 - OSPF / IS-IS Extensions for TE</li>
+</ul>
+<h3 id="32b-rsvp-functionality">3.2.b RSVP functionality</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-fundamentals-9780133433272">MPLS Fundamentals</a></p>
+<ul>
+<li>Chapter 8, Page 279 to 291 - RSVP</li>
+</ul>
+<h3 id="32c-frr">3.2.c FRR</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-fundamentals-9780133433272">MPLS Fundamentals</a></p>
+<ul>
+<li>Chapter 8, Page 291 to 303 - FRR</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/en/US/docs/ios/12_0st/12_0st10/feature/guide/fastrout.html">MPLS Traffic Engineering Fast Reroute &ndash; Link Protection</a></p>
+<h2 id="33-describe-segment-routing">3.3 Describe segment routing</h2>
+<p>Cisco Live Presentation: <a href="https://www.ciscolive.com/c/dam/r/ciscolive/emea/docs/2019/pdf/BRKRST-2124.pdf">Introduction to Segment Routing</a></p>
+<p>Cisco Documentation: <a href="cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book.html">Segment Routing Configuration Guide, Cisco IOS XE Fuji 16.8.x</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/segment-routing/configuration/guide/b-seg-routing-cg-asr9k.html">Segment Routing Configuration Guide for Cisco ASR 9000 Series Routers, IOS XR Release 6.1.x</a></p>
+<h3 id="33a-segment-types">3.3.a Segment types</h3>
+<p>Cisco Blog: <a href="https://community.cisco.com/t5/service-providers-knowledge-base/asr9000-xr-introduction-to-segment-routing/ta-p/3166037#anc2">ASR9000/XR Introduction to Segment Routing</a></p>
+<h3 id="33b-igp-control-plane">3.3.b IGP control plane</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book/use-sr-is-is.html">Segment Routing With IS-IS v4 Node SID - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/segment-routing/configuration/guide/b-seg-routing-cg-asr9k/b-seg-routing-cg-asr9k_chapter_0101.html">Configure Segment Routing for IS-IS Protocol - IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book/sr-ospfv2-node-sid.html">Segment Routing With OSPFv2 Node SID - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/segment-routing/configuration/guide/b-seg-routing-cg-asr9k/b-seg-routing-cg-asr9k_chapter_0110.html">Configure Segment Routing for OSPF Protocol - IOS-XR</a></p>
+<h3 id="33c-segment-routing-traffic-engineering">3.3.c Segment routing traffic engineering</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book/seg-rout-trafc-engg.html">Segment Routing Traffic Engineering With IS-IS - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book/sr-te-ospf.html">Segment Routing Traffic Engineering With OSPF - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/seg_routing/configuration/xe-16-8/segrt-xe-16-8-book/sr-bgp-dynamic-sr-te.html">BGP Dynamic Segment Routing Traffic Engineering - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/segment-routing/configuration/guide/b-seg-routing-cg-asr9k/b-seg-routing-cg-asr9k_chapter_0100.html">Configure SR-TE Policies - IOS-XR</a></p>
+<h3 id="33d-ti-lfa">3.3.d TI-LFa</h3>
+<p>segment-routing.net: <a href="https://www.segment-routing.net/tutorials/2016-09-27-topology-independent-lfa-ti-lfa/">Topology Independent LFA (TI-LFA) and uloop avoidance</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/segment-routing/61x/b-segment-routing-cg-ncs5500/b-segment-routing-cg-ncs5500_chapter_0111.pdf">Configure Topology-Independent Loop-Free Alternate (TI-LFA) - IOS-XR (IS-IS and OSPF)</a></p>
+<p>APNIC Blog: <a href="https://blog.apnic.net/2020/06/26/sr-ti-lfa-segment-routing-and-topology-independent-loop-free-alternates/">SR TI-LFA: Segment Routing and Topology Independent Loop-Free Alternates</a></p>
+<h3 id="33e-pce-pcc-architectures">3.3.e PCE-PCC architectures</h3>
+<p>RFC 8283: <a href="https://www.rfc-editor.org/rfc/rfc8283.html">An Architecture for Use of PCE and the PCE Communication Protocol (PCEP) in a Network with Central Control</a></p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/ccnp-sp/">CCNP SP</a>, 
+                <a href="/tags/cisco/">cisco</a>, 
+                <a href="/tags/spcor-mpls/">spcor mpls</a>, 
+                <a href="/tags/spcor-segment-routing/">spcor segment routing</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="//networknoob.net/">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2022 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//networknoob.net/js/jquery-1.11.3.min.js"></script>
+        <script src="//networknoob.net/js/jquery.fitvids.js"></script>
+        <script src="//networknoob.net/js/scripts.js"></script>
+        
+    </body>
+</html>
+

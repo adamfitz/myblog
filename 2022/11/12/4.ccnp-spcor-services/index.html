@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CCNP SPCOR - Services &middot; Adam Fitzgerald</title>
+        <meta name="description" content="4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
+4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
+Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?
+4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&ndash;Inter-AS Option AB
+Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison
+Book: MPLS and VPN Architectures CCIP Edition">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.105.0">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta property="og:title" content="CCNP SPCOR - Services">
+<meta property="og:description" content="4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
+4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
+Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?
+4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&ndash;Inter-AS Option AB
+Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison
+Book: MPLS and VPN Architectures CCIP Edition">
+<meta property="og:type" content="article">
+<meta property="og:url" content="//networknoob.net/2022/11/12/4.ccnp-spcor-services/">
+        <link rel="stylesheet" href="//networknoob.net/dist/site.css">
+        <link rel="stylesheet" href="//networknoob.net/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="//networknoob.net/">Networknoob</a>
+                            </h1>
+                        
+                        
+                            <a class="button-square" href="//networknoob.net/index.xml" aria-label="RSS"><i class="fa fa-rss" aria-hidden="true"></i></a>
+                        
+                        
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" aria-label="Github" href="https://github.com/adamfitz" rel="me">
+                                <i class="fa fa-github-alt" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="LinkedIn" aria-label="LinkedIn" href="https://www.linkedin.com/in/adam-fitzgerald-89247445/" rel="me">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Email" aria-label="Send an Email" href="mailto:adam@networknoob.net">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="/post">blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/projects/">projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/contact/">contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/page/about/">about</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="/tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">CCNP SPCOR - Services</h1>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2022-11-12" itemprop="datePublished">Sat, Nov 12, 2022</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+        <p class="post-reading post-line">
+            <span>Estimated reading time: 3 min</span>
+        </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="40-services">4.0 Services</h1>
+<p>The Services topics section is 20% of the overall exam, the topics and associated study materials I am
+using/collecting is below.</p>
+<h2 id="41-describe-vpn-services">4.1 Describe VPN services</h2>
+<h3 id="41a-evpn">4.1.a EVPN</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5xx/l2vpn/63x/b-l2vpn-cg-63x-ncs5xx/b-l2vpn-cg-63x-ncs5xx_chapter_01000.html">EVPN Features IOS-XR</a></p>
+<p>Cisco SP360 Blog: <a href="https://blogs.cisco.com/sp/ethernet-vpn-whats-the-big-deal-about-it">Ethernet VPN – What’s the big deal about it?</a></p>
+<h3 id="41b-inter-as-vpn">4.1.b Inter-AS VPN</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/mp_ias_and_csc/configuration/xe-16/mp-ias-and-csc-xe-16-book/mpls-vpn-inter-as-option-ab.html#GUID-AA94D3A0-A7B8-4A3A-AEA8-516E06BC7638">MPLS VPN&ndash;Inter-AS Option AB</a></p>
+<p>Blog: <a href="https://orhanergun.net/inter-as-option-a-design-considerations-and-comparison/">orhanergun.net/Inter AS Option A Design Considerations and Comparison</a></p>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-and-vpn-architectures-ccip-edition-9781587050817">MPLS and VPN Architectures CCIP Edition</a></p>
+<ul>
+<li>Chapter 15, Page 394 - Inter-provider VPN Solutions</li>
+</ul>
+<h3 id="41c-csc">4.1.c CSC</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-and-vpn-architectures-ccip-edition-9781587050817">MPLS and VPN Architectures, CCIP Edition</a></p>
+<ul>
+<li>Chapter 15, Page 378 - Carrier&rsquo;s Carrier Solution Overview</li>
+</ul>
+<h3 id="41d-mvpn">4.1.d mVPN</h3>
+<p>Cisco Live: <a href="https://www.ciscolive.com/c/dam/r/ciscolive/us/docs/2019/pdf/BRKIPM-3017.pdf">mVPN Deployment Models</a></p>
+<h2 id="42-configure-l2vpn-and-carrier-ethernet">4.2 Configure L2VPN and Carrier Ethernet</h2>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-2/lxvpn/configuration/guide/b-l2vpn-cg-asr9000-62x/b-l2vpn-cg-asr9000-62x_chapter_010.html">The Carrier Ethernet Model - IOS-XR</a></p>
+<h3 id="42a-ethernet-services-e-line-e-tree-e-access-e-lan">4.2.a Ethernet services (E-Line, E-Tree, E-Access, E-LAN)</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/metro-ethernet-9781587050961">Metro Ethernet</a></p>
+<ul>
+<li>Chapter 3, Page 65 - Metro Ethernet Services Concepts</li>
+</ul>
+<p>Blog: <a href="https://networklessons.com/cisco/ccna-routing-switching-icnd2-200-105/introduction-to-metro-ethernet">networklessons.com - Introduction to Metro Ethernet</a></p>
+<h3 id="42b-ieee-8021ad-ieee-8021ah-and-itu-g8032">4.2.b IEEE 802.1ad, IEEE 802.1ah, and ITU G.8032</h3>
+<ul>
+<li>802.1ad - Provider bridging, stacked vlans or QinQ</li>
+<li>802.1ah - Provider backbone bridging (mac in mac)</li>
+<li>G.8032 - Ethernet Ring Protection</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr920/configuration/guide/ce/17-1-1/b-ce-xe-17-1-asr920/m_ce_802_1ad_asr920.html">Configuring IEEE 802.1ad - IOS-XE</a></p>
+<p>Blog: <a href="https://socpuppet.blogspot.com/2014/09/8021ad-interfaces-ios-xr.html">socpuppet.blogspot.com - 802.1ad interfaces IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://content.cisco.com/chapter.sjs?uri=/searchable/chapter/content/en/us/td/docs/ios-xml/ios/cether/configuration/15-s/ce-15-s-book/ce-mac-evc-pbb.html.xml">IEEE 802.1ah on Provider Backbone Bridges - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r7-0/lxvpn/configuration/guide/b-l2vpn-cg-asr9000-70x/b-l2vpn-cg-asr9000-70x_chapter_0111.html">Implementing IEEE 802.1ah Provider Backbone Bridge - IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/ncs5xx/ncs520/configuration/guide/LAN-switch/17-1-1/b-lanswitch-17-1-1-ncs520/m_ce-g8032-ering-pro-ncs520.html">ITU-T G.8032 Ethernet Ring Protection Switching- IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/iosxr/ncs5500/vpn/65x/b-l2vpn-cg-ncs5500-65x/b-l2vpn-cg-ncs5500-65x_chapter_0111.html#concept_85B0F1F5FD0848B5BD3203D7FCDE7CBD">G.8032 Ethernet Ring Protection - IOS-XR</a></p>
+<h3 id="42c-ethernet-oam">4.2.c Ethernet OAM</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr920/configuration/guide/ce/17-1-1/b-ce-xe-17-1-asr920/m-ce-oam-new.html">Using Ethernet Operations Administration and Maintenance - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r7-7/lxvpn/configuration/guide/b-l2vpn-cg-asr9000-77x/carrier-ethernet-model.html#concept_2C58001C8F514002A81D424E62D38E7C">Ethernet OAM Protocols - IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-2/interface/configuration/guide/b-interface-hardware-component-cg-asr9000-62x/b-interface-hardware-component-cg-asr9000-62x_chapter_0110.html">Configuring Ethernet OAM - IOS-XR</a></p>
+<h3 id="42d-vlan-tag-manipulation">4.2.d VLAN tag manipulation</h3>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9600/software/release/16-11/configuration_guide/vlan/b_1611_vlan_9600_cg/b_1611_vlan_9600_cg_chapter_010.html">Configuring VLAN Trunks - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/xr12000/software/xr12k_r5-1/interfaces/command/reference/b_interfaces_cr51xxr12k/b_interfaces_cr51xxr12k_chapter_01111.html">802.1Q VLAN Subinterface Commandsonthe Cisco IOS XR Software</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r6-2/interface/configuration/guide/b-interface-hardware-component-cg-asr9000-62x/b-interface-hardware-component-cg-asr9000-62x_chapter_010100.html">Configuring 802.1Q VLAN Interfaces - IOS-XR</a></p>
+<h2 id="43-configure-l3vpn">4.3 Configure L3VPN</h2>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-and-vpn-architectures-ccip-edition-9781587050817">MPLS and VPN Architectures CCIP Edition</a></p>
+<ul>
+<li>Chapter 9, Page 161 - MPLS/VPN Architectures Overview</li>
+<li>Chapter 10, Page 183 - MPLS/VPN Architecture operation
+<ul>
+<li>Case Study: Basic MPLS/VPN Intranet Service</li>
+</ul>
+</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios_xr_sw/iosxr_r3-7/mpls/configuration/guide/gc37v3.html">Implementing MPLS Layer 3 VPNs on Cisco IOS XR Software</a></p>
+<h3 id="43a-intra-as-vpn">4.3.a Intra-AS VPN</h3>
+<p>Youtube: <a href="https://www.youtube.com/watch?v=VAvSyaajrKM&amp;ab_channel=SurajSoni">MPLS Intra-AS L3 VPN on Cisco IOS &amp; IOS-XR</a></p>
+<h3 id="43b-shared-services-extranet-and-internet">4.3.b Shared services (extranet and Internet)</h3>
+<p>Book: <a href="https://www.ciscopress.com/store/mpls-and-vpn-architectures-ccip-edition-9781587050817">MPLS and VPN Architectures, CCIP Edition</a></p>
+<ul>
+<li>Chapter 12, Page 255 - Intranet and Extranet Integration</li>
+</ul>
+<h2 id="44-implement-multicast-services">4.4 Implement multicast services</h2>
+<h3 id="44a-pim-pim-sm-pim-ssm-and-pim-bidir">4.4.a PIM (PIM-SM, PIM-SSM, and PIM-BIDIR)</h3>
+<p>Book, Cisco Press: <a href="https://www.ciscopress.com/store/routing-tcp-ip-volume-ii-ccie-professional-development-9781587054709#:~:text=Routing%20TCP%2FIP%2C%20Volume%20II%2C%20Second%20Edition%20covers%20routing,anyone%20pursuing%20this%20elite%20credential">Routing TCP/IP Volume 2</a></p>
+<ul>
+<li>Chapter 6, Page 531 - Configuring and Troubleshooting Multicast Routing</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-3s/imc-pim-xe-3s-book/imc_basic_cfg.html">Configuring Basic IP Multicast - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://xrdocs.io/multicast/tutorials/2021-03-23-introduction-to-multicast/">Multicast - IOS-XR</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/ipmulti_pim/configuration/xe-3s/asr903/imc-pim-xe-3s-asr903-book/configuring_source_specific_multicast.html">Configuring Source Specific Multicast - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://xrdocs.io/multicast/tutorials/2021-08-05-pim-ssm/">PIM-SSM - IOS-XR</a></p>
+<p>Book, Cisco Press <a href="https://www.ciscopress.com/store/ip-multicast-volume-i-cisco-ip-multicast-networking-9781587144592">IP Multicast, Volume I: Cisco IP Multicast Networking</a></p>
+<ul>
+<li>Chapter 4, Page 128 - Basic PIM Configuration, Auto RP (135), BSR (143), Anycast RP(149)</li>
+<li>Chapter 4, Page 162 to 164 - PIM SSM Configuration</li>
+</ul>
+<h3 id="44b-igmp-v1v2v3-and-mld">4.4.b IGMP v1/v2/v3 and MLD</h3>
+<p>Book, Cisco Press <a href="https://www.ciscopress.com/store/ip-multicast-volume-i-cisco-ip-multicast-networking-9781587144592">IP Multicast, Volume I: Cisco IP Multicast Networking</a></p>
+<ul>
+<li>Chapter 2, Page 31 to 37 - Configuring IGMP on a router</li>
+</ul>
+<p>Book, Cisco Press: <a href="https://www.ciscopress.com/store/routing-tcp-ip-volume-ii-ccie-professional-development-9781587054709#:~:text=Routing%20TCP%2FIP%2C%20Volume%20II%2C%20Second%20Edition%20covers%20routing,anyone%20pursuing%20this%20elite%20credential">Routing TCP/IP Volume 2</a></p>
+<ul>
+<li>Chapter 5, Page 395 - Introduction to Multicast Routing</li>
+</ul>
+<p>Cisco Blog: <a href="https://community.cisco.com/t5/networking-knowledge-base/multicast-listener-discovery-mld/ta-p/3112082">Multicast Listener Discovery(MLD)</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/en/US/docs/routers/xr12000/software/xr12k_r4.0/multicast/command/reference/mrxr12k40book_chapter1.html">IGMP and MLD Commands on Cisco IOS XR Software</a></p>
+<h2 id="45-implement-qos-services">4.5 Implement QoS services</h2>
+<h3 id="45a-classification-and-marking">4.5.a Classification and marking</h3>
+<p>Book, Cisco Press: <a href="https://www.ciscopress.com/store/qos-for-ip-mpls-networks-9781587052330">QoS for IP/MPLS Networks</a></p>
+<ul>
+<li>Chapter 3, Page 88 to 94- Traffic Classification</li>
+<li>Chapter 3, Page 94 to 100 - Traffic Marking</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r7-5/qos/b-qos-cg-asr9k-75x/config-mod-qos-packet-classification.html">Configuring Modular QoS Service Packet Classification - IOS-XR</a></p>
+<h3 id="45b-congestion-avoidance-traffic-policing-and-shaping">4.5.b Congestion avoidance, traffic policing, and shaping</h3>
+<p>Book, Cisco Press: <a href="https://www.ciscopress.com/store/qos-for-ip-mpls-networks-9781587052330">QoS for IP/MPLS Networks</a></p>
+<ul>
+<li>Chapter 3, Page 100 to 108 - Traffic Policing</li>
+<li>Chapter 3, Page 100 to 114 - Traffic Shaping</li>
+<li>Chapter 3, Page 121 to 11 - Active Queue Management (WRED)</li>
+</ul>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/qos_conavd/configuration/xe-16/qos-conavd-xe-16-book.pdf">QoS: Congestion Avoidance Configuration Guide - IOS-XE</a></p>
+<p>Cisco Documentation: <a href="https://www.cisco.com/c/en/us/td/docs/routers/asr9000/software/asr9k-r7-5/qos/b-qos-cg-asr9k-75x/config-modular-qos-congestion-avoidance.html#ID103">Configuring Modular QoS Congestion Avoidance - IOS-XR</a></p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/tags/ccnp-sp/">CCNP SP</a>, 
+                <a href="/tags/cisco/">cisco</a>, 
+                <a href="/tags/spcor-services/">spcor services</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="//networknoob.net/">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2022 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//networknoob.net/js/jquery-1.11.3.min.js"></script>
+        <script src="//networknoob.net/js/jquery.fitvids.js"></script>
+        <script src="//networknoob.net/js/scripts.js"></script>
+        
+    </body>
+</html>
+

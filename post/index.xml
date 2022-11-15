@@ -7,7 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SPCOR - Services</title>
+      <link>//networknoob.net/2022/11/12/4.ccnp-spcor-services/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/2022/11/12/4.ccnp-spcor-services/</guid>
+      <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
+4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
+Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?
+4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&amp;ndash;Inter-AS Option AB
+Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison
+Book: MPLS and VPN Architectures CCIP Edition</description>
+    </item>
+    
     <item>
       <title>CCNP SPCOR - MPLS and Segment Routing</title>
       <link>//networknoob.net/2022/10/10/3.ccnp-spcor-mpls_and_segment_routing/</link>

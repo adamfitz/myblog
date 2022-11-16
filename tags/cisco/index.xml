@@ -7,7 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SPCOR - Automation and Assurance</title>
+      <link>//networknoob.net/2022/11/16/5.ccnp-spcor-automation-and-assurance/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/2022/11/16/5.ccnp-spcor-automation-and-assurance/</guid>
+      <description>5.0 Automation and Assurance The automation and assurance topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below.
+5.1 Describe the programmable APIs used to include Cisco devices in network automation Blog: denetdan.com - NETCONF Vs. RESTCONF
+RFC 8040: RESTCONF Protocol
+RFC 6241: Network Configuration Protocol (NETCONF)
+5.2 Interpret an external script to configure a Cisco device using a REST API Cisco Documentation: Cisco IOS XE REST API Management Reference Guide</description>
+    </item>
+    
     <item>
       <title>CCNP SPCOR - Services</title>
       <link>//networknoob.net/2022/11/12/4.ccnp-spcor-services/</link>

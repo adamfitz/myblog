@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//networknoob.net/tags/asus-b550-e/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/post/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/ubuntu/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2022/12/30/ubuntu22.04-b550-e_wireless/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/wireless/</loc>
+    <lastmod>2022-12-30T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//networknoob.net/tags/ccnp-sp/</loc>
     <lastmod>2022-11-16T00:00:00+00:00</lastmod>
   </url><url>
@@ -11,16 +32,7 @@
     <loc>//networknoob.net/tags/cisco/</loc>
     <lastmod>2022-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//networknoob.net/</loc>
-    <lastmod>2022-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/post/</loc>
-    <lastmod>2022-11-16T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//networknoob.net/tags/spcor-automation/</loc>
-    <lastmod>2022-11-16T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/</loc>
     <lastmod>2022-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/2022/11/12/4.ccnp-spcor-services/</loc>

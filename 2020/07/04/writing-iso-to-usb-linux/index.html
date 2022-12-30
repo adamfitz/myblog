@@ -9,7 +9,7 @@ The correct syntax for using the dd application to write an ISO image to a remov
 sudo dd if=$isoImageName of=/dev/sda The incorrect syntax is to specify the partition, because the operation is writing an ISO image which consists of a single track:">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
-        <meta name="generator" content="Hugo 0.105.0">
+        <meta name="generator" content="Hugo 0.109.0">
         <meta name="robots" content="index,follow">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta property="og:title" content="writing ISO to USB in linux">
@@ -121,7 +121,7 @@ sudo dd if=$isoImageName of=/dev/sda The incorrect syntax is to specify the par
 
     <p>Finally writing this down here because I always forget this command and have to either look it up again or go back through my command history.</p>
 <p>The correct syntax for using the dd application to write an ISO image to a removable drive is as follows:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span><span class="nv">$isoImageName</span> <span class="nv">of</span><span class="o">=</span>/dev/sda
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span><span class="nv">$isoImageName</span> of<span class="o">=</span>/dev/sda
 </span></span></code></pre></div><p>The <strong>incorrect</strong> syntax is to specify the partition, because the operation is writing an ISO image which consists of a single track:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">sudo dd <span class="k">if</span><span class="o">=</span><span class="nv">$isoImageName</span> <span class="k">if</span><span class="o">=</span>/dev/sda1
 </span></span></code></pre></div>

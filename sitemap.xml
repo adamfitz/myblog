@@ -2,10 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//networknoob.net/tags/expo/</loc>
-    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
+    <loc>//networknoob.net/tags/iosxe/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/iosxr/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/ospf-basics/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2023/03/11/ospf_passive_interface/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/passive-interface/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/post/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/spcor/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/</loc>
+    <lastmod>2023-03-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/expo/</loc>
     <lastmod>2023-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/2023/01/22/new_machine_build_issues/</loc>
@@ -15,12 +39,6 @@
     <lastmod>2023-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/no-post/</loc>
-    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/post/</loc>
-    <lastmod>2023-01-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/</loc>
     <lastmod>2023-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/asus-b550-e/</loc>

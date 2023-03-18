@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IOSXE on Networknoob</title>
+    <link>//networknoob.net/tags/iosxe/</link>
+    <description>Recent content in IOSXE on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-au</language>
+    <copyright>Adam Fitzgerald</copyright>
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/iosxe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OSPF basics - Passive Interface</title>
+      <link>//networknoob.net/2023/03/11/ospf_passive_interface/</link>
+      <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/2023/03/11/ospf_passive_interface/</guid>
+      <description>OSPF Basics - passive interface Using the passive interface or passive enable command in OSPF stops an adjacency forming over a specific router interface. An interface that has been set to passive still has its IP address injected into the OSPF domain and is seen as a STUB network.
+This allows interface addresses to be advertised into the OSPF domain but also stops LSA generation / flooding from occurring for interfaces where an adjacency is not expected to be formed.</description>
+    </item>
+    
+  </channel>
+</rss>

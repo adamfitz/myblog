@@ -3,7 +3,7 @@ title = 'Troubleshooting OSPF adjacency with Wireshark'
 date = '2023-03-19'
 author = 'fitzi'
 tags = [ 'ospf basics', 'ospf adjacency', 'IOSXE', 'spcor']
-draft = false
+draft = true
 +++
 
 # Troubleshooting OSPF adjacency with Wireshark
@@ -15,7 +15,7 @@ on router NSSA-R1 I had correctly configured ```area 23 nssa``` to enable the NS
 
 The relevant lab topology I am using is as follows:
 
-![basic lab topology](./tshoot_ospf_adj_topology_1.png)
+![basic lab topology](tshoot_ospf_adj_topology_1.png)
 
 When I found that the adjacency was not forming I started by checking the basics:
 - network/subnet mask matched
@@ -31,25 +31,25 @@ sent and received as expected.
 
 Digging into the hello packet from NSSA-R1 (192.23.0.2) I could see that the NSSA flag is set in the OSPF options:
 
-![basic lab topology](./tshoot_ospf_adj_nssa_hello_1.png)
+![basic lab topology](tshoot_ospf_adj_nssa_hello_1.png)
 
 Checking the corresponding hello packet in the capture file for the IOS-XE-2 router, I noticed that NSSA flag was 
 missing and hence being reported in the capture as not supported:
 
-![basic lab topology](./tshoot_ospf_adj_ios-xe-2_hello_1.png)
+![basic lab topology](tshoot_ospf_adj_ios-xe-2_hello_1.png)
 
 At this point I knew there was a configuration problem and backtracked again to verify the configuration on both devices
  here I found that I had misconfigured the area as a stub area on the IOS-XE-2 router.
 
-![IOS-XE-2 incorrect config](./tshoot_ospf_adj_ios-xe-2_stub.png)
+![IOS-XE-2 incorrect config](tshoot_ospf_adj_ios-xe-2_stub.png)
 
 As expected after removing the stub config from the IOS-XE-2 router and correctly setting the nssa 
 area type the neighbour adjacency formed:
 
-![IOS-XE-2 correct config](./tshoot_ospf_adj_ios-xe-2_nssa.png)
+![IOS-XE-2 correct config](tshoot_ospf_adj_ios-xe-2_nssa.png)
 
-![IOS-XE-2 correct config](./tshoot_ospf_adj_ios-xe-2_nssa_2.png)
+![IOS-XE-2 correct config](tshoot_ospf_adj_ios-xe-2_nssa_2.png)
 
-![basic lab topology](./tshoot_ospf_adj_ios-xe-2_neigh_1.png)
+![basic lab topology](tshoot_ospf_adj_ios-xe-2_neigh_1.png)
 
-![basic lab topology](./tshoot_ospf_adj_nssa_neigh_1.png)
+![basic lab topology](tshoot_ospf_adj_nssa_neigh_1.png)

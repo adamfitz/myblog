@@ -3,7 +3,7 @@ title = 'Troubleshooting OSPF adjacency with Wireshark'
 date = '2023-03-19'
 author = 'fitzi'
 tags = [ 'ospf basics', 'ospf adjacency', 'IOSXE', 'spcor']
-draft = true
+draft = false
 +++
 
 # Troubleshooting OSPF adjacency with Wireshark

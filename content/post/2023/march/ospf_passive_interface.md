@@ -2,7 +2,7 @@
 title = 'OSPF basics - Passive Interface'
 date = '2023-03-11'
 author = 'fitzi'
-tags = [ 'ospf basics', 'passive interface', 'IOSXE', 'IOSXR']
+tags = [ 'ospf basics', 'passive interface', 'IOSXE', 'IOSXR', 'spcor']
 draft = false
 +++
 

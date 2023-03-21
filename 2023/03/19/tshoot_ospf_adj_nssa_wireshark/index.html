@@ -121,7 +121,7 @@ labbing basic OSPF configuration and finding that one of the neighbour adjacenci
 on router NSSA-R1 I had correctly configured <code>area 23 nssa</code> to enable the NSSA area, however on the adjacent router
 (IOS-XE-2) I had accidentally configured <code>area 23 stub</code>.</p>
 <p>The relevant lab topology I am using is as follows:</p>
-<p><img src="/static/images/tshoot_ospf_adj_topology_1.png" alt="basic lab topology"></p>
+<p><img src="/images/tshoot_ospf_adj_topology_1.png" alt="basic lab topology"></p>
 <p>When I found that the adjacency was not forming I started by checking the basics:</p>
 <ul>
 <li>network/subnet mask matched</li>
@@ -135,19 +135,19 @@ this <a href="https://netdevops.me/2020/using-wireshark-remote-capture-with-eve-
 that it is very easy to set it up.  In the capture file from both router interfaces I could see hello packets being
 sent and received as expected.</p>
 <p>Digging into the hello packet from NSSA-R1 (192.23.0.2) I could see that the NSSA flag is set in the OSPF options:</p>
-<p><img src="/static/images/tshoot_ospf_adj_nssa_hello_1.png" alt="basic lab topology"></p>
+<p><img src="/images/tshoot_ospf_adj_nssa_hello_1.png" alt="basic lab topology"></p>
 <p>Checking the corresponding hello packet in the capture file for the IOS-XE-2 router, I noticed that NSSA flag was
 missing and hence being reported in the capture as not supported:</p>
-<p><img src="/static/images/tshoot_ospf_adj_ios-xe-2_hello_1.png" alt="basic lab topology"></p>
+<p><img src="/images/tshoot_ospf_adj_ios-xe-2_hello_1.png" alt="basic lab topology"></p>
 <p>At this point I knew there was a configuration problem and backtracked again to verify the configuration on both devices
 here I found that I had misconfigured the area as a stub area on the IOS-XE-2 router.</p>
-<p><img src="/static/images/tshoot_ospf_adj_ios-xe-2_stub.png" alt="IOS-XE-2 incorrect config"></p>
+<p><img src="/images/tshoot_ospf_adj_ios-xe-2_stub.png" alt="IOS-XE-2 incorrect config"></p>
 <p>As expected after removing the stub config from the IOS-XE-2 router and correctly setting the nssa
 area type the neighbour adjacency formed:</p>
-<p><img src="/static/images/tshoot_ospf_adj_ios-xe-2_nssa.png" alt="IOS-XE-2 correct config"></p>
-<p><img src="/static/images/tshoot_ospf_adj_ios-xe-2_nssa_2.png" alt="IOS-XE-2 correct config"></p>
-<p><img src="/static/images/tshoot_ospf_adj_ios-xe-2_neigh_1.png" alt="basic lab topology"></p>
-<p><img src="/static/images/tshoot_ospf_adj_nssa_neigh_1.png" alt="basic lab topology"></p>
+<p><img src="/images/tshoot_ospf_adj_ios-xe-2_nssa.png" alt="IOS-XE-2 correct config"></p>
+<p><img src="/images/tshoot_ospf_adj_ios-xe-2_nssa_2.png" alt="IOS-XE-2 correct config"></p>
+<p><img src="/images/tshoot_ospf_adj_ios-xe-2_neigh_1.png" alt="basic lab topology"></p>
+<p><img src="/images/tshoot_ospf_adj_nssa_neigh_1.png" alt="basic lab topology"></p>
 
 </div>
 

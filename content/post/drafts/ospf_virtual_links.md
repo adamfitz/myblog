@@ -2,7 +2,7 @@
 title = 'OSPF Virtual Links'
 date = '2023-02-??'
 author = 'fitzi'
-tags = [ 'ospf', 'virtual-links', 'spcor]
+tags = [ 'ospf', 'virtual-links', 'spcor']
 draft = true
 +++
 

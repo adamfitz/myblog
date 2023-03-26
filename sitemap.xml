@@ -2,25 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//networknoob.net/tags/iosxe/</loc>
-    <lastmod>2023-03-19T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//networknoob.net/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/ospf/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2023/03/26/ospf_virtual_links/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/post/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/spcor/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/virtual-links/</loc>
+    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/iosxe/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/ospf-adjacency/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/ospf-basics/</loc>
-    <lastmod>2023-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/post/</loc>
-    <lastmod>2023-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/spcor/</loc>
-    <lastmod>2023-03-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/</loc>
     <lastmod>2023-03-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/2023/03/19/tshoot_ospf_adj_nssa_wireshark/</loc>

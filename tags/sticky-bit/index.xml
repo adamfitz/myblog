@@ -1,23 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>sticky bit on Networknoob</title>
+    <title>Sticky Bit on Networknoob</title>
     <link>//networknoob.net/tags/sticky-bit/</link>
-    <description>Recent content in sticky bit on Networknoob</description>
+    <description>Recent content in Sticky Bit on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/sticky-bit/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//networknoob.net/tags/sticky-bit/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>setuid, setgid and sticky bit</title>
       <link>//networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/2021/03/24/setuid-setgid-and-sticky-bit/</guid>
-      <description>setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
-If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).
-The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.</description>
+      <description>setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.&#xA;If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).&#xA;The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.</description>
     </item>
-    
   </channel>
 </rss>

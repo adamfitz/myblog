@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>osx on Networknoob</title>
+    <title>Osx on Networknoob</title>
     <link>//networknoob.net/tags/osx/</link>
-    <description>Recent content in osx on Networknoob</description>
+    <description>Recent content in Osx on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//networknoob.net/tags/osx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ping</title>
       <link>//networknoob.net/2017/05/28/ping/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/2017/05/28/ping/</guid>
-      <description>I saw a tweet from Jeremy stretch at packetlife the other day about showing the ping statistics in linux without stopping the ping command which I had never seen used before (I obviously should have RTFM :P). After which @jmhuwe and @synteki chimed in with the windows and OSX equivalents as per the below, thanks!
-Linux – CTRL + \
-Windows – CTRL + Break
-OSX – Control + t</description>
+      <description>I saw a tweet from Jeremy stretch at packetlife the other day about showing the ping statistics in linux without stopping the ping command which I had never seen used before (I obviously should have RTFM :P). After which @jmhuwe and @synteki chimed in with the windows and OSX equivalents as per the below, thanks!&#xA;Linux – CTRL + \&#xA;Windows – CTRL + Break&#xA;OSX – Control + t</description>
     </item>
-    
   </channel>
 </rss>

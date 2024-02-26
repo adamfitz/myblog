@@ -7,474 +7,371 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-au</language>
     <copyright>Adam Fitzgerald</copyright>
-    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ospf</title>
+      <title>Ospf</title>
       <link>//networknoob.net/tags/ospf/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ospf/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor</title>
+      <title>Spcor</title>
       <link>//networknoob.net/tags/spcor/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>virtual links</title>
+      <title>Virtual Links</title>
       <link>//networknoob.net/tags/virtual-links/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/virtual-links/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IOSXE</title>
       <link>//networknoob.net/tags/iosxe/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/iosxe/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ospf adjacency</title>
+      <title>Ospf Adjacency</title>
       <link>//networknoob.net/tags/ospf-adjacency/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ospf-adjacency/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ospf basics</title>
+      <title>Ospf Basics</title>
       <link>//networknoob.net/tags/ospf-basics/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ospf-basics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IOSXR</title>
       <link>//networknoob.net/tags/iosxr/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/iosxr/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>passive interface</title>
+      <title>Passive Interface</title>
       <link>//networknoob.net/tags/passive-interface/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/passive-interface/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>EXPO</title>
       <link>//networknoob.net/tags/expo/</link>
       <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/expo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>new pc</title>
+      <title>New Pc</title>
       <link>//networknoob.net/tags/new-pc/</link>
       <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/new-pc/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>no POST</title>
+      <title>No POST</title>
       <link>//networknoob.net/tags/no-post/</link>
       <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/no-post/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>asus-B550-E</title>
+      <title>Asus-B550-E</title>
       <link>//networknoob.net/tags/asus-b550-e/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/asus-b550-e/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu</title>
+      <title>Ubuntu</title>
       <link>//networknoob.net/tags/ubuntu/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>wireless</title>
+      <title>Wireless</title>
       <link>//networknoob.net/tags/wireless/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/wireless/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>CCNP SP</title>
       <link>//networknoob.net/tags/ccnp-sp/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ccnp-sp/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cisco</title>
+      <title>Cisco</title>
       <link>//networknoob.net/tags/cisco/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/cisco/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor automation</title>
+      <title>Spcor Automation</title>
       <link>//networknoob.net/tags/spcor-automation/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-automation/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor services</title>
+      <title>Spcor Services</title>
       <link>//networknoob.net/tags/spcor-services/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-services/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor mpls</title>
+      <title>Spcor Mpls</title>
       <link>//networknoob.net/tags/spcor-mpls/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-mpls/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor segment routing</title>
+      <title>Spcor Segment Routing</title>
       <link>//networknoob.net/tags/spcor-segment-routing/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-segment-routing/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor networking</title>
+      <title>Spcor Networking</title>
       <link>//networknoob.net/tags/spcor-networking/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-networking/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>spcor architecture</title>
+      <title>Spcor Architecture</title>
       <link>//networknoob.net/tags/spcor-architecture/</link>
       <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/spcor-architecture/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>chage</title>
+      <title>Chage</title>
       <link>//networknoob.net/tags/chage/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/chage/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>//networknoob.net/tags/linux/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/linux/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>passwd</title>
+      <title>Passwd</title>
       <link>//networknoob.net/tags/passwd/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/passwd/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>usermod</title>
+      <title>Usermod</title>
       <link>//networknoob.net/tags/usermod/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/usermod/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>w</title>
+      <title>W</title>
       <link>//networknoob.net/tags/w/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/w/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>who</title>
+      <title>Who</title>
       <link>//networknoob.net/tags/who/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/who/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>last</title>
+      <title>Last</title>
       <link>//networknoob.net/tags/last/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/last/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lastb</title>
+      <title>Lastb</title>
       <link>//networknoob.net/tags/lastb/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/lastb/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lastlog</title>
+      <title>Lastlog</title>
       <link>//networknoob.net/tags/lastlog/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/lastlog/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>setgid</title>
+      <title>Setgid</title>
       <link>//networknoob.net/tags/setgid/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/setgid/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>setuid</title>
+      <title>Setuid</title>
       <link>//networknoob.net/tags/setuid/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/setuid/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>sticky bit</title>
+      <title>Sticky Bit</title>
       <link>//networknoob.net/tags/sticky-bit/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/sticky-bit/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>ACLs</title>
       <link>//networknoob.net/tags/acls/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/acls/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>umask</title>
+      <title>Umask</title>
       <link>//networknoob.net/tags/umask/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/umask/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>quotes</title>
+      <title>Quotes</title>
       <link>//networknoob.net/tags/quotes/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/quotes/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>code</title>
+      <title>Code</title>
       <link>//networknoob.net/tags/code/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/code/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>coding</title>
+      <title>Coding</title>
       <link>//networknoob.net/tags/coding/</link>
       <pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/coding/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>kvm</title>
+      <title>Kvm</title>
       <link>//networknoob.net/tags/kvm/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/kvm/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>//networknoob.net/tags/git/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/git/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>IOS</title>
       <link>//networknoob.net/tags/ios/</link>
       <pubDate>Fri, 03 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ios/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>dual boot</title>
+      <title>Dual Boot</title>
       <link>//networknoob.net/tags/dual-boot/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/dual-boot/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>grub</title>
+      <title>Grub</title>
       <link>//networknoob.net/tags/grub/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/grub/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>world of warcraft</title>
+      <title>World of Warcraft</title>
       <link>//networknoob.net/tags/world-of-warcraft/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/world-of-warcraft/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>words of wisdom</title>
+      <title>Words of Wisdom</title>
       <link>//networknoob.net/tags/words-of-wisdom/</link>
       <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/words-of-wisdom/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>yum</title>
+      <title>Yum</title>
       <link>//networknoob.net/tags/yum/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/yum/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>cool stuff</title>
+      <title>Cool Stuff</title>
       <link>//networknoob.net/tags/cool-stuff/</link>
       <pubDate>Sat, 24 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/cool-stuff/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ansible</title>
+      <title>Ansible</title>
       <link>//networknoob.net/tags/ansible/</link>
       <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/ansible/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>osx</title>
+      <title>Osx</title>
       <link>//networknoob.net/tags/osx/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/osx/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>windows</title>
+      <title>Windows</title>
       <link>//networknoob.net/tags/windows/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/windows/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>vpn</title>
+      <title>Vpn</title>
       <link>//networknoob.net/tags/vpn/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>//networknoob.net/tags/vpn/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

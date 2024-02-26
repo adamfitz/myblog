@@ -2,8 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//networknoob.net/tags/dual-boot/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/2024/02/25/dual_boot_time_issue/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>//networknoob.net/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/post/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//networknoob.net/tags/windows/</loc>
+    <lastmod>2024-02-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/ospf/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
@@ -11,13 +26,7 @@
     <loc>//networknoob.net/2023/03/26/ospf_virtual_links/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//networknoob.net/post/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//networknoob.net/tags/spcor/</loc>
-    <lastmod>2023-03-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/</loc>
     <lastmod>2023-03-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/tags/virtual-links/</loc>
@@ -221,9 +230,6 @@
     <loc>//networknoob.net/2020/07/03/ssh-options-for-ancient-ios-version/</loc>
     <lastmod>2020-07-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//networknoob.net/tags/dual-boot/</loc>
-    <lastmod>2020-07-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//networknoob.net/tags/grub/</loc>
     <lastmod>2020-07-02T00:00:00+00:00</lastmod>
   </url><url>
@@ -285,9 +291,6 @@
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/2017/05/28/ping/</loc>
-    <lastmod>2017-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>//networknoob.net/tags/windows/</loc>
     <lastmod>2017-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//networknoob.net/2017/01/19/linux-mint-cinnamon-adding-task-bar-to-secondary-monitor/</loc>

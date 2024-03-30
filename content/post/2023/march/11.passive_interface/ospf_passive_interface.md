@@ -6,8 +6,6 @@ tags = [ 'ospf basics', 'passive interface', 'IOSXE', 'IOSXR', 'spcor']
 draft = false
 +++
 
-# OSPF Basics - passive interface
-
 Using the ```passive interface``` or ```passive enable``` command in OSPF stops an adjacency forming over a specific 
 router interface.  An interface that has been set to passive still has its IP address injected into the OSPF domain 
 and is seen as a STUB network.

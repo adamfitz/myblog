@@ -6,7 +6,6 @@ tags = ['ospf', 'virtual links', 'spcor']
 draft = false
 +++
 
-# OSPF Virtual Links
 
 The overall concept of an OSPF virtual link is simple, a virtual connection from one area 
 to join it to the backbone through another area, when no physical connection to the backbone area exists.

@@ -6,8 +6,6 @@ tags = [ 'ospf basics', 'ospf adjacency', 'IOSXE', 'spcor']
 draft = false
 +++
 
-# Troubleshooting OSPF adjacency with Wireshark
-
 In this post I will demonstrate how to use wireshark to troubleshoot an area type mismatch.  I came across this while 
 labbing basic OSPF configuration and finding that one of the neighbour adjacencies would not form.  The issue was that 
 on router NSSA-R1 I had correctly configured ```area 23 nssa``` to enable the NSSA area, however on the adjacent router

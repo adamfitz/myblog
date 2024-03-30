@@ -6,7 +6,6 @@ tags = [ 'ubuntu', 'wireless', 'asus-B550-E']
 draft = false
 +++
 
-# Wireless adapter missing when dual booting Windows 10 and ubuntu 22.04
 
 I dual boot Ubuntu 22.04 and Windows 10 on my desktop machine which is using the onboard wireless provided by 
 my ASUS B550-E motherboard.  I noticed that sometimes when I booted into Ubuntu the wireless adapter was reported missing 

@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dual boot on Networknoob</title>
-    <link>/networknoob.net/tags/dual-boot/</link>
+    <link>networknoob.net/tags/dual-boot/</link>
     <description>Recent content in dual boot on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/dual-boot/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/dual-boot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dual boot Windows/Linux time sync issues</title>
-      <link>/networknoob.net/post/2024/february/dual_boot_time_issue/</link>
+      <link>networknoob.net/post/2024/february/dual_boot_time_issue/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2024/february/dual_boot_time_issue/</guid>
+      <guid>networknoob.net/post/2024/february/dual_boot_time_issue/</guid>
       <description>Windows time issues when dual booting There is an annoying issue when dual booting Windows and Linux where after using linux and the restarting into windows the time is wrong. According to tthe information here this is because most operating systems store the time on the hardware clock as UTC by default, but Windows does not and stores it instead in local time.
 There is a registry change that will will fix this issue as described here, by changing (or adding if it does not exist) the below registry key:</description>
     </item>
     
     <item>
       <title>grub and dual booting linux/window</title>
-      <link>/networknoob.net/post/2020/july/grub-dual-boot/</link>
+      <link>networknoob.net/post/2020/july/grub-dual-boot/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2020/july/grub-dual-boot/</guid>
+      <guid>networknoob.net/post/2020/july/grub-dual-boot/</guid>
       <description>If you are dual booting linux and windows somewhere along the way you might find that the grub boot loader gets overwritten and you can only boot one operating system.
 This is usually an easy fix, set your bios to boot from you linux hdd and once linux has loaded open a terminal and type the following:
 sudo update-grub This will cause grub to regenerate its config file which should find you windows (or other OS installs), add them all to the boot loader menu and reinstate grub to the MBR.</description>

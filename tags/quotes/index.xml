@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>quotes on Networknoob</title>
-    <link>/networknoob.net/tags/quotes/</link>
+    <link>networknoob.net/tags/quotes/</link>
     <description>Recent content in quotes on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Quotes: Human spirit</title>
-      <link>/networknoob.net/post/2021/march/quotes-human-spirit/</link>
+      <link>networknoob.net/post/2021/march/quotes-human-spirit/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2021/march/quotes-human-spirit/</guid>
+      <guid>networknoob.net/post/2021/march/quotes-human-spirit/</guid>
       <description>The quickest way to kill the human spirit is to ask someone to do mediocre work.
  Ayn Rand</description>
     </item>
     
     <item>
       <title>Quotes: Serivce to others</title>
-      <link>/networknoob.net/post/2020/august/quotes-service-to-others/</link>
+      <link>networknoob.net/post/2020/august/quotes-service-to-others/</link>
       <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2020/august/quotes-service-to-others/</guid>
+      <guid>networknoob.net/post/2020/august/quotes-service-to-others/</guid>
       <description>“Service to others is the rent you pay for your room here on Earth.”
  Muhammad Ali</description>
     </item>
     
     <item>
       <title>Quotes: A note on internetwork naming, addressing and routing</title>
-      <link>/networknoob.net/post/2020/june/quotes-a-note-on-internetwork-naming-addressing-and-routing/</link>
+      <link>networknoob.net/post/2020/june/quotes-a-note-on-internetwork-naming-addressing-and-routing/</link>
       <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2020/june/quotes-a-note-on-internetwork-naming-addressing-and-routing/</guid>
+      <guid>networknoob.net/post/2020/june/quotes-a-note-on-internetwork-naming-addressing-and-routing/</guid>
       <description>The name of a resource indicates what we seek, the address indicates where it is and a route tells us how to get there.
  John F Shock</description>
     </item>
     
     <item>
       <title>Quotes: Making Mistakes</title>
-      <link>/networknoob.net/post/2020/february/quotes-making-mistakes/</link>
+      <link>networknoob.net/post/2020/february/quotes-making-mistakes/</link>
       <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2020/february/quotes-making-mistakes/</guid>
+      <guid>networknoob.net/post/2020/february/quotes-making-mistakes/</guid>
       <description>&amp;ldquo;The most valuable thing you can make is a mistake – you can&amp;rsquo;t learn anything from being perfect.&amp;rdquo; – Adam Osborne
  Programming Wisdom (@CodeWisdom) - February 21, 2020</description>
     </item>
     
     <item>
       <title>Quotes: We the willing</title>
-      <link>/networknoob.net/post/2018/april/quotes-we-the-willing/</link>
+      <link>networknoob.net/post/2018/april/quotes-we-the-willing/</link>
       <pubDate>Sun, 22 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2018/april/quotes-we-the-willing/</guid>
+      <guid>networknoob.net/post/2018/april/quotes-we-the-willing/</guid>
       <description>I found this recently, and after some googling it is apparently this is an edited version of a quote made by Konstantin Jireček (make of that what you will), in this instance applied to the daily grind of IT workers.
  “We, the unwilling, led by the unable, have been doing the unbelievable for so long, with so little, that now we attempt to do the impossible with nothing”.
  </description>
@@ -60,10 +60,10 @@
     
     <item>
       <title>Quotes: Non uniformity</title>
-      <link>/networknoob.net/post/2017/july/quotes-non-uniformity/</link>
+      <link>networknoob.net/post/2017/july/quotes-non-uniformity/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2017/july/quotes-non-uniformity/</guid>
+      <guid>networknoob.net/post/2017/july/quotes-non-uniformity/</guid>
       <description>I saw this tweet a while back which pretty well sums up most IT operations in the industry in general and why it needs to change.
  A thing SRE has taught me more than previous roles: non-uniformity (of code, infra, process) is expensive.
  Sinjo (@ChrisSinjo) April 12, 2017</description>
@@ -71,10 +71,10 @@
     
     <item>
       <title>Quotes: Inovation and Enterprise IT</title>
-      <link>/networknoob.net/post/2016/november/quotes_innovation_and_enterprise_it/</link>
+      <link>networknoob.net/post/2016/november/quotes_innovation_and_enterprise_it/</link>
       <pubDate>Sun, 20 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2016/november/quotes_innovation_and_enterprise_it/</guid>
+      <guid>networknoob.net/post/2016/november/quotes_innovation_and_enterprise_it/</guid>
       <description>“You would expect any decent organisation to innovate in their core business and try to get better in what they do in their core business. Whereas in a typical enterprise space, IT is just a support function like plumbing or janitors.”
  Ivan Pepelnjak - Software Gone Wild – Episode 66: Becoming a Programmer</description>
     </item>

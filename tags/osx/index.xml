@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>osx on Networknoob</title>
-    <link>/networknoob.net/tags/osx/</link>
+    <link>networknoob.net/tags/osx/</link>
     <description>Recent content in osx on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/osx/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/osx/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ping</title>
-      <link>/networknoob.net/post/2017/may/ping/</link>
+      <link>networknoob.net/post/2017/may/ping/</link>
       <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2017/may/ping/</guid>
+      <guid>networknoob.net/post/2017/may/ping/</guid>
       <description>I saw a tweet from Jeremy stretch at packetlife the other day about showing the ping statistics in linux without stopping the ping command which I had never seen used before (I obviously should have RTFM :P). After which @jmhuwe and @synteki chimed in with the windows and OSX equivalents as per the below, thanks!
 Linux – CTRL + \
 Windows – CTRL + Break

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spcor services on Networknoob</title>
-    <link>/networknoob.net/tags/spcor-services/</link>
+    <link>networknoob.net/tags/spcor-services/</link>
     <description>Recent content in spcor services on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/spcor-services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/spcor-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - Services</title>
-      <link>/networknoob.net/post/2022/november/4.ccnp-spcor-services/</link>
+      <link>networknoob.net/post/2022/november/4.ccnp-spcor-services/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2022/november/4.ccnp-spcor-services/</guid>
+      <guid>networknoob.net/post/2022/november/4.ccnp-spcor-services/</guid>
       <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
 4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
 Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?

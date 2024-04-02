@@ -2,98 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Networknoob</title>
-    <link>/networknoob.net/tags/</link>
+    <link>networknoob.net/tags/</link>
     <description>Recent content in Tags on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>dual boot</title>
-      <link>/networknoob.net/tags/dual-boot/</link>
+      <link>networknoob.net/tags/dual-boot/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/dual-boot/</guid>
+      <guid>networknoob.net/tags/dual-boot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>windows</title>
-      <link>/networknoob.net/tags/windows/</link>
+      <link>networknoob.net/tags/windows/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/windows/</guid>
+      <guid>networknoob.net/tags/windows/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ospf</title>
-      <link>/networknoob.net/tags/ospf/</link>
+      <link>networknoob.net/tags/ospf/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/ospf/</guid>
+      <guid>networknoob.net/tags/ospf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>spcor</title>
-      <link>/networknoob.net/tags/spcor/</link>
+      <link>networknoob.net/tags/spcor/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/spcor/</guid>
+      <guid>networknoob.net/tags/spcor/</guid>
       <description></description>
     </item>
     
     <item>
       <title>virtual links</title>
-      <link>/networknoob.net/tags/virtual-links/</link>
+      <link>networknoob.net/tags/virtual-links/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/virtual-links/</guid>
+      <guid>networknoob.net/tags/virtual-links/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IOSXE</title>
-      <link>/networknoob.net/tags/iosxe/</link>
+      <link>networknoob.net/tags/iosxe/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/iosxe/</guid>
+      <guid>networknoob.net/tags/iosxe/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ospf adjacency</title>
-      <link>/networknoob.net/tags/ospf-adjacency/</link>
+      <link>networknoob.net/tags/ospf-adjacency/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/ospf-adjacency/</guid>
+      <guid>networknoob.net/tags/ospf-adjacency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ospf basics</title>
-      <link>/networknoob.net/tags/ospf-basics/</link>
+      <link>networknoob.net/tags/ospf-basics/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/ospf-basics/</guid>
+      <guid>networknoob.net/tags/ospf-basics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IOSXR</title>
-      <link>/networknoob.net/tags/iosxr/</link>
+      <link>networknoob.net/tags/iosxr/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/iosxr/</guid>
+      <guid>networknoob.net/tags/iosxr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>passive interface</title>
-      <link>/networknoob.net/tags/passive-interface/</link>
+      <link>networknoob.net/tags/passive-interface/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/tags/passive-interface/</guid>
+      <guid>networknoob.net/tags/passive-interface/</guid>
       <description></description>
     </item>
     

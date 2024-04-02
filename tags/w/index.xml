@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>w on Networknoob</title>
-    <link>/networknoob.net/tags/w/</link>
+    <link>networknoob.net/tags/w/</link>
     <description>Recent content in w on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/w/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/w/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>w and who</title>
-      <link>/networknoob.net/post/2021/april/w-and-who/</link>
+      <link>networknoob.net/post/2021/april/w-and-who/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2021/april/w-and-who/</guid>
+      <guid>networknoob.net/post/2021/april/w-and-who/</guid>
       <description>who The who command displays the users (who) are currently logged into the system, the time the user logged in and the source (remote) IP or tty line the user is connected via.
 [user1@server1 ~]$ who root pts/0 2021-04-06 06:05 (192.168.122.1) user1 pts/1 2021-04-06 06:13 (192.168.122.1) root tty2 2021-04-06 06:12 (tty2) w The w command displays the currently logged in users and what they are doing. For example the w command shows the tty name, login time, idle time, and the command line of the current process.</description>
     </item>

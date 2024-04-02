@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>world of warcraft on Networknoob</title>
-    <link>/networknoob.net/tags/world-of-warcraft/</link>
+    <link>networknoob.net/tags/world-of-warcraft/</link>
     <description>Recent content in world of warcraft on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/world-of-warcraft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 24 Dec 2019 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/world-of-warcraft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cassic WoW Commands</title>
-      <link>/networknoob.net/post/2019/december/class-wow-camera/</link>
+      <link>networknoob.net/post/2019/december/class-wow-camera/</link>
       <pubDate>Tue, 24 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2019/december/class-wow-camera/</guid>
+      <guid>networknoob.net/post/2019/december/class-wow-camera/</guid>
       <description>Setting the camera distance further than the slider allows:
 /console cameraDistanceMaxZoomFactor 4 </description>
     </item>

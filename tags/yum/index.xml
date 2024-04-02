@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>yum on Networknoob</title>
-    <link>/networknoob.net/tags/yum/</link>
+    <link>networknoob.net/tags/yum/</link>
     <description>Recent content in yum on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/yum/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/yum/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>yum commands</title>
-      <link>/networknoob.net/post/2019/october/yum-commands/</link>
+      <link>networknoob.net/post/2019/october/yum-commands/</link>
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/networknoob.net/post/2019/october/yum-commands/</guid>
+      <guid>networknoob.net/post/2019/october/yum-commands/</guid>
       <description>Equivalent of apt-get update
 yum check-update List configured (enabled) repositories
 yum repolist Fixing duplicate packages

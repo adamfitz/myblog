@@ -20,16 +20,23 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-    # Install hugo extended
-    - name: Install Hugo
-      run: sudo snap install hugo
-
     # Step 1 - Checks-out your repository under $GITHUB_WORKSPACE
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v3
       with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+    #Step 2 - Sets up the latest version of Hugo
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2
+      with:
+          hugo-version: 'latest'
+          extended: true
+    # Manually install hugo
+    #- name: Install Hugo
+    #  run: sudo snap install hugo
+
 
     # Step 3 - Clean and don't fail
     - name: Clean public directory

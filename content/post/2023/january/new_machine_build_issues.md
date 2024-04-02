@@ -6,8 +6,6 @@ tags = [ 'new pc', 'no POST', 'EXPO']
 draft = false
 +++
 
-# New PC build that would not post
-
 Over the xmas break I helped a mate put together a new desktop, consisting of an ASUS PRIME X670-P board, 32gb ram, 
 Ryzen 7 7700 and an MSI Ventus 3x RTX 4080 with an 850w Seasonic PSU in a Fractal case.
 

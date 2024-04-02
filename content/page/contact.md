@@ -5,4 +5,4 @@ date = "2011-11-11"
 author = "fitzi"
 +++
 
-Reach out via linkedin.com or email, links at the top of the page.
+Reach out via linkedin.com or email, links on the main page or in the footer.

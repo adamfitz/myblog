@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>passive interface on Networknoob</title>
-    <link>networknoob.net/tags/passive-interface/</link>
+    <link>https://networknoob.net/tags/passive-interface/</link>
     <description>Recent content in passive interface on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/passive-interface/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/passive-interface/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OSPF basics - Passive Interface</title>
-      <link>networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</link>
+      <link>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</guid>
+      <guid>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</guid>
       <description>Using the passive interface or passive enable command in OSPF stops an adjacency forming over a specific router interface. An interface that has been set to passive still has its IP address injected into the OSPF domain and is seen as a STUB network.
 This allows interface addresses to be advertised into the OSPF domain but also stops LSA generation / flooding from occurring for interfaces where an adjacency is not expected to be formed.</description>
     </item>

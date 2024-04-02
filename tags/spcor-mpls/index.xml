@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spcor mpls on Networknoob</title>
-    <link>networknoob.net/tags/spcor-mpls/</link>
+    <link>https://networknoob.net/tags/spcor-mpls/</link>
     <description>Recent content in spcor mpls on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/spcor-mpls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/spcor-mpls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - MPLS and Segment Routing</title>
-      <link>networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
+      <link>https://networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
+      <guid>https://networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
       <description>3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
 3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR
 3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE

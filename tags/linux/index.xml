@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>linux on Networknoob</title>
-    <link>networknoob.net/tags/linux/</link>
+    <link>https://networknoob.net/tags/linux/</link>
     <description>Recent content in linux on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chage, usermod, passwd</title>
-      <link>networknoob.net/post/2021/april/chage-usermod-passwd/</link>
+      <link>https://networknoob.net/post/2021/april/chage-usermod-passwd/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/april/chage-usermod-passwd/</guid>
+      <guid>https://networknoob.net/post/2021/april/chage-usermod-passwd/</guid>
       <description>Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
 chage Only has the capability to modify a user accounts password expiry information.
 [root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account.</description>
@@ -20,30 +20,30 @@ chage Only has the capability to modify a user accounts password expiry informat
     
     <item>
       <title>w and who</title>
-      <link>networknoob.net/post/2021/april/w-and-who/</link>
+      <link>https://networknoob.net/post/2021/april/w-and-who/</link>
       <pubDate>Wed, 07 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/april/w-and-who/</guid>
+      <guid>https://networknoob.net/post/2021/april/w-and-who/</guid>
       <description>who The who command displays the users (who) are currently logged into the system, the time the user logged in and the source (remote) IP or tty line the user is connected via.
 [user1@server1 ~]$ who root pts/0 2021-04-06 06:05 (192.168.122.1) user1 pts/1 2021-04-06 06:13 (192.168.122.1) root tty2 2021-04-06 06:12 (tty2) w The w command displays the currently logged in users and what they are doing. For example the w command shows the tty name, login time, idle time, and the command line of the current process.</description>
     </item>
     
     <item>
       <title>last, lastb and lastlog</title>
-      <link>networknoob.net/post/2021/april/last-lastb-and-lastlog/</link>
+      <link>https://networknoob.net/post/2021/april/last-lastb-and-lastlog/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/april/last-lastb-and-lastlog/</guid>
+      <guid>https://networknoob.net/post/2021/april/last-lastb-and-lastlog/</guid>
       <description>These three tools outlined below are available in linux to audit user logins, server reboots and failed login attempts.
 last The last command displays a list of users and when they last logged into the system. This includes the psuedo user reboot, which will log an entry each time the system is rebooted. Filtering to a specific user (reboot) as shown below will list all the system reboots since the log file was created.</description>
     </item>
     
     <item>
       <title>setuid, setgid and sticky bit</title>
-      <link>networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</link>
+      <link>https://networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</link>
       <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</guid>
+      <guid>https://networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</guid>
       <description>setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
 If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).
 The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.</description>
@@ -51,20 +51,20 @@ The below example shows a lowercase s in the user column meaning that the setuid
     
     <item>
       <title>Part 2: linux Default ACLs</title>
-      <link>networknoob.net/post/2021/march/part-2-linux-default-acls/</link>
+      <link>https://networknoob.net/post/2021/march/part-2-linux-default-acls/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/part-2-linux-default-acls/</guid>
+      <guid>https://networknoob.net/post/2021/march/part-2-linux-default-acls/</guid>
       <description>Default ACLs can only be applied to directories and their subsequent subdirs and files. Permissions apply recursively to all subdirectories and files within them, however default ACL permissions only apply to files and subdirectories created AFTER the default ACL is applied. Existing files and subdirectories do not automatically inherit permissions from the default ACL.
 The below example shows the modification of directory permissions with a default ACL for members of the test group named, colab_group:</description>
     </item>
     
     <item>
       <title>Part1: linux Access ACLs</title>
-      <link>networknoob.net/post/2021/march/part1-linux-access-acls/</link>
+      <link>https://networknoob.net/post/2021/march/part1-linux-access-acls/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/part1-linux-access-acls/</guid>
+      <guid>https://networknoob.net/post/2021/march/part1-linux-access-acls/</guid>
       <description>ACLs are extended permissions for users or groups in addition to the normal ugo/rwx file permissions. These can be assigned to files (access ACLs) and directories (default ACLs).
 ACLs changes can be applied with the setfacl command or viewed with the getfacl command.
 There are a number of arguments that can be used with the setfacl command, a few useful ones can be seen in the table below:
@@ -73,10 +73,10 @@ Example: modifying an access ACL:</description>
     
     <item>
       <title>umask and symbolic notation</title>
-      <link>networknoob.net/post/2021/march/umask-and-symbolic-notation/</link>
+      <link>https://networknoob.net/post/2021/march/umask-and-symbolic-notation/</link>
       <pubDate>Wed, 17 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/umask-and-symbolic-notation/</guid>
+      <guid>https://networknoob.net/post/2021/march/umask-and-symbolic-notation/</guid>
       <description>While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
 Taking a look at the umask(1p) page under the operands section it is mentioned:
  In a symbolic_mode value, the permissions op characters &amp;lsquo;+&amp;rsquo; and &amp;lsquo;-&amp;rsquo; shall be interpreted relative to the current file mode creation mask; &amp;lsquo;+&amp;rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &amp;lsquo;-&amp;rsquo; shall cause the bits for the indicated permissions to be set in the mask.</description>
@@ -84,30 +84,30 @@ Taking a look at the umask(1p) page under the operands section it is mentioned:
     
     <item>
       <title>the purpose of umask</title>
-      <link>networknoob.net/post/2021/march/the-purpose-of-umask/</link>
+      <link>https://networknoob.net/post/2021/march/the-purpose-of-umask/</link>
       <pubDate>Mon, 15 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/the-purpose-of-umask/</guid>
+      <guid>https://networknoob.net/post/2021/march/the-purpose-of-umask/</guid>
       <description>When defining default permission for files (0666) and directories (0777) linux has a default set of permissions for each as noted. However if you as a user create a file or directory you will notice that the permissions are not in fact 0666 for a file or 0777 for a directory this is seen below:
 # test file with permissions 0664 $ touch test_file $ ls -l test_file -rw-rw-r--. 1 user1 user1 0 Mar 15 06:19 test_file # test dir with permissions 0775 $ mkdir test_dir $ ls -l | grep test_dir drwxrwxr-x.</description>
     </item>
     
     <item>
       <title>sharing clipboard between kvm host and guest</title>
-      <link>networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</link>
+      <link>https://networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</guid>
+      <guid>https://networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</guid>
       <description>This took some searching as the actual fix was a little difficult to find as most solutions didn’t include adding the channel to the guest. Thanks to reddit user 0x4c47 for this fix.
  Open your virt-manager and open the machine. If it’s running, shut it down. Open the hardware details of the virtual machine. Choose “Add Hardware” and choose channel. Then select “com.redhat.spice.0” (or similar) as name and “Spice agent (spicevmc)” as device type.</description>
     </item>
     
     <item>
       <title>Display name and size of sub directories by using du and sort</title>
-      <link>networknoob.net/post/2021/january/display-name-and-size-of-sub-directories-by-using-du-and-sort/</link>
+      <link>https://networknoob.net/post/2021/january/display-name-and-size-of-sub-directories-by-using-du-and-sort/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/january/display-name-and-size-of-sub-directories-by-using-du-and-sort/</guid>
+      <guid>https://networknoob.net/post/2021/january/display-name-and-size-of-sub-directories-by-using-du-and-sort/</guid>
       <description>I used the below command to go through the contents of my google drive (free plan) to find out what I can remove to remain under the 15gb limit, which also include gmail size. I would have found this on the internet somewhere like stack exchange, but I dont have the original link.
 du -hs * | sort -h </description>
     </item>

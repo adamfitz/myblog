@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ACLs on Networknoob</title>
-    <link>networknoob.net/tags/acls/</link>
+    <link>https://networknoob.net/tags/acls/</link>
     <description>Recent content in ACLs on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/acls/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/acls/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 2: linux Default ACLs</title>
-      <link>networknoob.net/post/2021/march/part-2-linux-default-acls/</link>
+      <link>https://networknoob.net/post/2021/march/part-2-linux-default-acls/</link>
       <pubDate>Tue, 23 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/part-2-linux-default-acls/</guid>
+      <guid>https://networknoob.net/post/2021/march/part-2-linux-default-acls/</guid>
       <description>Default ACLs can only be applied to directories and their subsequent subdirs and files. Permissions apply recursively to all subdirectories and files within them, however default ACL permissions only apply to files and subdirectories created AFTER the default ACL is applied. Existing files and subdirectories do not automatically inherit permissions from the default ACL.
 The below example shows the modification of directory permissions with a default ACL for members of the test group named, colab_group:</description>
     </item>
     
     <item>
       <title>Part1: linux Access ACLs</title>
-      <link>networknoob.net/post/2021/march/part1-linux-access-acls/</link>
+      <link>https://networknoob.net/post/2021/march/part1-linux-access-acls/</link>
       <pubDate>Mon, 22 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2021/march/part1-linux-access-acls/</guid>
+      <guid>https://networknoob.net/post/2021/march/part1-linux-access-acls/</guid>
       <description>ACLs are extended permissions for users or groups in addition to the normal ugo/rwx file permissions. These can be assigned to files (access ACLs) and directories (default ACLs).
 ACLs changes can be applied with the setfacl command or viewed with the getfacl command.
 There are a number of arguments that can be used with the setfacl command, a few useful ones can be seen in the table below:

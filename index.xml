@@ -2,77 +2,77 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Networknoob</title>
-    <link>networknoob.net/</link>
+    <link>https://networknoob.net/</link>
     <description>Recent content on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 25 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dual boot Windows/Linux time sync issues</title>
-      <link>networknoob.net/post/2024/february/dual_boot_time_issue/</link>
+      <link>https://networknoob.net/post/2024/february/dual_boot_time_issue/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2024/february/dual_boot_time_issue/</guid>
+      <guid>https://networknoob.net/post/2024/february/dual_boot_time_issue/</guid>
       <description>Windows time issues when dual booting There is an annoying issue when dual booting Windows and Linux where after using linux and the restarting into windows the time is wrong. According to tthe information here this is because most operating systems store the time on the hardware clock as UTC by default, but Windows does not and stores it instead in local time.
 There is a registry change that will will fix this issue as described here, by changing (or adding if it does not exist) the below registry key:</description>
     </item>
     
     <item>
       <title>OSPF Virtual Links</title>
-      <link>networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</link>
+      <link>https://networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</guid>
+      <guid>https://networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</guid>
       <description>The overall concept of an OSPF virtual link is simple, a virtual connection from one area to join it to the backbone through another area, when no physical connection to the backbone area exists.
 The configuration could be a little confusing, essentially you want to create a link between the router in the partitioned area (area without the physical connection) and the router within the transit area (connected to the backbone area).</description>
     </item>
     
     <item>
       <title>Troubleshooting OSPF adjacency with Wireshark</title>
-      <link>networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</link>
+      <link>https://networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</guid>
+      <guid>https://networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</guid>
       <description>In this post I will demonstrate how to use wireshark to troubleshoot an area type mismatch. I came across this while labbing basic OSPF configuration and finding that one of the neighbour adjacencies would not form. The issue was that on router NSSA-R1 I had correctly configured area 23 nssa to enable the NSSA area, however on the adjacent router (IOS-XE-2) I had accidentally configured area 23 stub.
 The relevant lab topology I am using is as follows:</description>
     </item>
     
     <item>
       <title>OSPF basics - Passive Interface</title>
-      <link>networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</link>
+      <link>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</guid>
+      <guid>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</guid>
       <description>Using the passive interface or passive enable command in OSPF stops an adjacency forming over a specific router interface. An interface that has been set to passive still has its IP address injected into the OSPF domain and is seen as a STUB network.
 This allows interface addresses to be advertised into the OSPF domain but also stops LSA generation / flooding from occurring for interfaces where an adjacency is not expected to be formed.</description>
     </item>
     
     <item>
       <title>New desktop build no POST and random crashes</title>
-      <link>networknoob.net/post/2023/january/new_machine_build_issues/</link>
+      <link>https://networknoob.net/post/2023/january/new_machine_build_issues/</link>
       <pubDate>Sun, 22 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2023/january/new_machine_build_issues/</guid>
+      <guid>https://networknoob.net/post/2023/january/new_machine_build_issues/</guid>
       <description>Over the xmas break I helped a mate put together a new desktop, consisting of an ASUS PRIME X670-P board, 32gb ram, Ryzen 7 7700 and an MSI Ventus 3x RTX 4080 with an 850w Seasonic PSU in a Fractal case.
 We assembled the hardware and proceeded to spend a couple of hours trying to work out why it would not POST. No beep codes, no output on the screen. Eventually we started to strip the machine back to nothing but the RAM, when we noticed that removing (unplugging) one of the fans from the Nocturna cooler fans the system proceeded to POST.</description>
     </item>
     
     <item>
       <title>Ubuntu 22.04 wireless adapter issue dual boot with Windows 10</title>
-      <link>networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</link>
+      <link>https://networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</guid>
+      <guid>https://networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</guid>
       <description>I dual boot Ubuntu 22.04 and Windows 10 on my desktop machine which is using the onboard wireless provided by my ASUS B550-E motherboard. I noticed that sometimes when I booted into Ubuntu the wireless adapter was reported missing by the operating system.
 I found that this only happens if I reboot into Ubuntu after first using Windows 10. Digging deeper I found an explanation of the issue on the kernel.</description>
     </item>
     
     <item>
       <title>CCNP SPCOR - Automation and Assurance</title>
-      <link>networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</link>
+      <link>https://networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</guid>
+      <guid>https://networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</guid>
       <description>5.0 Automation and Assurance The automation and assurance topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below.
 5.1 Describe the programmable APIs used to include Cisco devices in network automation Blog: denetdan.com - NETCONF Vs. RESTCONF
 RFC 8040: RESTCONF Protocol
@@ -82,10 +82,10 @@ RFC 6241: Network Configuration Protocol (NETCONF)
     
     <item>
       <title>CCNP SPCOR - Services</title>
-      <link>networknoob.net/post/2022/november/4.ccnp-spcor-services/</link>
+      <link>https://networknoob.net/post/2022/november/4.ccnp-spcor-services/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/november/4.ccnp-spcor-services/</guid>
+      <guid>https://networknoob.net/post/2022/november/4.ccnp-spcor-services/</guid>
       <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
 4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
 Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?
@@ -96,10 +96,10 @@ Book: MPLS and VPN Architectures CCIP Edition</description>
     
     <item>
       <title>CCNP SPCOR - MPLS and Segment Routing</title>
-      <link>networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
+      <link>https://networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
+      <guid>https://networknoob.net/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
       <description>3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
 3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR
 3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE
@@ -109,10 +109,10 @@ Cisco Documentation: Configuring LDP IGP Synchronization: OSPF - IOS-XR
     
     <item>
       <title>CCNP SPCOR - Networking</title>
-      <link>networknoob.net/post/2022/october/2.ccnp-spcor-networking/</link>
+      <link>https://networknoob.net/post/2022/october/2.ccnp-spcor-networking/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/october/2.ccnp-spcor-networking/</guid>
+      <guid>https://networknoob.net/post/2022/october/2.ccnp-spcor-networking/</guid>
       <description>2.0 Networking Topics The Networking topics section is 30% of the overall exam, the topics and associated study materials I am using/collecting is below.
 2.1 Implement IS-IS (IPv6 and IPv6) Book: Routing TCP/IP Volume 1
  Chapter 10, Page 574 - Case Study: A basic IPv4 IS-IS Configuration Chapter 10, Page 591 - Case Study: A basic IPv6 IS-IS Configuration  Cisco Documentation: Implementing IS-IS on Cisco IOS XR Software</description>

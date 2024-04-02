@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spcor automation on Networknoob</title>
-    <link>networknoob.net/tags/spcor-automation/</link>
+    <link>https://networknoob.net/tags/spcor-automation/</link>
     <description>Recent content in spcor automation on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="networknoob.net/tags/spcor-automation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/spcor-automation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - Automation and Assurance</title>
-      <link>networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</link>
+      <link>https://networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</link>
       <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
       
-      <guid>networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</guid>
+      <guid>https://networknoob.net/post/2022/november/5.ccnp-spcor-automation-and-assurance/</guid>
       <description>5.0 Automation and Assurance The automation and assurance topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below.
 5.1 Describe the programmable APIs used to include Cisco devices in network automation Blog: denetdan.com - NETCONF Vs. RESTCONF
 RFC 8040: RESTCONF Protocol

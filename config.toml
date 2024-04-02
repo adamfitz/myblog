@@ -1,6 +1,6 @@
-baseURL = "//networknoob.net/"
+baseURL = "https://networknoob.net"
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = true
+#defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
 
 languageCode = "en-us"

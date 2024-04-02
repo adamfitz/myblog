@@ -1,0 +1,213 @@
+
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head><meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="15 days">
+<link rel="author" href="/humans.txt">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#494f5c">
+<meta name="msapplication-TileColor" content="#494f5c">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#494f5c"><meta name="author" content="fitzi"><meta name="description" content="A journey to networking expertise…one noobie step at a time.">
+<meta itemprop="name" content="chage, usermod, passwd">
+<meta itemprop="description" content="Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
+chage Only has the capability to modify a user accounts password expiry information.
+[root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account."><meta itemprop="datePublished" content="2021-04-27T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-04-12T21:30:27+10:00" />
+<meta itemprop="wordCount" content="754">
+<meta itemprop="keywords" content="chage,passwd,usermod,linux," /><meta property="og:title" content="chage, usermod, passwd" />
+<meta property="og:description" content="Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
+chage Only has the capability to modify a user accounts password expiry information.
+[root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//networknoob.net/post/2021/april/chage-usermod-passwd/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-04-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2022-04-12T21:30:27+10:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="chage, usermod, passwd"/>
+<meta name="twitter:description" content="Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
+chage Only has the capability to modify a user accounts password expiry information.
+[root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account."/>
+<title>chage, usermod, passwd</title>
+<link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="//networknoob.net/css/style.min.dc329fb01e9bbc0b9e252a7bc619c25eaf0d9741bf67519fd274e874e7e450bd.css" integrity="sha256-3DKfsB6bvAueJSp7xhnCXq8Nl0G/Z1Gf0nTodOfkUL0=" crossorigin="anonymous">
+	</head>
+<body id="page">
+	<header id="site-header" class="animated slideInUp">
+		<div class="hdr-wrapper section-inner">
+			<div class="hdr-left">
+				<div class="site-branding">
+					<a href="//networknoob.net/">Networknoob</a>
+				</div>
+				<nav class="site-nav hide-in-mobile"><a href="//networknoob.net/page/about">About</a><a href="//networknoob.net/post/">Blogs</a><a href="//networknoob.net/projects">Projects</a><a href="//networknoob.net/page/contact">Contact</a><a href="//networknoob.net/tags">tags</a></nav>
+			</div>
+			<div class="hdr-right hdr-icons">
+				<span class="hdr-social hide-in-mobile"><a href="https://github.com/adamfitz" target="_blank" rel="noopener me" title="Github"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a><a href="mailto:adam@networknoob.net" target="_blank" rel="noopener me" title="Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a><a href="https://www.linkedin.com/in/adam-fitzgerald-89247445/" target="_blank" rel="noopener me" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a href="https://www.networknoob.net/index.xml" target="_blank" rel="noopener me" title="Rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span><button id="share-btn" class="hdr-btn" title="Share"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg></button>
+ 
+<div id="share-links" class="animated fast">
+    
+    
+    
+    
+    <ul>
+        <li>
+            <a href="https://twitter.com/intent/tweet?hashtags=hermit2&amp;url=%2f%2fnetworknoob.net%2fpost%2f2021%2fapril%2fchage-usermod-passwd%2f&amp;text=chage%2c%20usermod%2c%20passwd" target="_blank" rel="noopener" aria-label="Share on X"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path class="st0" d="m21.3 21.1 -11.4 -18.2h-7.2l11.4 18.2zm-18.6 0 7.2 -6.6m4.2 -5 7.2 -6.6"/></svg></a>
+        </li>
+        <li>
+            <a href="https://facebook.com/sharer/sharer.php?u=%2f%2fnetworknoob.net%2fpost%2f2021%2fapril%2fchage-usermod-passwd%2f" target="_blank" rel="noopener" aria-label="Share on Facebook"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+        </li>
+        <li>
+            <a href="mailto:?subject=chage%2c%20usermod%2c%20passwd&amp;body=%2f%2fnetworknoob.net%2fpost%2f2021%2fapril%2fchage-usermod-passwd%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
+        </li>
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2f%2fnetworknoob.net%2fpost%2f2021%2fapril%2fchage-usermod-passwd%2f&amp;source=//networknoob.net/&amp;title=chage%2c%20usermod%2c%20passwd&amp;summary=chage%2c%20usermod%2c%20passwd%2c%20by%20fitzi%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        </li>
+        <li>
+            <a href="#" onclick="linkShare(&#34;chage, usermod, passwd&#34;,&#34;//networknoob.net/post/2021/april/chage-usermod-passwd/&#34;,&#34;chage, usermod, passwd, by fitzi\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
+        </li>
+    </ul>
+</div><button id="menu-btn" class="hdr-btn" title="Menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg></button>
+			</div>
+		</div>
+	</header>
+	<div id="mobile-menu" class="animated fast">
+		<ul>
+			<li><a href="//networknoob.net/page/about">About</a></li>
+			<li><a href="//networknoob.net/post/">Blogs</a></li>
+			<li><a href="//networknoob.net/projects">Projects</a></li>
+			<li><a href="//networknoob.net/page/contact">Contact</a></li>
+			<li><a href="//networknoob.net/tags">tags</a></li>
+		</ul>
+	</div>
+
+
+	<main class="site-main section-inner thin animated fadeIn faster">
+		<h1>chage, usermod, passwd</h1>
+		<div class="content">
+			<p><br>
+Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.</p>
+<h1 id="chage">chage<a href="#chage" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>Only has the capability to modify a user accounts password expiry information.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># chage -h</span>
+Usage: chage <span class="o">[</span>options<span class="o">]</span> LOGIN
+
+Options:
+  -d, --lastday LAST_DAY        <span class="nb">set</span> date of last password change to LAST_DAY
+  -E, --expiredate EXPIRE_DATE  <span class="nb">set</span> account expiration date to EXPIRE_DATE
+  -h, --help                    display this <span class="nb">help</span> message and <span class="nb">exit</span>
+  -I, --inactive INACTIVE       <span class="nb">set</span> password inactive after expiration
+                                to INACTIVE
+  -l, --list                    show account aging information
+  -m, --mindays MIN_DAYS        <span class="nb">set</span> minimum number of days before password
+                                change to MIN_DAYS
+  -M, --maxdays MAX_DAYS        <span class="nb">set</span> maximum number of days before password
+                                change to MAX_DAYS
+  -R, --root CHROOT_DIR         directory to chroot into
+  -W, --warndays WARN_DAYS      <span class="nb">set</span> expiration warning days to WARN_DAYS
+</code></pre></div><h1 id="passwd">passwd<a href="#passwd" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account.</p>
+<p>Locking an account will add an “!” to the beginning of the password field in /etc/shadow the corresponding unlock flag will remove this “!” from the field.</p>
+<p>Locking a user account with the passwd command is accomplished with the -l flag:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># passwd -l user10</span>
+Locking password <span class="k">for</span> user user10.
+passwd: Success
+
+<span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># grep user10 /etc/shadow</span>
+user10:!!<span class="nv">$6$xpkPmLMWCP5NFp</span>/h<span class="nv">$VYfghUJGyeRt64nQFaTLNLctrryrawaMeEBc99SpsjJv0U6rr3</span>.nLyDNfbbegB3DtIylnnB1dH.RqQ6IAJHT7.:18743:0:99999:7:::
+</code></pre></div><p>Unlocking a user account with passwd command with the -u flag, shown below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># passwd -u user10</span>
+Unlocking password <span class="k">for</span> user user10.
+passwd: Success
+
+<span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># grep user10 /etc/shadow</span>
+user10:<span class="nv">$6$xpkPmLMWCP5NFp</span>/h<span class="nv">$VYfghUJGyeRt64nQFaTLNLctrryrawaMeEBc99SpsjJv0U6rr3</span>.nLyDNfbbegB3DtIylnnB1dH.RqQ6IAJHT7.:18743:0:99999:7:::
+</code></pre></div><p>Further useful information is found in the man files or with the help command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># passwd --help</span>
+Usage: passwd <span class="o">[</span>OPTION...<span class="o">]</span> &lt;accountName&gt;
+  -k, --keep-tokens       keep non-expired authentication tokens
+  -d, --delete            delete the password <span class="k">for</span> the named account <span class="o">(</span>root only<span class="o">)</span><span class="p">;</span> also removes password lock <span class="k">if</span> any
+  -l, --lock              lock the password <span class="k">for</span> the named account <span class="o">(</span>root only<span class="o">)</span>
+  -u, --unlock            unlock the password <span class="k">for</span> the named account <span class="o">(</span>root only<span class="o">)</span>
+  -e, --expire            expire the password <span class="k">for</span> the named account <span class="o">(</span>root only<span class="o">)</span>
+  -f, --force             force operation
+  -x, --maximum<span class="o">=</span>DAYS      maximum password lifetime <span class="o">(</span>root only<span class="o">)</span>
+  -n, --minimum<span class="o">=</span>DAYS      minimum password lifetime <span class="o">(</span>root only<span class="o">)</span>
+  -w, --warning<span class="o">=</span>DAYS      number of days warning users receives before password expiration <span class="o">(</span>root only<span class="o">)</span>
+  -i, --inactive<span class="o">=</span>DAYS     number of days after password expiration when an account becomes disabled <span class="o">(</span>root only<span class="o">)</span>
+  -S, --status            report password status on the named account <span class="o">(</span>root only<span class="o">)</span>
+      --stdin             <span class="nb">read</span> new tokens from stdin <span class="o">(</span>root only<span class="o">)</span>
+
+Help options:
+  -?, --help              Show this <span class="nb">help</span> message
+      --usage             Display brief usage message
+</code></pre></div><h1 id="usermod">usermod<a href="#usermod" class="anchor" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 7h3a5 5 0 0 1 5 5 5 5 0 0 1-5 5h-3m-6 0H6a5 5 0 0 1-5-5 5 5 0 0 1 5-5h3"></path><line x1="8" y1="12" x2="16" y2="12"></line></svg></a></h1>
+<p>The usermod command is for modifying user account attributes but it may also be used to lock or unlock the user account by using the flags -L and -U respectively as seen below:</p>
+<p>Locking a user account with the usermod command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># usermod -L user10</span>
+<span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># grep user10 /etc/shadow</span>
+user10:!<span class="nv">$6$xpkPmLMWCP5NFp</span>/h<span class="nv">$VYfghUJGyeRt64nQFaTLNLctrryrawaMeEBc99SpsjJv0U6rr3</span>.nLyDNfbbegB3DtIylnnB1dH.RqQ6IAJHT7.:18743:0:99999:7:::
+</code></pre></div><p>usermod can unlock an account with the -U flag:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># usermod -U user10</span>
+<span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># grep user10 /etc/shadow</span>
+user10:<span class="nv">$6$xpkPmLMWCP5NFp</span>/h<span class="nv">$VYfghUJGyeRt64nQFaTLNLctrryrawaMeEBc99SpsjJv0U6rr3</span>.nLyDNfbbegB3DtIylnnB1dH.RqQ6IAJHT7.:18743:0:99999:7:::
+</code></pre></div><p>More flags are available for the usermod command and can be discovered via the man pages or with the help command:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="o">[</span>root@server1 ~<span class="o">]</span><span class="c1"># usermod --help</span>
+Usage: usermod <span class="o">[</span>options<span class="o">]</span> LOGIN
+
+Options:
+  -c, --comment COMMENT         new value of the GECOS field
+  -d, --home HOME_DIR           new home directory <span class="k">for</span> the user account
+  -e, --expiredate EXPIRE_DATE  <span class="nb">set</span> account expiration date to EXPIRE_DATE
+  -f, --inactive INACTIVE       <span class="nb">set</span> password inactive after expiration
+                                to INACTIVE
+  -g, --gid GROUP               force use GROUP as new primary group
+  -G, --groups GROUPS           new list of supplementary GROUPS
+  -a, --append                  append the user to the supplemental GROUPS
+                                mentioned by the -G option without removing
+                                the user from other groups
+  -h, --help                    display this <span class="nb">help</span> message and <span class="nb">exit</span>
+  -l, --login NEW_LOGIN         new value of the login name
+  -L, --lock                    lock the user account
+  -m, --move-home               move contents of the home directory to the
+                                new location <span class="o">(</span>use only with -d<span class="o">)</span>
+  -o, --non-unique              allow using duplicate <span class="o">(</span>non-unique<span class="o">)</span> UID
+  -p, --password PASSWORD       use encrypted password <span class="k">for</span> the new password
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             new login shell <span class="k">for</span> the user account
+  -u, --uid UID                 new UID <span class="k">for</span> the user account
+  -U, --unlock                  unlock the user account
+  -v, --add-subuids FIRST-LAST  add range of subordinate uids
+  -V, --del-subuids FIRST-LAST  remove range of subordinate uids
+  -w, --add-subgids FIRST-LAST  add range of subordinate gids
+  -W, --del-subgids FIRST-LAST  remove range of subordinate gids
+  -Z, --selinux-user SEUSER     new SELinux user mapping <span class="k">for</span> the user account
+</code></pre></div>
+		</div>
+	</main>
+
+<footer id="site-footer" class="section-inner thin animated fadeIn faster">
+	<p>
+		&copy; 2024 <a href="//networknoob.net/"></a>
+		&#183; Adam Fitzgerald
+		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
+		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
+		
+		&#183; <a href="//networknoob.net/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a>
+		
+	</p>
+
+</footer>
+<script async src="//networknoob.net/js/bundle.min.5034a061023fdc1bbf821910f95d3bda81bc68ba039a2c1202f0d7027638e80f.js" integrity="sha256-UDSgYQI/3Bu/ghkQ+V072oG8aLoDmiwSAvDXAnY46A8=" crossorigin="anonymous"></script><script async src="//networknoob.net/js/link-share.min.20ddc5b895a2cb52c811efd9bcf38168838be5cb8671b12ae2997bf38c34f9f0.js" integrity="sha256-IN3FuJWiy1LIEe/ZvPOBaIOL5cuGcbEq4pl784w0+fA=" crossorigin="anonymous"></script>
+</body>
+
+</html>

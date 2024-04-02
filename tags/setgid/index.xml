@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>setgid on Networknoob</title>
+    <link>//networknoob.net/tags/setgid/</link>
+    <description>Recent content in setgid on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 24 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/setgid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>setuid, setgid and sticky bit</title>
+      <link>//networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</link>
+      <pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>//networknoob.net/post/2021/march/setuid-setgid-and-sticky-bit/</guid>
+      <description>setuid The setuid command allows non owner users to run binary executable files with the same privileges as the file owner. The setuid can only be set on files and will be ignored if set on a directory.
+If an uppercase S shown in the file permissions indicates that the setuid bit has been set but the file is not executable (+x).
+The below example shows a lowercase s in the user column meaning that the setuid bit is applied to the su binary executable.</description>
+    </item>
+    
+  </channel>
+</rss>

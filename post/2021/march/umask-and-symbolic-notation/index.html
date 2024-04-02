@@ -21,23 +21,21 @@
 <meta itemprop="name" content="umask and symbolic notation">
 <meta itemprop="description" content="While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
 Taking a look at the umask(1p) page under the operands section it is mentioned:
- In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask."><meta itemprop="datePublished" content="2021-03-17T00:00:00+00:00" />
+In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask."><meta itemprop="datePublished" content="2021-03-17T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2022-04-12T21:30:27+10:00" />
 <meta itemprop="wordCount" content="355">
 <meta itemprop="keywords" content="umask,linux," /><meta property="og:title" content="umask and symbolic notation" />
 <meta property="og:description" content="While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
 Taking a look at the umask(1p) page under the operands section it is mentioned:
- In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask." />
+In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://networknoob.net/post/2021/march/umask-and-symbolic-notation/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-17T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-04-12T21:30:27+10:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="umask and symbolic notation"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="umask and symbolic notation"/>
 <meta name="twitter:description" content="While studying for the RHCSA exam I came across a question with the requirement to set the umask value using symbolic notation. This seems like a fairly simple task but I found it had one confusing quirk in that when using symbolic notation.
 Taking a look at the umask(1p) page under the operands section it is mentioned:
- In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask."/>
+In a symbolic_mode value, the permissions op characters &lsquo;&#43;&rsquo; and &lsquo;-&rsquo; shall be interpreted relative to the current file mode creation mask; &lsquo;&#43;&rsquo; shall cause the bits for the indicated permissions to be cleared in the mask; &lsquo;-&rsquo; shall cause the bits for the indicated permissions to be set in the mask."/>
 <title>umask and symbolic notation</title>
 <link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://networknoob.net/css/style.min.dc329fb01e9bbc0b9e252a7bc619c25eaf0d9741bf67519fd274e874e7e450bd.css" integrity="sha256-3DKfsB6bvAueJSp7xhnCXq8Nl0G/Z1Gf0nTodOfkUL0=" crossorigin="anonymous">
 	</head>
@@ -46,7 +44,7 @@ Taking a look at the umask(1p) page under the operands section it is mentioned:
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://networknoob.net">Networknoob</a>
+					<a href="https://networknoob.net/">Networknoob</a>
 				</div>
 				<nav class="site-nav hide-in-mobile"><a href="https://networknoob.net/page/about">About</a><a href="https://networknoob.net/post/">Blogs</a><a href="https://networknoob.net/projects">Projects</a><a href="https://networknoob.net/page/contact">Contact</a><a href="https://networknoob.net/tags">tags</a></nav>
 			</div>
@@ -69,7 +67,7 @@ Taking a look at the umask(1p) page under the operands section it is mentioned:
             <a href="mailto:?subject=umask%20and%20symbolic%20notation&amp;body=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fumask-and-symbolic-notation%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fumask-and-symbolic-notation%2f&amp;source=https://networknoob.net&amp;title=umask%20and%20symbolic%20notation&amp;summary=umask%20and%20symbolic%20notation%2c%20by%20fitzi%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fumask-and-symbolic-notation%2f&amp;source=https%3a%2f%2fnetworknoob.net%2f&amp;title=umask%20and%20symbolic%20notation&amp;summary=umask%20and%20symbolic%20notation%2c%20by%20fitzi%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
         </li>
         <li>
             <a href="#" onclick="linkShare(&#34;umask and symbolic notation&#34;,&#34;https://networknoob.net/post/2021/march/umask-and-symbolic-notation/&#34;,&#34;umask and symbolic notation, by fitzi\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
@@ -101,23 +99,23 @@ Taking a look at the umask(1p) page under the operands section it is mentioned:
 <p>This seems to indicate addition operator is ‘-‘ and subtraction operator becomes ‘+’ due to the nature of umask (initial permission minus the umask) when using symbolic notation.</p>
 <p>Without knowing or understanding this “quirk” beforehand it becomes a little confusing if you are attempting to change the default umask using symbolic notation.</p>
 <p>For example: Set the umask value to 0035 using symbolic notation. One would think that the following would be the correct way to accomplish this:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>,g<span class="o">=</span>wx,o<span class="o">=</span>rx
-</code></pre></div><p>The thinking behind this being owner has zero permissions, group set to write and execute and other set to read and execute, however checking the value after applying this value shows:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">umask</span>
-<span class="m">0742</span>
-</code></pre></div><p>Which at first seems to make no sense, the requested value is 0035, ignoring the leading zero this would equate to the following symbolic values above, zero bits in the owner column (—), 3 bits in the group column (-wx) and 5 bits in the other column (r-x).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>,g<span class="o">=</span>wx,o<span class="o">=</span>rx
+</span></span></code></pre></div><p>The thinking behind this being owner has zero permissions, group set to write and execute and other set to read and execute, however checking the value after applying this value shows:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span>
+</span></span><span class="line"><span class="cl"><span class="m">0742</span>
+</span></span></code></pre></div><p>Which at first seems to make no sense, the requested value is 0035, ignoring the leading zero this would equate to the following symbolic values above, zero bits in the owner column (—), 3 bits in the group column (-wx) and 5 bits in the other column (r-x).</p>
 <p>However this is not the case, referring to the above link where it is indicated that the umask permissions will be interpreted in relation to the current file mode.</p>
 <p>An easy way to remember this, is when setting the umask value subtract the required decimal number from 7 and then calculate the symbolic notation from the result, for example: to correctly set the value of 0035, you would be looking for the symbolic equivalent of 0742 which is:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>rwx,g<span class="o">=</span>r,o<span class="o">=</span>w
-$ <span class="nb">umask</span>
-<span class="m">0035</span>
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ <span class="nb">umask</span> <span class="nv">u</span><span class="o">=</span>rwx,g<span class="o">=</span>r,o<span class="o">=</span>w
+</span></span><span class="line"><span class="cl">$ <span class="nb">umask</span>
+</span></span><span class="line"><span class="cl"><span class="m">0035</span>
+</span></span></code></pre></div>
 		</div>
 	</main>
 
 <footer id="site-footer" class="section-inner thin animated fadeIn faster">
 	<p>
-		&copy; 2024 <a href="https://networknoob.net"></a>
+		&copy; 2024 <a href="https://networknoob.net/"></a>
 		&#183; Adam Fitzgerald
 		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
 		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
@@ -127,7 +125,7 @@ $ <span class="nb">umask</span>
 	</p>
 
 </footer>
-<script async src="https://networknoob.net/js/bundle.min.5034a061023fdc1bbf821910f95d3bda81bc68ba039a2c1202f0d7027638e80f.js" integrity="sha256-UDSgYQI/3Bu/ghkQ+V072oG8aLoDmiwSAvDXAnY46A8=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.20ddc5b895a2cb52c811efd9bcf38168838be5cb8671b12ae2997bf38c34f9f0.js" integrity="sha256-IN3FuJWiy1LIEe/ZvPOBaIOL5cuGcbEq4pl784w0+fA=" crossorigin="anonymous"></script>
+<script async src="https://networknoob.net/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -1,41 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spcor on Networknoob</title>
+    <title>Spcor on Networknoob</title>
     <link>https://networknoob.net/tags/spcor/</link>
-    <description>Recent content in spcor on Networknoob</description>
+    <description>Recent content in Spcor on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 26 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/spcor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Mar 2024 14:48:19 +1100</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/spcor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OSPF Virtual Links</title>
       <link>https://networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</link>
       <pubDate>Sun, 26 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2023/march/26.ospf_virtual_links/ospf_virtual_links/</guid>
-      <description>The overall concept of an OSPF virtual link is simple, a virtual connection from one area to join it to the backbone through another area, when no physical connection to the backbone area exists.
-The configuration could be a little confusing, essentially you want to create a link between the router in the partitioned area (area without the physical connection) and the router within the transit area (connected to the backbone area).</description>
+      <description>The overall concept of an OSPF virtual link is simple, a virtual connection from one area to join it to the backbone through another area, when no physical connection to the backbone area exists.&#xA;The configuration could be a little confusing, essentially you want to create a link between the router in the partitioned area (area without the physical connection) and the router within the transit area (connected to the backbone area).</description>
     </item>
-    
     <item>
       <title>Troubleshooting OSPF adjacency with Wireshark</title>
       <link>https://networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</guid>
-      <description>In this post I will demonstrate how to use wireshark to troubleshoot an area type mismatch. I came across this while labbing basic OSPF configuration and finding that one of the neighbour adjacencies would not form. The issue was that on router NSSA-R1 I had correctly configured area 23 nssa to enable the NSSA area, however on the adjacent router (IOS-XE-2) I had accidentally configured area 23 stub.
-The relevant lab topology I am using is as follows:</description>
+      <description>In this post I will demonstrate how to use wireshark to troubleshoot an area type mismatch. I came across this while labbing basic OSPF configuration and finding that one of the neighbour adjacencies would not form. The issue was that on router NSSA-R1 I had correctly configured area 23 nssa to enable the NSSA area, however on the adjacent router (IOS-XE-2) I had accidentally configured area 23 stub.&#xA;The relevant lab topology I am using is as follows:</description>
     </item>
-    
     <item>
       <title>OSPF basics - Passive Interface</title>
       <link>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</link>
       <pubDate>Sat, 11 Mar 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2023/march/11.passive_interface/ospf_passive_interface/</guid>
-      <description>Using the passive interface or passive enable command in OSPF stops an adjacency forming over a specific router interface. An interface that has been set to passive still has its IP address injected into the OSPF domain and is seen as a STUB network.
-This allows interface addresses to be advertised into the OSPF domain but also stops LSA generation / flooding from occurring for interfaces where an adjacency is not expected to be formed.</description>
+      <description>Using the passive interface or passive enable command in OSPF stops an adjacency forming over a specific router interface. An interface that has been set to passive still has its IP address injected into the OSPF domain and is seen as a STUB network.&#xA;This allows interface addresses to be advertised into the OSPF domain but also stops LSA generation / flooding from occurring for interfaces where an adjacency is not expected to be formed.</description>
     </item>
-    
   </channel>
 </rss>

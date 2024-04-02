@@ -34,9 +34,7 @@ Example: modifying an access ACL:" />
 <meta property="og:url" content="https://networknoob.net/post/2021/march/part1-linux-access-acls/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2021-03-22T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-04-12T21:30:27+10:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Part1: linux Access ACLs"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Part1: linux Access ACLs"/>
 <meta name="twitter:description" content="ACLs are extended permissions for users or groups in addition to the normal ugo/rwx file permissions. These can be assigned to files (access ACLs) and directories (default ACLs).
 ACLs changes can be applied with the setfacl command or viewed with the getfacl command.
 There are a number of arguments that can be used with the setfacl command, a few useful ones can be seen in the table below:
@@ -49,7 +47,7 @@ Example: modifying an access ACL:"/>
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://networknoob.net">Networknoob</a>
+					<a href="https://networknoob.net/">Networknoob</a>
 				</div>
 				<nav class="site-nav hide-in-mobile"><a href="https://networknoob.net/page/about">About</a><a href="https://networknoob.net/post/">Blogs</a><a href="https://networknoob.net/projects">Projects</a><a href="https://networknoob.net/page/contact">Contact</a><a href="https://networknoob.net/tags">tags</a></nav>
 			</div>
@@ -72,7 +70,7 @@ Example: modifying an access ACL:"/>
             <a href="mailto:?subject=Part1%3a%20linux%20Access%20ACLs&amp;body=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fpart1-linux-access-acls%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fpart1-linux-access-acls%2f&amp;source=https://networknoob.net&amp;title=Part1%3a%20linux%20Access%20ACLs&amp;summary=Part1%3a%20linux%20Access%20ACLs%2c%20by%20fitzi%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fpost%2f2021%2fmarch%2fpart1-linux-access-acls%2f&amp;source=https%3a%2f%2fnetworknoob.net%2f&amp;title=Part1%3a%20linux%20Access%20ACLs&amp;summary=Part1%3a%20linux%20Access%20ACLs%2c%20by%20fitzi%0a%0a%3cnil%3e%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
         </li>
         <li>
             <a href="#" onclick="linkShare(&#34;Part1: linux Access ACLs&#34;,&#34;https://networknoob.net/post/2021/march/part1-linux-access-acls/&#34;,&#34;Part1: linux Access ACLs, by fitzi\n\n\u003cnil\u003e\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
@@ -122,49 +120,49 @@ Example: modifying an access ACL:"/>
 </tr>
 </tbody>
 </table>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="c1"># initial test file with no extended permissions</span>
-$ getfacl -c testfile 
-user::rw-
-group::rw-
-other::r--
-</code></pre></div><p>Add user1 to the ACL with read, write and execute (7) permissions</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ setfacl -m u:user1:7 testfile 
-$ getfacl -c testfile 
-user::rw-
-user:user1:rwx
-group::rw-
-mask::rwx
-other::r--
-</code></pre></div><p>Add user3 to the ACL with read permissions 6 (r–)</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ setfacl -m u:user3:r testfile 
-$ getfacl -c testfile 
-user::rw-
-user:user1:rwx
-user:user3:r--
-group::rw-
-mask::rwx
-other::r--
-</code></pre></div><p>Remove user1 from the ACL altogether</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ setfacl -x u:user1 testfile 
-$ getfacl -c testfile 
-user::rw-
-user:user3:r--
-group::rw-
-mask::rw-
-other::r--
-</code></pre></div><p>Remove all ACL entries from file</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">$ setfacl -b testfile 
-$ getfacl testfile 
-user::rw-
-group::rw-
-other::r--
-</code></pre></div>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># initial test file with no extended permissions</span>
+</span></span><span class="line"><span class="cl">$ getfacl -c testfile 
+</span></span><span class="line"><span class="cl">user::rw-
+</span></span><span class="line"><span class="cl">group::rw-
+</span></span><span class="line"><span class="cl">other::r--
+</span></span></code></pre></div><p>Add user1 to the ACL with read, write and execute (7) permissions</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ setfacl -m u:user1:7 testfile 
+</span></span><span class="line"><span class="cl">$ getfacl -c testfile 
+</span></span><span class="line"><span class="cl">user::rw-
+</span></span><span class="line"><span class="cl">user:user1:rwx
+</span></span><span class="line"><span class="cl">group::rw-
+</span></span><span class="line"><span class="cl">mask::rwx
+</span></span><span class="line"><span class="cl">other::r--
+</span></span></code></pre></div><p>Add user3 to the ACL with read permissions 6 (r–)</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ setfacl -m u:user3:r testfile 
+</span></span><span class="line"><span class="cl">$ getfacl -c testfile 
+</span></span><span class="line"><span class="cl">user::rw-
+</span></span><span class="line"><span class="cl">user:user1:rwx
+</span></span><span class="line"><span class="cl">user:user3:r--
+</span></span><span class="line"><span class="cl">group::rw-
+</span></span><span class="line"><span class="cl">mask::rwx
+</span></span><span class="line"><span class="cl">other::r--
+</span></span></code></pre></div><p>Remove user1 from the ACL altogether</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ setfacl -x u:user1 testfile 
+</span></span><span class="line"><span class="cl">$ getfacl -c testfile 
+</span></span><span class="line"><span class="cl">user::rw-
+</span></span><span class="line"><span class="cl">user:user3:r--
+</span></span><span class="line"><span class="cl">group::rw-
+</span></span><span class="line"><span class="cl">mask::rw-
+</span></span><span class="line"><span class="cl">other::r--
+</span></span></code></pre></div><p>Remove all ACL entries from file</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">$ setfacl -b testfile 
+</span></span><span class="line"><span class="cl">$ getfacl testfile 
+</span></span><span class="line"><span class="cl">user::rw-
+</span></span><span class="line"><span class="cl">group::rw-
+</span></span><span class="line"><span class="cl">other::r--
+</span></span></code></pre></div>
 		</div>
 	</main>
 
 <footer id="site-footer" class="section-inner thin animated fadeIn faster">
 	<p>
-		&copy; 2024 <a href="https://networknoob.net"></a>
+		&copy; 2024 <a href="https://networknoob.net/"></a>
 		&#183; Adam Fitzgerald
 		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
 		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
@@ -174,7 +172,7 @@ other::r--
 	</p>
 
 </footer>
-<script async src="https://networknoob.net/js/bundle.min.5034a061023fdc1bbf821910f95d3bda81bc68ba039a2c1202f0d7027638e80f.js" integrity="sha256-UDSgYQI/3Bu/ghkQ+V072oG8aLoDmiwSAvDXAnY46A8=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.20ddc5b895a2cb52c811efd9bcf38168838be5cb8671b12ae2997bf38c34f9f0.js" integrity="sha256-IN3FuJWiy1LIEe/ZvPOBaIOL5cuGcbEq4pl784w0+fA=" crossorigin="anonymous"></script>
+<script async src="https://networknoob.net/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
 </body>
 
 </html>

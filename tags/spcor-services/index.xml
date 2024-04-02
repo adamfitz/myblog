@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spcor services on Networknoob</title>
+    <title>Spcor Services on Networknoob</title>
     <link>https://networknoob.net/tags/spcor-services/</link>
-    <description>Recent content in spcor services on Networknoob</description>
+    <description>Recent content in Spcor Services on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 12 Nov 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/spcor-services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Nov 2022 11:32:03 +1100</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/spcor-services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - Services</title>
       <link>https://networknoob.net/post/2022/november/4.ccnp-spcor-services/</link>
       <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2022/november/4.ccnp-spcor-services/</guid>
-      <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.
-4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR
-Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?
-4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&amp;ndash;Inter-AS Option AB
-Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison
-Book: MPLS and VPN Architectures CCIP Edition</description>
+      <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR&#xA;Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?&#xA;4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&amp;ndash;Inter-AS Option AB&#xA;Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison&#xA;Book: MPLS and VPN Architectures CCIP Edition</description>
     </item>
-    
   </channel>
 </rss>

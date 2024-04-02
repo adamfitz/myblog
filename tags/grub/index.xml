@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>grub on Networknoob</title>
+    <title>Grub on Networknoob</title>
     <link>https://networknoob.net/tags/grub/</link>
-    <description>Recent content in grub on Networknoob</description>
+    <description>Recent content in Grub on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/grub/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 21:30:27 +1000</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/grub/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>grub and dual booting linux/window</title>
       <link>https://networknoob.net/post/2020/july/grub-dual-boot/</link>
       <pubDate>Thu, 02 Jul 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2020/july/grub-dual-boot/</guid>
-      <description>If you are dual booting linux and windows somewhere along the way you might find that the grub boot loader gets overwritten and you can only boot one operating system.
-This is usually an easy fix, set your bios to boot from you linux hdd and once linux has loaded open a terminal and type the following:
-sudo update-grub This will cause grub to regenerate its config file which should find you windows (or other OS installs), add them all to the boot loader menu and reinstate grub to the MBR.</description>
+      <description>If you are dual booting linux and windows somewhere along the way you might find that the grub boot loader gets overwritten and you can only boot one operating system.&#xA;This is usually an easy fix, set your bios to boot from you linux hdd and once linux has loaded open a terminal and type the following:&#xA;sudo update-grub This will cause grub to regenerate its config file which should find you windows (or other OS installs), add them all to the boot loader menu and reinstate grub to the MBR.</description>
     </item>
-    
   </channel>
 </rss>

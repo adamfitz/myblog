@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spcor networking on Networknoob</title>
+    <title>Spcor Networking on Networknoob</title>
     <link>https://networknoob.net/tags/spcor-networking/</link>
-    <description>Recent content in spcor networking on Networknoob</description>
+    <description>Recent content in Spcor Networking on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/spcor-networking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 09 Oct 2022 17:25:05 +1100</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/spcor-networking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CCNP SPCOR - Networking</title>
       <link>https://networknoob.net/post/2022/october/2.ccnp-spcor-networking/</link>
       <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2022/october/2.ccnp-spcor-networking/</guid>
-      <description>2.0 Networking Topics The Networking topics section is 30% of the overall exam, the topics and associated study materials I am using/collecting is below.
-2.1 Implement IS-IS (IPv6 and IPv6) Book: Routing TCP/IP Volume 1
- Chapter 10, Page 574 - Case Study: A basic IPv4 IS-IS Configuration Chapter 10, Page 591 - Case Study: A basic IPv6 IS-IS Configuration  Cisco Documentation: Implementing IS-IS on Cisco IOS XR Software</description>
+      <description>2.0 Networking Topics The Networking topics section is 30% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;2.1 Implement IS-IS (IPv6 and IPv6) Book: Routing TCP/IP Volume 1&#xA;Chapter 10, Page 574 - Case Study: A basic IPv4 IS-IS Configuration Chapter 10, Page 591 - Case Study: A basic IPv6 IS-IS Configuration Cisco Documentation: Implementing IS-IS on Cisco IOS XR Software&#xA;2.1.a Route advertisement Cisco Documentation: LSPs</description>
     </item>
-    
   </channel>
 </rss>

@@ -28,9 +28,7 @@
 <meta property="og:url" content="https://networknoob.net/projects/site-to-site-vpn-vs-mpls/" /><meta property="article:section" content="projects" />
 <meta property="article:published_time" content="2011-12-29T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-04-12T21:30:27+10:00" />
-
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Site-to-Site IPSEC VPN configuration"/>
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Site-to-Site IPSEC VPN configuration"/>
 <meta name="twitter:description" content="s2s vpn"/>
 <title>Site-to-Site IPSEC VPN configuration</title>
 <link rel="stylesheet dns-prefetch preconnect preload prefetch" as="style" href="https://networknoob.net/css/style.min.dc329fb01e9bbc0b9e252a7bc619c25eaf0d9741bf67519fd274e874e7e450bd.css" integrity="sha256-3DKfsB6bvAueJSp7xhnCXq8Nl0G/Z1Gf0nTodOfkUL0=" crossorigin="anonymous">
@@ -40,7 +38,7 @@
 		<div class="hdr-wrapper section-inner">
 			<div class="hdr-left">
 				<div class="site-branding">
-					<a href="https://networknoob.net">Networknoob</a>
+					<a href="https://networknoob.net/">Networknoob</a>
 				</div>
 				<nav class="site-nav hide-in-mobile"><a href="https://networknoob.net/page/about">About</a><a href="https://networknoob.net/post/">Blogs</a><a href="https://networknoob.net/projects">Projects</a><a href="https://networknoob.net/page/contact">Contact</a><a href="https://networknoob.net/tags">tags</a></nav>
 			</div>
@@ -63,7 +61,7 @@
             <a href="mailto:?subject=Site-to-Site%20IPSEC%20VPN%20configuration&amp;body=https%3a%2f%2fnetworknoob.net%2fprojects%2fsite-to-site-vpn-vs-mpls%2f" target="_self" rel="noopener" aria-label="Share on Email"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></a>
         </li>
         <li>
-            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fprojects%2fsite-to-site-vpn-vs-mpls%2f&amp;source=https://networknoob.net&amp;title=Site-to-Site%20IPSEC%20VPN%20configuration&amp;summary=Site-to-Site%20IPSEC%20VPN%20configuration%2c%20by%20fitzi%0a%0as2s%20vpn%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fnetworknoob.net%2fprojects%2fsite-to-site-vpn-vs-mpls%2f&amp;source=https%3a%2f%2fnetworknoob.net%2f&amp;title=Site-to-Site%20IPSEC%20VPN%20configuration&amp;summary=Site-to-Site%20IPSEC%20VPN%20configuration%2c%20by%20fitzi%0a%0as2s%20vpn%0a" target="_blank" rel="noopener" aria-label="Share on LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" class="feather" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
         </li>
         <li>
             <a href="#" onclick="linkShare(&#34;Site-to-Site IPSEC VPN configuration&#34;,&#34;https://networknoob.net/projects/site-to-site-vpn-vs-mpls/&#34;,&#34;Site-to-Site IPSEC VPN configuration, by fitzi\n\ns2s vpn\n&#34;); return false;" target="_self" rel="noopener" aria-label="Copy Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-copy"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg></a>
@@ -91,62 +89,62 @@
 <p>The purpose of this post is to document the configuration commands and give an outline to the process of configuring site to site VPN connection as I had a little trouble getting a clear picture of what each command did and why it was being used. In this instance the two end points are Cisco 857w routers connected directly to the internet with PAT enabled.</p>
 <p>I started with a general config and a link to this site to site vpn post from <a href="http://learnnetworkingwithme.wordpress.com/2011/12/18/cisco-ipsec-site-to-site-configuration/" title="Learn Networking with Me">Learn Networking with Me</a> which gives some good explanations of what to do and why. The VPN configuration on each of my routers is as follows:</p>
 <p><strong>Router 1 – Home</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">crypto isakmp policy <span class="m">1</span>
- encr aes
- authentication pre-share
- group <span class="m">2</span>
-crypto isakmp key Pa55w0rd address <span class="nv">$OfficeRouterPublicIPAddress</span> no-xauth
-!
-!  
-crypto ipsec transform-set Tunnel_to_Office esp-aes esp-sha-hmac
-!
-crypto map Home_To_Office <span class="m">10</span> ipsec-isakmp
- <span class="nb">set</span> peer <span class="nv">$OfficeRouterPublicIPAddress</span>
- <span class="nb">set</span> transform-set Tunnel_to_Office
- match address <span class="m">101</span>
-</code></pre></div><p><strong>Router 2 – Office</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">crypto isakmp policy <span class="m">1</span>  
- encr aes  
- authentication pre-share  
- group <span class="m">2</span>  
-crypto isakmp key Pa55w0rd address <span class="nv">$HomeRoutersPublicIPAddress</span> no-xauth  
-!  
-!  
-crypto ipsec transform-set Tunnel_to_Home esp-aes esp-sha-hmac   
-!  
-crypto map Office_To_Home <span class="m">10</span> ipsec-isakmp   
- <span class="nb">set</span> peer  <span class="nv">$HomeRoutersPublicIPAddress</span>
- <span class="nb">set</span> transform-set Tunnel_to_Home   
- match address <span class="m">101</span>
-</code></pre></div><p>Referring to Learn Networking with Me’s link the <strong>crypto isakmp policy</strong> sets up phase 1 tunnel with the peer router. The <strong>crypto ipsec transform</strong> configures the ipsec tunnel encryption scheme and calls it Tunnel_to_Office. The <strong>crypto map</strong> is the policy which defines the data flows and the crypto peer to send it to, here the office and home routers public IP is defined as each peer and refers to the transform set for the type of encryption to use.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">crypto isakmp policy <span class="m">1</span>
+</span></span><span class="line"><span class="cl"> encr aes
+</span></span><span class="line"><span class="cl"> authentication pre-share
+</span></span><span class="line"><span class="cl"> group <span class="m">2</span>
+</span></span><span class="line"><span class="cl">crypto isakmp key Pa55w0rd address <span class="nv">$OfficeRouterPublicIPAddress</span> no-xauth
+</span></span><span class="line"><span class="cl">!
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">crypto ipsec transform-set Tunnel_to_Office esp-aes esp-sha-hmac
+</span></span><span class="line"><span class="cl">!
+</span></span><span class="line"><span class="cl">crypto map Home_To_Office <span class="m">10</span> ipsec-isakmp
+</span></span><span class="line"><span class="cl"> <span class="nb">set</span> peer <span class="nv">$OfficeRouterPublicIPAddress</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">set</span> transform-set Tunnel_to_Office
+</span></span><span class="line"><span class="cl"> match address <span class="m">101</span>
+</span></span></code></pre></div><p><strong>Router 2 – Office</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">crypto isakmp policy <span class="m">1</span>  
+</span></span><span class="line"><span class="cl"> encr aes  
+</span></span><span class="line"><span class="cl"> authentication pre-share  
+</span></span><span class="line"><span class="cl"> group <span class="m">2</span>  
+</span></span><span class="line"><span class="cl">crypto isakmp key Pa55w0rd address <span class="nv">$HomeRoutersPublicIPAddress</span> no-xauth  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">crypto ipsec transform-set Tunnel_to_Home esp-aes esp-sha-hmac   
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">crypto map Office_To_Home <span class="m">10</span> ipsec-isakmp   
+</span></span><span class="line"><span class="cl"> <span class="nb">set</span> peer  <span class="nv">$HomeRoutersPublicIPAddress</span>
+</span></span><span class="line"><span class="cl"> <span class="nb">set</span> transform-set Tunnel_to_Home   
+</span></span><span class="line"><span class="cl"> match address <span class="m">101</span>
+</span></span></code></pre></div><p>Referring to Learn Networking with Me’s link the <strong>crypto isakmp policy</strong> sets up phase 1 tunnel with the peer router. The <strong>crypto ipsec transform</strong> configures the ipsec tunnel encryption scheme and calls it Tunnel_to_Office. The <strong>crypto map</strong> is the policy which defines the data flows and the crypto peer to send it to, here the office and home routers public IP is defined as each peer and refers to the transform set for the type of encryption to use.</p>
 <p>The <strong>match 101</strong> refers to the access list which will allow or deny traffic through the tunnel. I stumbled a little bit with these as I have had little practice with access lists in the cisco world.</p>
 <p><strong>Router 1 – Home</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">access-list <span class="m">101</span> permit ip 10.23.0.0 0.0.0.255 10.0.0.0 0.255.255.255
-</code></pre></div><p>Here this access list is permitting the IP range 10.23.0.0/24 to send traffic to any ip address in the 10.0.0.0/8 range. The local LAN at home is 10.23.0.0/24 and if packets are sent to any address in the 10.0.0.0/8 range it will be sent across the VPN tunnel.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">access-list <span class="m">101</span> permit ip 10.23.0.0 0.0.0.255 10.0.0.0 0.255.255.255
+</span></span></code></pre></div><p>Here this access list is permitting the IP range 10.23.0.0/24 to send traffic to any ip address in the 10.0.0.0/8 range. The local LAN at home is 10.23.0.0/24 and if packets are sent to any address in the 10.0.0.0/8 range it will be sent across the VPN tunnel.</p>
 <p><strong>Router 2 – Office</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">access-list <span class="m">101</span> permit ip 10.0.0.0 0.255.255.255 10.23.0.0 0.0.0.255
-</code></pre></div><p>The access list on the office router is the reverse of the home router allowing all traffic from the 10.0.0.0/8 being sent to 10.23.0.0/24 to be sent across the tunnel.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">access-list <span class="m">101</span> permit ip 10.0.0.0 0.255.255.255 10.23.0.0 0.0.0.255
+</span></span></code></pre></div><p>The access list on the office router is the reverse of the home router allowing all traffic from the 10.0.0.0/8 being sent to 10.23.0.0/24 to be sent across the tunnel.</p>
 <p>Once the tunnel and the access list for the tunnels are setup I applied the crypto map to an interface on each router so that when traffic was sent to each specified network range it could be matched and forwarded across the VPN tunnel. The crypto map needs to be applied to the Public interface (in this instance) so that when traffic is sent to an address which is not on the local LAN the packet will use the default route to the Dialer1 interface which is then matched by the <strong>match address 101</strong> command in the crypto map and sent down the VPN tunnel.</p>
 <p>For the office router I needed to put a static route in for my home network as it already had routes for the 10.0.0.0/8 ranges being forwarded to another MPLS router in the office. Otherwise the traffic for 10.23.0.0/24 would have been forwarded incorrectly to the local MPLS router rather than to the VPN tunnel.</p>
 <p><strong>Router 2 – Office</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ip route 10.0.0.0 255.0.0.0 10.2.0.254 
-ip route 10.23.0.0 255.255.255.0 Dialer1
-</code></pre></div><p>At this stage I knew I was pretty close with this configuration, to bring up the VPN tunnel however I needed to ping from the local LAN interface on my home router to a subnet in the office, this would match the traffic, bring up the VPN and successfully pass the traffic across the tunnel. But I just couldn’t get the tunnel to come up, I would traceroute to a subnet in the office but the packet was hitting the dialer interface and trying to go to the internet without being matched and I had no idea why, so I opened a TAC case.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ip route 10.0.0.0 255.0.0.0 10.2.0.254 
+</span></span><span class="line"><span class="cl">ip route 10.23.0.0 255.255.255.0 Dialer1
+</span></span></code></pre></div><p>At this stage I knew I was pretty close with this configuration, to bring up the VPN tunnel however I needed to ping from the local LAN interface on my home router to a subnet in the office, this would match the traffic, bring up the VPN and successfully pass the traffic across the tunnel. But I just couldn’t get the tunnel to come up, I would traceroute to a subnet in the office but the packet was hitting the dialer interface and trying to go to the internet without being matched and I had no idea why, so I opened a TAC case.</p>
 <p>The engineer was awesome and had a very good understanding of what I was trying to achieve, a couple of emails later he suggested that Phase 2 was up but the traffic was not being sent across the VPN because of NAT overload, all the outbound traffic was being NAT’ed.</p>
 <p><strong>Router 1 – Home</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ip nat inside <span class="nb">source</span> list <span class="m">199</span> interface Dialer1 overload  
-!  
-!  
-access-list <span class="m">199</span> deny ip 10.23.0.0 0.0.0.255 10.0.0.0 0.255.255.255  
-access-list <span class="m">199</span> permit ip 10.23.0.0 0.0.0.255 any
-</code></pre></div><p>Here we have an extended access list assigned to the Dialer interface allowing NAT overloading (line 1) and below are the IP addresses that are denied or allowed. The first line in the access list indicates that packets sent from the 10.23.0.0/24 network with a destination of 10.0.0.0/8 will be denied the application of NAT however the next line indicates that traffic sent from the 10.23.0.0/24 network to <strong>any other</strong> address ranges would be allowed. The reason for this is to still allow access to the VPN as well as having the ability to port forward in and out of the local LAN.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ip nat inside <span class="nb">source</span> list <span class="m">199</span> interface Dialer1 overload  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">access-list <span class="m">199</span> deny ip 10.23.0.0 0.0.0.255 10.0.0.0 0.255.255.255  
+</span></span><span class="line"><span class="cl">access-list <span class="m">199</span> permit ip 10.23.0.0 0.0.0.255 any
+</span></span></code></pre></div><p>Here we have an extended access list assigned to the Dialer interface allowing NAT overloading (line 1) and below are the IP addresses that are denied or allowed. The first line in the access list indicates that packets sent from the 10.23.0.0/24 network with a destination of 10.0.0.0/8 will be denied the application of NAT however the next line indicates that traffic sent from the 10.23.0.0/24 network to <strong>any other</strong> address ranges would be allowed. The reason for this is to still allow access to the VPN as well as having the ability to port forward in and out of the local LAN.</p>
 <p><strong>Router 2 – Office</strong></p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash">ip nat inside <span class="nb">source</span> list <span class="m">199</span> interface Dialer1 overload  
-!  
-!  
-access-list <span class="m">199</span> deny ip 10.0.0.0 0.255.255.255 10.23.0.0 0.0.0.255  
-access-list <span class="m">199</span> permit ip 10.2.0.0 0.0.0.255 any
-</code></pre></div><p>Here on the office router the access list in reverse to the home router, permitting the local LAN addresses to NAT but denying NAT from 10.0.0.0/8 addresses to 10.23.0.0/24.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">ip nat inside <span class="nb">source</span> list <span class="m">199</span> interface Dialer1 overload  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">!  
+</span></span><span class="line"><span class="cl">access-list <span class="m">199</span> deny ip 10.0.0.0 0.255.255.255 10.23.0.0 0.0.0.255  
+</span></span><span class="line"><span class="cl">access-list <span class="m">199</span> permit ip 10.2.0.0 0.0.0.255 any
+</span></span></code></pre></div><p>Here on the office router the access list in reverse to the home router, permitting the local LAN addresses to NAT but denying NAT from 10.0.0.0/8 addresses to 10.23.0.0/24.</p>
 <p>I had the following debugs running on my router, <strong>terminal monitor</strong>, <strong>debug crypto isakmp</strong>, <strong>debug crypto ipsec</strong>, after running a <strong>clear crypto session</strong> and running another ping from the LAN to an address at the office it was about this point that the screen exploded with output and I knew that I had finally got it up and running.</p>
 <p>This configuration is not a particularly difficult one, however as I said earlier I had not setup a site to site VPN before and it took me a good few days of perseverance to get to this point. I am thankful for the help from the TAC guys as well as the information gleaned from the Site to Site VPN article at <a href="http://www.learnnetworkingwithme.wordpress.com" title="Learn Networking with Me">Learn Networking with Me</a>.</p>
 <p>The best thing about this little project was that as well as achieving something practical I got to learn quite a few things along the way.</p>
@@ -156,7 +154,7 @@ access-list <span class="m">199</span> permit ip 10.2.0.0 0.0.0.255 any
 
 <footer id="site-footer" class="section-inner thin animated fadeIn faster">
 	<p>
-		&copy; 2024 <a href="https://networknoob.net"></a>
+		&copy; 2024 <a href="https://networknoob.net/"></a>
 		&#183; Adam Fitzgerald
 		&#183; Made with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>
 		&#183; Theme <a href="https://github.com/1bl4z3r/hermit-V2" target="_blank" rel="noopener">Hermit-V2</a>
@@ -166,7 +164,7 @@ access-list <span class="m">199</span> permit ip 10.2.0.0 0.0.0.255 any
 	</p>
 
 </footer>
-<script async src="https://networknoob.net/js/bundle.min.5034a061023fdc1bbf821910f95d3bda81bc68ba039a2c1202f0d7027638e80f.js" integrity="sha256-UDSgYQI/3Bu/ghkQ+V072oG8aLoDmiwSAvDXAnY46A8=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.20ddc5b895a2cb52c811efd9bcf38168838be5cb8671b12ae2997bf38c34f9f0.js" integrity="sha256-IN3FuJWiy1LIEe/ZvPOBaIOL5cuGcbEq4pl784w0+fA=" crossorigin="anonymous"></script>
+<script async src="https://networknoob.net/js/bundle.min.c7c384e4d29d192bbac6811ae4660bb01767194a5bea56baca77e8260f93ea16.js" integrity="sha256-x8OE5NKdGSu6xoEa5GYLsBdnGUpb6la6ynfoJg+T6hY=" crossorigin="anonymous"></script><script async src="https://networknoob.net/js/link-share.min.24409a4f6e5537d70ffc55ec8f9192208d718678cb8638585342423020b37f39.js" integrity="sha256-JECaT25VN9cP/FXsj5GSII1xhnjLhjhYU0JCMCCzfzk=" crossorigin="anonymous"></script>
 </body>
 
 </html>

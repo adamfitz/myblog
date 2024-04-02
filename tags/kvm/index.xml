@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>kvm on Networknoob</title>
+    <title>Kvm on Networknoob</title>
     <link>https://networknoob.net/tags/kvm/</link>
-    <description>Recent content in kvm on Networknoob</description>
+    <description>Recent content in Kvm on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 11 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 21:30:27 +1000</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/kvm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>sharing clipboard between kvm host and guest</title>
       <link>https://networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</link>
       <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2021/february/sharing-clipboard-between-kvm-host-and-guest/</guid>
-      <description>This took some searching as the actual fix was a little difficult to find as most solutions didn’t include adding the channel to the guest. Thanks to reddit user 0x4c47 for this fix.
- Open your virt-manager and open the machine. If it’s running, shut it down. Open the hardware details of the virtual machine. Choose “Add Hardware” and choose channel. Then select “com.redhat.spice.0” (or similar) as name and “Spice agent (spicevmc)” as device type.</description>
+      <description>This took some searching as the actual fix was a little difficult to find as most solutions didn’t include adding the channel to the guest. Thanks to reddit user 0x4c47 for this fix.&#xA;Open your virt-manager and open the machine. If it’s running, shut it down. Open the hardware details of the virtual machine. Choose “Add Hardware” and choose channel. Then select “com.redhat.spice.0” (or similar) as name and “Spice agent (spicevmc)” as device type.</description>
     </item>
-    
   </channel>
 </rss>

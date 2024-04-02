@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>usermod on Networknoob</title>
+    <title>Usermod on Networknoob</title>
     <link>https://networknoob.net/tags/usermod/</link>
-    <description>Recent content in usermod on Networknoob</description>
+    <description>Recent content in Usermod on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://networknoob.net/tags/usermod/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Apr 2022 21:30:27 +1000</lastBuildDate>
+    <atom:link href="https://networknoob.net/tags/usermod/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>chage, usermod, passwd</title>
       <link>https://networknoob.net/post/2021/april/chage-usermod-passwd/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
-      
       <guid>https://networknoob.net/post/2021/april/chage-usermod-passwd/</guid>
-      <description>Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.
-chage Only has the capability to modify a user accounts password expiry information.
-[root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account.</description>
+      <description>Both the passwd and usermod command can be used to lock or unlock a user account as well as modifying password ageing information for the account. The chage command however is only able to modify password ageing information, but does have the ability to expire a user account.&#xA;chage Only has the capability to modify a user accounts password expiry information.&#xA;[root@server1 ~]# chage -h Usage: chage [options] LOGIN Options: -d, --lastday LAST_DAY set date of last password change to LAST_DAY -E, --expiredate EXPIRE_DATE set account expiration date to EXPIRE_DATE -h, --help display this help message and exit -I, --inactive INACTIVE set password inactive after expiration to INACTIVE -l, --list show account aging information -m, --mindays MIN_DAYS set minimum number of days before password change to MIN_DAYS -M, --maxdays MAX_DAYS set maximum number of days before password change to MAX_DAYS -R, --root CHROOT_DIR directory to chroot into -W, --warndays WARN_DAYS set expiration warning days to WARN_DAYS passwd The passwd command is used to set or modify a users password in addition to being able to modify user account attributes and lock or unlock a users account.</description>
     </item>
-    
   </channel>
 </rss>

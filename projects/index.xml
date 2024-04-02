@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Networknoob</title>
-    <link>//networknoob.net/projects/</link>
+    <link>/networknoob.net/projects/</link>
     <description>Recent content in Projects on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Dec 2011 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site-to-Site IPSEC VPN configuration</title>
-      <link>//networknoob.net/projects/site-to-site-vpn-vs-mpls/</link>
+      <link>/networknoob.net/projects/site-to-site-vpn-vs-mpls/</link>
       <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
       
-      <guid>//networknoob.net/projects/site-to-site-vpn-vs-mpls/</guid>
+      <guid>/networknoob.net/projects/site-to-site-vpn-vs-mpls/</guid>
       <description>This is a repost of a site to site VPN config with low end Cisco ISR routers, I wrote a few years ago as a proof of concept for replacing a small MPLS network for a managed service provider I was working for. At the time I had not setup ipsec VPNs before so I documented the steps I went through here...
 The purpose of this post is to document the configuration commands and give an outline to the process of configuring site to site VPN connection as I had a little trouble getting a clear picture of what each command did and why it was being used.</description>
     </item>

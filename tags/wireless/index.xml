@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>wireless on Networknoob</title>
-    <link>//networknoob.net/tags/wireless/</link>
+    <link>/networknoob.net/tags/wireless/</link>
     <description>Recent content in wireless on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ubuntu 22.04 wireless adapter issue dual boot with Windows 10</title>
-      <link>//networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</link>
+      <link>/networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</link>
       <pubDate>Fri, 30 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>//networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</guid>
+      <guid>/networknoob.net/post/2022/december/ubuntu22.04-b550-e_wireless/</guid>
       <description>I dual boot Ubuntu 22.04 and Windows 10 on my desktop machine which is using the onboard wireless provided by my ASUS B550-E motherboard. I noticed that sometimes when I booted into Ubuntu the wireless adapter was reported missing by the operating system.
 I found that this only happens if I reboot into Ubuntu after first using Windows 10. Digging deeper I found an explanation of the issue on the kernel.</description>
     </item>

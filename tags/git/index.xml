@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>git on Networknoob</title>
-    <link>//networknoob.net/tags/git/</link>
+    <link>/networknoob.net/tags/git/</link>
     <description>Recent content in git on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>single PR single commit</title>
-      <link>//networknoob.net/post/2020/july/git-commit-amend-no-edit/</link>
+      <link>/networknoob.net/post/2020/july/git-commit-amend-no-edit/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>//networknoob.net/post/2020/july/git-commit-amend-no-edit/</guid>
+      <guid>/networknoob.net/post/2020/july/git-commit-amend-no-edit/</guid>
       <description>When you are using git in a forking workflow, your local commits and pushes will end up on your fork of the repository you are contributing to.
 In general a PR should contain single commit (at least the projects that I have worked on) so before you send your PR you will generally want all your commits (changes) in one single commit. In this case there are two options, one is to “squash” all your commits into a single commit or the alternative is to continuously amend each commit to your first one.</description>
     </item>
     
     <item>
       <title>keeping a fork in sync</title>
-      <link>//networknoob.net/post/2018/may/git-keeping-a-fork-in-sync/</link>
+      <link>/networknoob.net/post/2018/may/git-keeping-a-fork-in-sync/</link>
       <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>//networknoob.net/post/2018/may/git-keeping-a-fork-in-sync/</guid>
+      <guid>/networknoob.net/post/2018/may/git-keeping-a-fork-in-sync/</guid>
       <description>Commands to keep a fork in sync with the upstream repo.
 To keep it up to date with the original source repo (the one you forked it from):
 git remote add $yourLocalNameForTheUpstream $URLForTheUpstreamRepo To check you set the remote repo as the upstream for your fork:

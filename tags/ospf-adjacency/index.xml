@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ospf adjacency on Networknoob</title>
-    <link>//networknoob.net/tags/ospf-adjacency/</link>
+    <link>/networknoob.net/tags/ospf-adjacency/</link>
     <description>Recent content in ospf adjacency on Networknoob</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="//networknoob.net/tags/ospf-adjacency/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/networknoob.net/tags/ospf-adjacency/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Troubleshooting OSPF adjacency with Wireshark</title>
-      <link>//networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</link>
+      <link>/networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</link>
       <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
       
-      <guid>//networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</guid>
+      <guid>/networknoob.net/post/2023/march/19.tshoot_ospf_adjacency_nssa/tshoot_ospf_adj_nssa_wireshark/</guid>
       <description>In this post I will demonstrate how to use wireshark to troubleshoot an area type mismatch. I came across this while labbing basic OSPF configuration and finding that one of the neighbour adjacencies would not form. The issue was that on router NSSA-R1 I had correctly configured area 23 nssa to enable the NSSA area, however on the adjacent router (IOS-XE-2) I had accidentally configured area 23 stub.
 The relevant lab topology I am using is as follows:</description>
     </item>

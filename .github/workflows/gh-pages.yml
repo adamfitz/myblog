@@ -33,10 +33,6 @@ jobs:
       with:
           hugo-version: 'latest'
           extended: true
-    # Manually install hugo
-    #- name: Install Hugo
-    #  run: sudo snap install hugo
-
 
     # Step 3 - Clean and don't fail
     - name: Clean public directory

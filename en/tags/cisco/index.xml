@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cisco on Networknoob</title>
+    <link>//networknoob.net/en/tags/cisco/</link>
+    <description>Recent content in Cisco on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 16 Nov 2022 10:58:49 +1100</lastBuildDate>
+    <atom:link href="//networknoob.net/en/tags/cisco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SPCOR - Automation and Assurance</title>
+      <link>//networknoob.net/en/post/2022/november/5.ccnp-spcor-automation-and-assurance/</link>
+      <pubDate>Wed, 16 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/november/5.ccnp-spcor-automation-and-assurance/</guid>
+      <description>5.0 Automation and Assurance The automation and assurance topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;5.1 Describe the programmable APIs used to include Cisco devices in network automation Blog: denetdan.com - NETCONF Vs. RESTCONF&#xA;RFC 8040: RESTCONF Protocol&#xA;RFC 6241: Network Configuration Protocol (NETCONF)&#xA;5.2 Interpret an external script to configure a Cisco device using a REST API Cisco Documentation: Cisco IOS XE REST API Management Reference Guide</description>
+    </item>
+    <item>
+      <title>CCNP SPCOR - Services</title>
+      <link>//networknoob.net/en/post/2022/november/4.ccnp-spcor-services/</link>
+      <pubDate>Sat, 12 Nov 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/november/4.ccnp-spcor-services/</guid>
+      <description>4.0 Services The Services topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;4.1 Describe VPN services 4.1.a EVPN Cisco Documentation: EVPN Features IOS-XR&#xA;Cisco SP360 Blog: Ethernet VPN – What’s the big deal about it?&#xA;4.1.b Inter-AS VPN Cisco Documentation: MPLS VPN&amp;ndash;Inter-AS Option AB&#xA;Blog: orhanergun.net/Inter AS Option A Design Considerations and Comparison&#xA;Book: MPLS and VPN Architectures CCIP Edition</description>
+    </item>
+    <item>
+      <title>CCNP SPCOR - MPLS and Segment Routing</title>
+      <link>//networknoob.net/en/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
+      <description>3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR&#xA;3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE&#xA;Cisco Documentation: Configuring LDP IGP Synchronization: OSPF - IOS-XR&#xA;3.1.b LDP session protection Cisco Documentation: MPLS LDP Session Protection - IOS-XE</description>
+    </item>
+    <item>
+      <title>CCNP SPCOR - Networking</title>
+      <link>//networknoob.net/en/post/2022/october/2.ccnp-spcor-networking/</link>
+      <pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/october/2.ccnp-spcor-networking/</guid>
+      <description>2.0 Networking Topics The Networking topics section is 30% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;2.1 Implement IS-IS (IPv6 and IPv6) Book: Routing TCP/IP Volume 1&#xA;Chapter 10, Page 574 - Case Study: A basic IPv4 IS-IS Configuration Chapter 10, Page 591 - Case Study: A basic IPv6 IS-IS Configuration Cisco Documentation: Implementing IS-IS on Cisco IOS XR Software&#xA;2.1.a Route advertisement Cisco Documentation: LSPs</description>
+    </item>
+    <item>
+      <title>CCNP SPCOR - Architecture</title>
+      <link>//networknoob.net/en/post/2022/september/1.ccnp-spcor-architecture/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/september/1.ccnp-spcor-architecture/</guid>
+      <description>1.0 Architecture Topics The Architecture topics section is 15% of the overall exam, the topics and associated study materials I am using/collecting is below. Its difficult to know how deep to go into these topics, we can an idea from the section percentage at 15% I would not expect expert deep dive knowledge on each topic, but perhaps a good introduction and overview of the technologies and how, where and in which situation they would be expected to be used.</description>
+    </item>
+    <item>
+      <title>CCNP Service Provider</title>
+      <link>//networknoob.net/en/post/2022/september/0.ccnp-sp-bluprint/</link>
+      <pubDate>Sat, 10 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/september/0.ccnp-sp-bluprint/</guid>
+      <description>CCNP 350-501 SPCOR I am starting study for the 350-501 SPCOR exam to recertify my CCNP Enterprise (R&amp;amp;S). As part of this I am going to blog the exam topics and materials I am using as there is no official certificate guide for this exam. Each page focuses on a section from the exam topics/blueprint and the corresponding materials (books, blogs, cisco documentation etc) that I am going to use for study.</description>
+    </item>
+    <item>
+      <title>Site-to-Site IPSEC VPN configuration</title>
+      <link>//networknoob.net/en/projects/site-to-site-vpn-vs-mpls/</link>
+      <pubDate>Thu, 29 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/projects/site-to-site-vpn-vs-mpls/</guid>
+      <description>This is a repost of a site to site VPN config with low end Cisco ISR routers, I wrote a few years ago as a proof of concept for replacing a small MPLS network for a managed service provider I was working for. At the time I had not setup ipsec VPNs before so I documented the steps I went through here...&#xA;The purpose of this post is to document the configuration commands and give an outline to the process of configuring site to site VPN connection as I had a little trouble getting a clear picture of what each command did and why it was being used.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spcor Segment Routing on Networknoob</title>
+    <link>//networknoob.net/en/tags/spcor-segment-routing/</link>
+    <description>Recent content in Spcor Segment Routing on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Oct 2022 20:11:49 +1100</lastBuildDate>
+    <atom:link href="//networknoob.net/en/tags/spcor-segment-routing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CCNP SPCOR - MPLS and Segment Routing</title>
+      <link>//networknoob.net/en/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2022/october/3.ccnp-spcor-mpls_and_segment_routing/</guid>
+      <description>3.0 MPLS and Segment Routing The MPLS and Segment Routing topics section is 20% of the overall exam, the topics and associated study materials I am using/collecting is below.&#xA;3.1 Implement MPLS Cisco Documentation: Implementing MPLS Label Distribution Protocol - IOS-XR&#xA;3.1.a LDP sync Cisco Documentation: MPLS LDP-IGP Synchronization - IOS-XE&#xA;Cisco Documentation: Configuring LDP IGP Synchronization: OSPF - IOS-XR&#xA;3.1.b LDP session protection Cisco Documentation: MPLS LDP Session Protection - IOS-XE</description>
+    </item>
+  </channel>
+</rss>

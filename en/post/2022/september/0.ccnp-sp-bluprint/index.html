@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CCNP Service Provider &middot; </title>
+        <meta name="description" content="CCNP 350-501 SPCOR I am starting study for the 350-501 SPCOR exam to recertify my CCNP Enterprise (R&amp;S). As part of this I am going to blog the exam topics and materials I am using as there is no official certificate guide for this exam. Each page focuses on a section from the exam topics/blueprint and the corresponding materials (books, blogs, cisco documentation etc) that I am going to use for study.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.124.1">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="//networknoob.net/dist/site.css">
+        <link rel="stylesheet" href="//networknoob.net/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="//networknoob.net/">Networknoob</a>
+                            </h1>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="page/about">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="post/">Blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="projects">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="page/contact">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">CCNP Service Provider</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2022-09-10" itemprop="datePublished">Sat, Sep 10, 2022</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="ccnp-350-501-spcor">CCNP 350-501 SPCOR</h1>
+<p>I am starting study for the 350-501 SPCOR exam to recertify my CCNP Enterprise (R&amp;S).  As part of this I
+am going to blog the exam topics and materials I am using as there is no official certificate guide for
+this exam.  Each page focuses on a section from the exam topics/blueprint and the corresponding
+materials (books, blogs, cisco documentation etc) that I am going to use for study.</p>
+<p>My inspiration is the <a href="https://www.google.com.au/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;ved=2ahUKEwizn47NwYH6AhUn6jgGHbmLBqUQFnoECAwQAQ&amp;url=https%3A%2F%2Fwww.cisco.com%2Fc%2Fdam%2Fen_us%2Ftraining-events%2Fle31%2Fle46%2Fcln%2Fmarketing%2Flearning-matrix%2FCCIE-Service-Provider-v5-Learning-Matrix.xlsx&amp;usg=AOvVaw1oXuENnDStbCSRWw-xA-cX">CCIEv5 Learning Matrix Spreadsheet</a>
+but rather than a spreadsheet I will use markdown in a blog format adding links to materials to the relevant section.</p>
+<p>I am putting together a lot of this information myself, but I am also using/adding links from this Reddit
+<a href="https://www.reddit.com/r/ccnp/comments/nohfj4/spcor_and_spri_study_materials_superthread/">SPCOR and SPRI Study Materials Superthread</a>
+as there is a lot of good information linked in there already.</p>
+<h3 id="ccnp-spcor-exam-topics">CCNP SPCOR Exam topics:</h3>
+<p>Cisco Learning Network: <a href="https://learningnetwork.cisco.com/s/spcor-exam-topics">350-501 SPCOR Exam Topics</a></p>
+<h3 id="software-versions">Software versions:</h3>
+<p>There is no list that I could find of the IOS-XE and IOS-XR software versions specifically for
+the 350-501 CCNP SPCOR exam.  There is a software version list for the CCIE SP v5, and I
+think that this will be sufficient to assume the same versions for 350-501 SPCOR.</p>
+<p>The below is a list of software versions from: <a href="https://learningnetwork.cisco.com/s/article/ccie-service-provider-v5-0-equipment-and-software-list">CCIE Service Provider (v5.0) Equipment and Software List</a>,
+I removed Cisco Network Service Orchestrator (NSO) as the only mention of NSO in the exam topics is to describe
+its role only.</p>
+<pre tabindex="0"><code>RR, P, and PE role: Cisco ASR 9000 Series running IOS-XR 6.5 Release
+RR and PE role: Cisco ASR 1000 series running IOS-XE 16.6.5 Release
+PE and CE role: Cisco Edge Routers running IOS-XE 16.6.5 Release
+Access and Aggregation: Cisco Access series running IOS 3.2.1S Release
+</code></pre><h3 id="lab">Lab</h3>
+<p>For lab equipment I am using an eve-ng server and ill be specifically focussing on the topics with
+the &ldquo;implement&rdquo; or &ldquo;configure and verify&rdquo; keywords, for example: Implement IS-IS, OSPF, BGP, configure
+and verify control plane security, BGP sec etc.</p>
+<p>I am using the following lab images:</p>
+<pre tabindex="0"><code>- CSR1000v 16.06.07 Denali
+- CSR1000v 03.17
+- XRv9K 6.0.1
+</code></pre><p>For the study schedule, at the moment I am working on one and a half hours a day at least 3 days a week with two hours each
+weekend day.  Of that I wll be allotting time to reading the material, implementing what I have just read and writing a short blog
+post on the topic or part thereof.</p>
+<p>I will see how I am progressing (or procrastinating) and adjust time wise based on how I feel I am progressing
+versus the time spending on each task eg: reading, writing or labbing.</p>
+<h3 id="discipline-and-consistency">Discipline and consistency</h3>
+<p>This is the most difficult part, keeping consistent when work and life get in the way.  Historically I have
+not set an exam date from the outset, generally I will get the exam topics or cert guide and just start
+reading, taking notes and throw in the odd lab here and there, however with no deadline it is easy to loose
+focus and progress.</p>
+<p>I have 12 months to recertify the CCNP, which could slip away quickly timewise without a structured plan.  My aim
+is to sit and pass the exam before the end of the next 6 months, so as this is the case I will look at
+booking the exam date once I finish blogging the list of study materials for all the exam topics.  It will be
+interesting to see if having the exam deadline in place helps with my focus.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/en/tags/ccnp-sp/">CCNP SP</a>, 
+                <a href="/en/tags/cisco/">cisco</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="//networknoob.net/">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2024 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//networknoob.net/js/jquery-1.11.3.min.js"></script>
+        <script src="//networknoob.net/js/jquery.fitvids.js"></script>
+        <script src="//networknoob.net/js/scripts.js"></script>
+        
+    </body>
+</html>
+

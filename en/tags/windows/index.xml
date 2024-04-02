@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Networknoob</title>
+    <link>//networknoob.net/en/tags/windows/</link>
+    <description>Recent content in Windows on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 26 Feb 2024 02:30:54 +0000</lastBuildDate>
+    <atom:link href="//networknoob.net/en/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dual boot Windows/Linux time sync issues</title>
+      <link>//networknoob.net/en/post/2024/february/dual_boot_time_issue/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2024/february/dual_boot_time_issue/</guid>
+      <description>Windows time issues when dual booting There is an annoying issue when dual booting Windows and Linux where after using linux and the restarting into windows the time is wrong. According to tthe information here this is because most operating systems store the time on the hardware clock as UTC by default, but Windows does not and stores it instead in local time.&#xA;There is a registry change that will will fix this issue as described here, by changing (or adding if it does not exist) the below registry key:</description>
+    </item>
+    <item>
+      <title>ping</title>
+      <link>//networknoob.net/en/post/2017/may/ping/</link>
+      <pubDate>Sun, 28 May 2017 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2017/may/ping/</guid>
+      <description>I saw a tweet from Jeremy stretch at packetlife the other day about showing the ping statistics in linux without stopping the ping command which I had never seen used before (I obviously should have RTFM :P). After which @jmhuwe and @synteki chimed in with the windows and OSX equivalents as per the below, thanks!&#xA;Linux – CTRL + \&#xA;Windows – CTRL + Break&#xA;OSX – Control + t</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ansible on Networknoob</title>
+    <link>//networknoob.net/en/tags/ansible/</link>
+    <description>Recent content in Ansible on Networknoob</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Apr 2022 21:30:27 +1000</lastBuildDate>
+    <atom:link href="//networknoob.net/en/tags/ansible/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ansible datatypes</title>
+      <link>//networknoob.net/en/post/2019/may/ansible-datatypes/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
+      <guid>//networknoob.net/en/post/2019/may/ansible-datatypes/</guid>
+      <description>Sometimes when troubleshooting an ansible playbook you might want to know the underlying python data type of a variable. For this you can use the type_debug filter, official docs below:&#xA;managing data types&#xA;{{ some_variable | type_debug }} </description>
+    </item>
+  </channel>
+</rss>

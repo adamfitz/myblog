@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dual boot Windows/Linux time sync issues &middot; </title>
+        <meta name="description" content="Windows time issues when dual booting There is an annoying issue when dual booting Windows and Linux where after using linux and the restarting into windows the time is wrong. According to tthe information here this is because most operating systems store the time on the hardware clock as UTC by default, but Windows does not and stores it instead in local time.
+There is a registry change that will will fix this issue as described here, by changing (or adding if it does not exist) the below registry key:">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.124.1">
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="//networknoob.net/dist/site.css">
+        <link rel="stylesheet" href="//networknoob.net/dist/syntax.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+        
+        
+        
+        
+
+    </head>
+    <body>
+        
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a href="//networknoob.net/">Networknoob</a>
+                            </h1>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+
+                    <ul class="site-nav">
+                        
+    <li class="site-nav-item">
+        <a href="page/about">About</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="post/">Blogs</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="projects">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="page/contact">Contact</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a href="tags">tags</a>
+    </li>
+
+
+                    </ul>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Dual boot Windows/Linux time sync issues</h1>
+    
+    <p class="post-date post-line">
+        <span>Published <time datetime="2024-02-25" itemprop="datePublished">Sun, Feb 25, 2024</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="#" itemprop="url" rel="author">fitzi</a>
+            </span>
+        </span>
+    </p>
+    
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    <h1 id="windows-time-issues-when-dual-booting">Windows time issues when dual booting</h1>
+<p>There is an annoying issue when dual booting Windows and Linux where after using linux and the restarting into windows the time is wrong.   According to tthe information <a href="https://help.ubuntu.com/community/UbuntuTime#Multiple_Boot_Systems_Time_Conflicts">here</a> this is because most operating systems store the time on the hardware clock as UTC by default, but Windows does not and stores it instead in local time.</p>
+<p>There is a registry change that will will fix this issue as described <a href="https://www.elevenforum.com/t/how-to-make-win-11-sync-time-on-boot.12189/">here</a>, by changing (or adding if it does not exist) the below registry key:</p>
+<pre tabindex="0"><code>[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation] → &#34;RealTimeIsUniversal&#34; = qword:00000001
+</code></pre>
+</div>
+
+        <footer class="post-footer clearfix">
+        <p class="post-tags">
+            <span>Tagged:</span>
+                <a href="/en/tags/windows/">windows</a>, 
+                <a href="/en/tags/dual-boot/">dual boot</a>
+        </p>
+    <div class="share">
+    </div>
+</footer>
+
+        
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a href="//networknoob.net/">Networknoob</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#" aria-label="Back to Top">
+                        <i class="fa fa-angle-up" aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2024 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="//networknoob.net/js/jquery-1.11.3.min.js"></script>
+        <script src="//networknoob.net/js/jquery.fitvids.js"></script>
+        <script src="//networknoob.net/js/scripts.js"></script>
+        
+    </body>
+</html>
+

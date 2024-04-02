@@ -20,13 +20,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
 
-    # Step 0 - install dependancies (hugo extended)
-    #- name: Install dart-sass
-    #  run: sudo snap install dart-sass
-    
-    #- name: Install golang
-    #  run: sudo apt install golang-go
-
     # Install hugo extended
     - name: Install Hugo
       run: sudo snap install hugo
@@ -37,13 +30,6 @@ jobs:
       with:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-
-    # Step 2 - Sets up the latest version of Hugo
-    #- name: Setup Hugo
-    #  uses: peaceiris/actions-hugo@16361eb4acea8698b220b76c0d4e84e1fd22c61d
-    #  with:
-    #      hugo-version: 'latest'
-    #      extended: true
 
     # Step 3 - Clean and don't fail
     - name: Clean public directory

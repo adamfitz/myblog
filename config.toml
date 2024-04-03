@@ -1,27 +1,8 @@
 baseURL = "https://networknoob.net"
-defaultContentLanguage = "en"
-#defaultContentLanguageInSubdir = true
 theme = "hermit-v2"
-
 languageCode = "en-us"
-
 title = "Networknoob"
-enableGitInfo = true
 
-pygmentsCodefences  = true
-pygmentsUseClasses  = true
-#hasCJKLanguage = true
-
-rssLimit = 10
-
-#copyright = "Adam Fitzgerald"
-enableEmoji = true
-
-#[services]
-#  [services.disqus]
-#    shortname = ''
-#  [services.googleAnalytics]
-#    id = ''
 
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
@@ -31,9 +12,7 @@ expiryDate = ["expiryDate"]
 
 
 [params.author]
-  #name = "Adam Fitzgerald"
   about = "Network, automation, infosec, coding."
-
 
 [taxonomies]
   tag = "tags"
@@ -49,28 +28,14 @@ expiryDate = ["expiryDate"]
   themeColor = "#494f5c"
 
   footerCopyright = "Adam Fitzgerald"
-  # bgImg = ""
-  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
-
   justifyContent = false
-
   relatedPosts = true
   code_copy_button = true
 
   homeSubtitlePrinter = true
-  scrollToTop = true 
-  global_mathjax = false
   readTime = true
-  readTimeSeparator = "CHANGE ME READ TIME"
-  # legacyLayout = false
+  legacyLayout = false
   shareSocial = true
-  # googleTagManager = "GTM-XXXXXXXX"
-  # tagSymbol = "#"
-  # categorySymbol = "⊲"
-  # pinned = "Pinned Posts"
-  # pinnedSVGname = "pin"
-  # descriptionInPosts= true
-  # initialPublish = "Initally Posted on: "
 
   [[params.socialLinks]]
     name = "github"

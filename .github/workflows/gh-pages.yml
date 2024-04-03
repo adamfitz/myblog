@@ -27,12 +27,10 @@ jobs:
           submodules: true  # Fetch Hugo themes
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
-    #Step 2 - Sets up the latest version of Hugo
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-          hugo-version: 'latest'
-          extended: true
+    #Step 2 - Install hugo extended
+    - name: Install hugo 0.124.1 extended
+      run: wget https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_linux-amd64.deb; sudo dpkg -i hugo_extended_0.124.1_linux-amd64.deb
+    
 
     # Step 3 - Clean and don't fail
     - name: Clean public directory
@@ -50,6 +48,7 @@ jobs:
     # Step 6 - Push our generated site to our gh-pages branch
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
